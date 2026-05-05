@@ -2,7 +2,14 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { BookOpen, CheckCircle2, Circle, LayoutDashboard, Sparkles } from "lucide-react";
+import {
+  BookOpen,
+  CheckCircle2,
+  Circle,
+  LayoutDashboard,
+  Newspaper,
+  Sparkles,
+} from "lucide-react";
 
 import { SyncPanel } from "@/components/app/sync-panel";
 import { ThemeToggle } from "@/components/app/theme-toggle";
@@ -82,6 +89,14 @@ export function SidebarNav({
         >
           <LayoutDashboard className="size-4 opacity-80" />
           Dashboard
+        </NavLink>
+        <NavLink
+          href="/news"
+          active={pathname.startsWith("/news")}
+          onNavigate={onNavigate}
+        >
+          <Newspaper className="size-4 opacity-80" />
+          News
         </NavLink>
         <NavLink
           href="/about"
