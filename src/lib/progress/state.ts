@@ -1,0 +1,70 @@
+import { MODULE_COUNT } from "@/lib/progress/constants";
+import type { ModuleProgress, ProgressState } from "@/lib/progress/types";
+
+export function createEmptyModuleProgress(): ModuleProgress {
+  return {
+    readComplete: false,
+    quizAttempts: 0,
+    flashcards: {},
+  };
+}
+
+export function normalizeProgressState(input: Partial<ProgressState> | null): ProgressState {
+  const modules: ProgressState["modules"] = {};
+
+  for (let i = 1; i <= MODULE_COUNT; i += 1) {
+    const id = String(i);
+    const existing = input?.modules?.[id];
+    modules[id] = {
+      ...createEmptyModuleProgress(),
+      ...existing,
+      flashcards: { ...(existing?.flashcards ?? {}) },
+    };
+  }
+
+  return {
+    updatedAt: input?.updatedAt ?? 0,
+    modules,
+  };
+}
+
+export function isModuleComplete(progress: ModuleProgress, passThreshold: number) {
+  const quizScore = progress.lastQuizScore ?? 0;
+  return progress.readComplete && quizScore >= passThreshold;
+}
+
+export function computeCompletedCount(
+  state: ProgressState,
+  passThreshold: number,
+) {
+  return Object.values(state.modules).filter((m) =>
+    isModuleComplete(m, passThreshold),
+  ).length;
+}
+
+export function averageLatestQuizScore(state: ProgressState) {
+  const scores = Object.values(state.modules)
+    .map((m) => m.lastQuizScore)
+    .filter((s): s is number => typeof s === "number");
+
+  if (scores.length === 0) return 0;
+  return Math.round(
+    scores.reduce((acc, s) => acc + s, 0) / scores.length,
+  );
+}
+
+export function getModuleStatusLabel(
+  progress: ModuleProgress,
+  passThreshold: number,
+): "Not started" | "In progress" | "Complete" {
+  if (isModuleComplete(progress, passThreshold)) return "Complete";
+
+  const touched =
+    Boolean(progress.lastVisitedAt) ||
+    progress.readComplete ||
+    progress.quizAttempts > 0 ||
+    Object.keys(progress.flashcards).length > 0;
+
+  if (touched) return "In progress";
+  return "Not started";
+}

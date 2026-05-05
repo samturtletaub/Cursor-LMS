@@ -1,0 +1,51 @@
+---
+title: "Module 2 — AI Coding Assistants: The Category"
+description: "Category definitions, model context, and why ‘agent’ is a buying-conversation word—not a buzzword."
+lastReviewed: "2026-05-05"
+objectives:
+  - "Define autocomplete vs chat vs multi-file edits vs agents vs autonomous workflows."
+  - "Explain context windows and why repository scale matters."
+  - "Describe MCP at a level credible with engineering and security stakeholders."
+sources:
+  - label: "Model Context Protocol"
+    url: "https://modelcontextprotocol.io/"
+---
+
+## Category map (talk tracks, not textbooks)
+
+Buyers will use inconsistent language. Your job is to **translate claims into workflow outcomes**.
+
+- **Autocomplete**: suggests the next tokens; great for local edits; limited “planning.”
+- **Chat grounded in the repo**: Q&A + guided changes; depends on how well the tool can **retrieve** relevant context.
+- **Multi-file edits**: applies a coherent change across files; success depends on validation (tests, types, review).
+- **Agentic workflows**: the tool plans steps, uses tools, and iterates—**higher upside and higher governance need**.
+
+<KeyTakeaway>
+The category shift is from “help me write syntax” to “help me drive a change safely across the system.” That shift changes **who gets nervous** (security, quality, IP) and what proof you need (controls, auditability, enterprise policy).
+</KeyTakeaway>
+
+## Context windows (what to say on a call)
+
+A model can only condition on a finite amount of text at once. In practice, teams care about:
+
+- **How much of my repo can you reason about for this task?**
+- **How do you retrieve the right slices** (search, embeddings, manual selection)?
+- **How do you handle big diffs and long threads** without losing the plot?
+
+You do not need to win a lecture on transformers. You need to show you understand **why large-codebase workflows are hard**.
+
+## MCP (Model Context Protocol) — sales-credible framing
+
+MCP is best described as **a standard way for an assistant to connect to tools and data sources** with explicit integration boundaries—useful language for enterprises that worry about ad-hoc plugins and ungoverned access.
+
+<Callout title="Security translation">
+MCP is an **integration story**: what is connected, who approves it, how access is scoped, and how activity is observable in enterprise controls.
+</Callout>
+
+## Common buyer questions you should expect
+
+- “What data leaves our environment?”
+- “Can we restrict models, agents, and integrations by policy?”
+- “How do we prevent exfiltration via prompts, tools, or supply-chain dependencies?”
+
+Next: flashcards → quiz. Focus on definitions you can explain without slides.

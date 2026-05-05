@@ -1,0 +1,132 @@
+[
+  {
+    "id": "m2-q1",
+    "question": "What does a larger effective context window most directly influence?",
+    "options": [
+      "Best: Tie AI coding assistant category to workflow outcomes, governance, and proof—then validate in discovery.",
+      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
+      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
+      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+    ],
+    "correctIndex": 0,
+    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m2-q2",
+    "question": "MCP is best described as:",
+    "options": [
+      "Best: Tie AI coding assistant category to workflow outcomes, governance, and proof—then validate in discovery.",
+      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
+      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
+      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+    ],
+    "correctIndex": 0,
+    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m2-q3",
+    "question": "An 'agentic' workflow most directly implies:",
+    "options": [
+      "Best: Tie AI coding assistant category to workflow outcomes, governance, and proof—then validate in discovery.",
+      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
+      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
+      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+    ],
+    "correctIndex": 0,
+    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m2-q4",
+    "question": "Autocomplete differs from multi-file editing primarily because:",
+    "options": [
+      "Best: Tie AI coding assistant category to workflow outcomes, governance, and proof—then validate in discovery.",
+      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
+      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
+      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+    ],
+    "correctIndex": 0,
+    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m2-q5",
+    "question": "Why do enterprises ask about model choice and governance?",
+    "options": [
+      "Best: Tie AI coding assistant category to workflow outcomes, governance, and proof—then validate in discovery.",
+      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
+      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
+      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+    ],
+    "correctIndex": 0,
+    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m2-q6",
+    "question": "Which statement about retrieval-augmented workflows is most accurate?",
+    "options": [
+      "Best: Tie AI coding assistant category to workflow outcomes, governance, and proof—then validate in discovery.",
+      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
+      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
+      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+    ],
+    "correctIndex": 0,
+    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m2-q7",
+    "question": "Which category shift creates new security conversations?",
+    "options": [
+      "Best: Tie AI coding assistant category to workflow outcomes, governance, and proof—then validate in discovery.",
+      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
+      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
+      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+    ],
+    "correctIndex": 0,
+    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m2-q8",
+    "question": "What is a realistic buyer concern about autonomous changes?",
+    "options": [
+      "Best: Tie AI coding assistant category to workflow outcomes, governance, and proof—then validate in discovery.",
+      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
+      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
+      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+    ],
+    "correctIndex": 0,
+    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m2-q9",
+    "question": "Which question tests whether 'AI' is being bought as a feature vs a workflow change?",
+    "options": [
+      "Best: Tie AI coding assistant category to workflow outcomes, governance, and proof—then validate in discovery.",
+      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
+      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
+      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+    ],
+    "correctIndex": 0,
+    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m2-q10",
+    "question": "Which framing helps a seller sound credible with senior engineers?",
+    "options": [
+      "Best: Tie AI coding assistant category to workflow outcomes, governance, and proof—then validate in discovery.",
+      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
+      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
+      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+    ],
+    "correctIndex": 0,
+    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "sourceUrl": "https://cursor.com/docs"
+  }
+]

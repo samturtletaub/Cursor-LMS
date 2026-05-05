@@ -1,0 +1,77 @@
+---
+title: "Module 1 — The SDLC & Developer Persona Foundations"
+description: "Build a working mental model of how software gets built, who builds it, and what enterprise buyers are really optimizing for."
+lastReviewed: "2026-05-05"
+objectives:
+  - "Explain the SDLC in plain English and connect each phase to common tools."
+  - "Differentiate IC engineer, tech lead, EM, Director/VP Eng, CTO—and what each optimizes for."
+  - "Describe a developer’s typical day and the collaboration surfaces they live in."
+  - "Name recurring friction points that AI coding assistants are designed to reduce."
+sources:
+  - label: "Cursor — Docs"
+    url: "https://cursor.com/docs"
+  - label: "Cursor — Enterprise"
+    url: "https://cursor.com/enterprise"
+---
+
+If you are coming from cyber resilience sales, your superpower is **risk, urgency, and economic framing**. The gap is not “business acumen”—it is **how engineering work actually flows** and how technical buyers evaluate tools that touch the SDLC.
+
+## The SDLC in seller-friendly terms
+
+Most teams describe delivery as a loop (not a waterfall checklist):
+
+1. **Plan** — decide what to build, why it matters, and how to slice it.
+2. **Code** — implement changes in an IDE with tight feedback loops.
+3. **Review** — humans (and increasingly automation) validate correctness and risk.
+4. **Test** — prove the change works: unit tests, integration tests, QA, canaries.
+5. **Deploy** — ship to users safely (progressive rollout, feature flags).
+6. **Monitor** — observe production signals and feed learnings back into planning.
+
+<KeyTakeaway>
+Buyers rarely argue about the SDLC “theory.” They argue about **where time is lost**, **where failures are expensive**, and **what must be governed** (security, compliance, reliability).
+</KeyTakeaway>
+
+## Roles: who cares about what
+
+You do not need to memorize every title. You need a reliable map from **role → incentives → common objections**.
+
+- **IC engineer**: speed, focus, fewer context switches; fears tools that add friction or feel “bossware.”
+- **Tech lead / Staff**: architecture risk, maintainability, review burden; fears low-quality automation.
+- **Engineering manager**: team throughput, hiring/retention, predictability; fears thrash and rework.
+- **Director / VP Engineering**: delivery commitments, org scalability, engineering brand; fears outages and inefficiency.
+- **CTO / VP Eng (enterprise economic buyer in many strategic deals)**: platform bets, security posture, vendor sprawl, long-term leverage.
+- **Security / IT**: data handling, access control, audit evidence, procurement alignment.
+
+<Callout title="Enterprise reality">
+In strategic accounts, **multiple personas co-own the decision**. Your job is to **sequence proof** so each stakeholder hears the part of the story that maps to their KPIs—without sounding like you are reading a different script in every room.
+</Callout>
+
+## A developer’s day (the “collaboration stack”)
+
+Most IC engineers live across a small set of surfaces:
+
+- **IDE** (where code changes start)
+- **Git** + **PRs** (where change is reviewed and merged)
+- **CI/CD** (where change is validated and shipped)
+- **Chat** (Slack/Teams) and **tickets** (Jira/Linear) (where coordination happens)
+
+When you sell Cursor, you are not selling “a chat window.” You are selling **less context switching** between those surfaces—especially when the work spans multiple files and deep repository context.
+
+## Friction you should be able to name credibly
+
+These are not the only frictions—but they show up constantly in discovery:
+
+- **Context loading cost** (“where does this bug actually live?”)
+- **Review latency** (small PRs still take time; large PRs are riskier)
+- **Boilerplate + repetitive edits** (especially across services)
+- **Knowledge silos** (onboarding, legacy code, poorly documented domains)
+
+## What “good” sounds like in discovery
+
+You are aiming for questions that reveal **workflow**, not trivia:
+
+- “Walk me through the last time a change touched more than three files—where did the team lose time?”
+- “Who owns review standards for AI-generated changes?”
+- “When something breaks in prod, what’s the first place engineers look—and what would ‘fast’ look like?”
+
+Next: study the flashcards, then take the quiz. The goal is retention, not speed.

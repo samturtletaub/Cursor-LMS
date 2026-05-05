@@ -1,0 +1,132 @@
+[
+  {
+    "id": "m3-q1",
+    "question": "Which Cursor surface maps best to exploratory questions while coding?",
+    "options": [
+      "Best: Tie Cursor product to workflow outcomes, governance, and proof—then validate in discovery.",
+      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
+      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
+      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+    ],
+    "correctIndex": 0,
+    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m3-q2",
+    "question": "Enterprise buyers frequently evaluate Cursor alongside questions about:",
+    "options": [
+      "Best: Tie Cursor product to workflow outcomes, governance, and proof—then validate in discovery.",
+      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
+      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
+      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+    ],
+    "correctIndex": 0,
+    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m3-q3",
+    "question": "A strong product demo story connects a feature to:",
+    "options": [
+      "Best: Tie Cursor product to workflow outcomes, governance, and proof—then validate in discovery.",
+      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
+      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
+      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+    ],
+    "correctIndex": 0,
+    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m3-q4",
+    "question": "Why do 'background' or agent-style workflows raise governance questions?",
+    "options": [
+      "Best: Tie Cursor product to workflow outcomes, governance, and proof—then validate in discovery.",
+      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
+      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
+      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+    ],
+    "correctIndex": 0,
+    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m3-q5",
+    "question": "Which proof point should be treated as a hypothesis until validated in-account?",
+    "options": [
+      "Best: Tie Cursor product to workflow outcomes, governance, and proof—then validate in discovery.",
+      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
+      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
+      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+    ],
+    "correctIndex": 0,
+    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m3-q6",
+    "question": "Bugbot is best positioned as:",
+    "options": [
+      "Best: Tie Cursor product to workflow outcomes, governance, and proof—then validate in discovery.",
+      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
+      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
+      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+    ],
+    "correctIndex": 0,
+    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m3-q7",
+    "question": "Which control helps organizations restrict integrations and tool access?",
+    "options": [
+      "Best: Tie Cursor product to workflow outcomes, governance, and proof—then validate in discovery.",
+      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
+      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
+      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+    ],
+    "correctIndex": 0,
+    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m3-q8",
+    "question": "When a buyer asks about Privacy Mode / data handling, the best response pattern is:",
+    "options": [
+      "Best: Tie Cursor product to workflow outcomes, governance, and proof—then validate in discovery.",
+      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
+      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
+      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+    ],
+    "correctIndex": 0,
+    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m3-q9",
+    "question": "Which mistake most often hurts credibility in front of a CTO?",
+    "options": [
+      "Best: Tie Cursor product to workflow outcomes, governance, and proof—then validate in discovery.",
+      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
+      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
+      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+    ],
+    "correctIndex": 0,
+    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m3-q10",
+    "question": "Which discovery question helps you map how Cursor would be adopted in a large eng org?",
+    "options": [
+      "Best: Tie Cursor product to workflow outcomes, governance, and proof—then validate in discovery.",
+      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
+      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
+      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+    ],
+    "correctIndex": 0,
+    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "sourceUrl": "https://cursor.com/docs"
+  }
+]

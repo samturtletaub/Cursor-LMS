@@ -1,0 +1,74 @@
+[
+  {
+    "id": "m6-c1",
+    "front": "Define the headline goal of Module 6 in one sentence.",
+    "back": "Build sales-credible fluency on Enterprise sales motion without sounding like you memorized marketing copy.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m6-c2",
+    "front": "What is the buyer really optimizing for in this module?",
+    "back": "Time-to-value, risk reduction, governance, and measurable engineering outcomes—phrased in their KPI language.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m6-c3",
+    "front": "Name one discovery question you’d ask a VP Engineering after this module.",
+    "back": "Ask how multi-file changes are reviewed, measured, and governed as usage scales.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m6-c4",
+    "front": "What is a common mistake sellers make here?",
+    "back": "Feature dumping instead of mapping to workflow, proof, and procurement reality.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m6-c5",
+    "front": "What proof should you prepare before a second meeting?",
+    "back": "Security artifacts directionally, evaluation design, and success metrics tied to their stack.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m6-c6",
+    "front": "What should you verify externally before quoting compliance claims?",
+    "back": "Primary trust/security documentation and the customer’s own requirements—not rumors.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m6-c7",
+    "front": "What is the ‘next step’ after learning this module?",
+    "back": "Flashcards until fast recall, then quiz until you can explain wrong answers cleanly.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m6-c8",
+    "front": "How does this module connect to MEDDPICC?",
+    "back": "It helps you identify metrics, stakeholders, criteria, and paper process risks specific to dev tools.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m6-c9",
+    "front": "What is a strong ‘translation’ skill for this topic?",
+    "back": "Turn engineering jargon into business risk and business questions into engineering workflows.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m6-c10",
+    "front": "What is one sign you truly understand the material?",
+    "back": "You can teach it briefly using examples from a realistic enterprise account.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m6-c11",
+    "front": "What is the capstone behavior this LMS is training?",
+    "back": "Run credible discovery and multi-threading without losing technical precision.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m6-c12",
+    "front": "What should you do if information goes stale?",
+    "back": "Update sources and re-check primary docs—especially fast-moving product facts.",
+    "sourceUrl": "https://cursor.com/docs"
+  }
+]

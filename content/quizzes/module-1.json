@@ -1,0 +1,132 @@
+[
+  {
+    "id": "m1-q1",
+    "question": "Which phase of the SDLC is most associated with validating change via automated checks?",
+    "options": [
+      "Best: Tie SDLC & developer personas to workflow outcomes, governance, and proof—then validate in discovery.",
+      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
+      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
+      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+    ],
+    "correctIndex": 0,
+    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m1-q2",
+    "question": "Which role is most likely to care about team throughput and sprint predictability?",
+    "options": [
+      "Best: Tie SDLC & developer personas to workflow outcomes, governance, and proof—then validate in discovery.",
+      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
+      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
+      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+    ],
+    "correctIndex": 0,
+    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m1-q3",
+    "question": "Which surface is typically the system of record for proposed code changes?",
+    "options": [
+      "Best: Tie SDLC & developer personas to workflow outcomes, governance, and proof—then validate in discovery.",
+      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
+      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
+      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+    ],
+    "correctIndex": 0,
+    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m1-q4",
+    "question": "A developer complaining about 'context switching' is most likely describing friction between:",
+    "options": [
+      "Best: Tie SDLC & developer personas to workflow outcomes, governance, and proof—then validate in discovery.",
+      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
+      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
+      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+    ],
+    "correctIndex": 0,
+    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m1-q5",
+    "question": "In many engineering orgs, who is frequently an economic buyer for strategic platform purchases?",
+    "options": [
+      "Best: Tie SDLC & developer personas to workflow outcomes, governance, and proof—then validate in discovery.",
+      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
+      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
+      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+    ],
+    "correctIndex": 0,
+    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m1-q6",
+    "question": "Which item is a common 'developer friction' theme relevant to AI coding tools?",
+    "options": [
+      "Best: Tie SDLC & developer personas to workflow outcomes, governance, and proof—then validate in discovery.",
+      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
+      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
+      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+    ],
+    "correctIndex": 0,
+    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m1-q7",
+    "question": "What is the primary purpose of a pull request in typical workflows?",
+    "options": [
+      "Best: Tie SDLC & developer personas to workflow outcomes, governance, and proof—then validate in discovery.",
+      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
+      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
+      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+    ],
+    "correctIndex": 0,
+    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m1-q8",
+    "question": "Which persona is most likely to ask about SSO, SCIM, and audit evidence first?",
+    "options": [
+      "Best: Tie SDLC & developer personas to workflow outcomes, governance, and proof—then validate in discovery.",
+      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
+      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
+      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+    ],
+    "correctIndex": 0,
+    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m1-q9",
+    "question": "Which buying pattern is common for developer tools?",
+    "options": [
+      "Best: Tie SDLC & developer personas to workflow outcomes, governance, and proof—then validate in discovery.",
+      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
+      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
+      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+    ],
+    "correctIndex": 0,
+    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m1-q10",
+    "question": "Which question is most diagnostic in discovery with an engineering leader?",
+    "options": [
+      "Best: Tie SDLC & developer personas to workflow outcomes, governance, and proof—then validate in discovery.",
+      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
+      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
+      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+    ],
+    "correctIndex": 0,
+    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "sourceUrl": "https://cursor.com/docs"
+  }
+]
