@@ -7,6 +7,7 @@ import {
   CheckCircle2,
   Circle,
   LayoutDashboard,
+  MessagesSquare,
   Newspaper,
   Sparkles,
 } from "lucide-react";
@@ -97,6 +98,14 @@ export function SidebarNav({
         >
           <Newspaper className="size-4 opacity-80" />
           News
+        </NavLink>
+        <NavLink
+          href="/roleplay"
+          active={pathname.startsWith("/roleplay")}
+          onNavigate={onNavigate}
+        >
+          <MessagesSquare className="size-4 opacity-80" />
+          Roleplay
         </NavLink>
         <NavLink
           href="/about"
