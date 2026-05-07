@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, MessagesSquare } from "lucide-react";
 
+import { RoleplayHistoryPanel } from "@/components/app/roleplay-history-panel";
 import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
 import {
@@ -94,6 +95,8 @@ export default function RoleplayIndexPage() {
           </Card>
         ))}
       </section>
+
+      <RoleplayHistoryPanel />
     </div>
   );
 }

@@ -4,6 +4,7 @@ import { IBM_Plex_Mono, Inter, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import { AppShell } from "@/components/app/app-shell";
 import { ProgressProvider } from "@/components/providers/progress-provider";
+import { RoleplayHistoryProvider } from "@/components/providers/roleplay-history-provider";
 import { ThemeProvider } from "@/components/providers/theme-provider";
 import { Toaster } from "@/components/ui/sonner";
 
@@ -46,8 +47,10 @@ export default function RootLayout({
       <body className="min-h-dvh">
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false}>
           <ProgressProvider>
-            <AppShell>{children}</AppShell>
-            <Toaster richColors closeButton />
+            <RoleplayHistoryProvider>
+              <AppShell>{children}</AppShell>
+              <Toaster richColors closeButton />
+            </RoleplayHistoryProvider>
           </ProgressProvider>
         </ThemeProvider>
       </body>

@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { ArrowLeft } from "lucide-react";
 
 import { RoleplayChat } from "@/components/app/roleplay-chat";
+import { RoleplayHistoryButton } from "@/components/app/roleplay-history-button";
 import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
 import {
@@ -59,7 +60,13 @@ export default async function RoleplaySessionPage({ params }: PageProps) {
                 {persona.title} · {persona.company}
               </CardDescription>
             </div>
-            <Badge variant="secondary">{persona.archetype}</Badge>
+            <div className="flex flex-wrap items-center gap-2">
+              <Badge variant="secondary">{persona.archetype}</Badge>
+              <RoleplayHistoryButton
+                personaId={persona.id}
+                personaName={persona.name}
+              />
+            </div>
           </div>
         </CardHeader>
         <CardContent className="flex flex-col gap-4">

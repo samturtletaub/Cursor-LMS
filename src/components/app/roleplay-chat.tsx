@@ -16,6 +16,8 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Textarea } from "@/components/ui/textarea";
+import { useRoleplayHistory } from "@/components/providers/roleplay-history-provider";
+import type { RoleplayMessage } from "@/lib/roleplay/history-types";
 import { cn } from "@/lib/utils";
 
 function messageText(m: UIMessage): string {
@@ -23,6 +25,19 @@ function messageText(m: UIMessage): string {
     .map((p) => (p.type === "text" ? p.text : ""))
     .join("")
     .trim();
+}
+
+function uiMessagesToRoleplay(messages: UIMessage[]): RoleplayMessage[] {
+  const now = new Date().toISOString();
+  return messages
+    .map((m) => {
+      const text = messageText(m);
+      if (!text) return null;
+      const role: RoleplayMessage["role"] =
+        m.role === "user" ? "user" : "assistant";
+      return { role, text, at: now };
+    })
+    .filter((m): m is RoleplayMessage => m !== null);
 }
 
 interface Props {
@@ -37,6 +52,10 @@ export function RoleplayChat({ personaId, personaName, opener }: Props) {
   const [feedbackOpen, setFeedbackOpen] = React.useState(false);
   const [feedbackLoading, setFeedbackLoading] = React.useState(false);
   const scrollerRef = React.useRef<HTMLDivElement | null>(null);
+
+  const { upsertSession, finalizeSession } = useRoleplayHistory();
+  const sessionIdRef = React.useRef<string | null>(null);
+  const sessionStartedAtRef = React.useRef<string | null>(null);
 
   const { messages, sendMessage, status, stop, setMessages, error } = useChat({
     transport: new DefaultChatTransport({
@@ -64,6 +83,30 @@ export function RoleplayChat({ personaId, personaName, opener }: Props) {
 
   const isStreaming = status === "submitted" || status === "streaming";
 
+  React.useEffect(() => {
+    if (isStreaming) return;
+
+    const transcript = uiMessagesToRoleplay(messages);
+    const hasUserTurn = transcript.some((m) => m.role === "user");
+    if (!hasUserTurn) return;
+
+    if (!sessionIdRef.current) {
+      sessionIdRef.current =
+        typeof crypto !== "undefined" && "randomUUID" in crypto
+          ? crypto.randomUUID()
+          : `${Date.now()}-${Math.random().toString(36).slice(2)}`;
+      sessionStartedAtRef.current = new Date().toISOString();
+    }
+
+    upsertSession({
+      id: sessionIdRef.current,
+      personaId,
+      personaName,
+      startedAt: sessionStartedAtRef.current ?? new Date().toISOString(),
+      messages: transcript,
+    });
+  }, [messages, isStreaming, personaId, personaName, upsertSession]);
+
   const onSend = (e?: React.FormEvent) => {
     if (e) e.preventDefault();
     const text = input.trim();
@@ -76,6 +119,8 @@ export function RoleplayChat({ personaId, personaName, opener }: Props) {
     if (isStreaming) stop();
     setMessages([]);
     setFeedback(null);
+    sessionIdRef.current = null;
+    sessionStartedAtRef.current = null;
   };
 
   const onEndAndScore = async () => {
@@ -105,6 +150,13 @@ export function RoleplayChat({ personaId, personaName, opener }: Props) {
         throw new Error(data.error || `HTTP ${res.status}`);
       }
       setFeedback(data.feedback);
+
+      if (sessionIdRef.current) {
+        finalizeSession(sessionIdRef.current, {
+          feedback: data.feedback,
+          endedAt: new Date().toISOString(),
+        });
+      }
     } catch (err) {
       const msg = err instanceof Error ? err.message : "Unknown error";
       toast.error("Couldn't generate feedback", { description: msg });
