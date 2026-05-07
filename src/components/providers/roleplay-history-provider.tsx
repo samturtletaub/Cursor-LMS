@@ -13,6 +13,7 @@ import {
 } from "react";
 
 import { useProgress } from "@/components/providers/progress-provider";
+import type { WeaknessSignal } from "@/lib/coach/types";
 import {
   loadHistoryFromStorage,
   normalizeHistoryState,
@@ -35,7 +36,11 @@ type RoleplayHistoryContextValue = {
   upsertSession: (input: UpsertInput) => void;
   finalizeSession: (
     id: string,
-    patch: { feedback?: string; endedAt?: string },
+    patch: {
+      feedback?: string;
+      endedAt?: string;
+      signals?: WeaknessSignal[];
+    },
   ) => void;
   pullNow: () => Promise<void>;
   pushNow: () => Promise<void>;
@@ -169,7 +174,14 @@ export function RoleplayHistoryProvider({ children }: { children: ReactNode }) {
   );
 
   const finalizeSession = useCallback(
-    (id: string, patch: { feedback?: string; endedAt?: string }) => {
+    (
+      id: string,
+      patch: {
+        feedback?: string;
+        endedAt?: string;
+        signals?: WeaknessSignal[];
+      },
+    ) => {
       commit((prev) => {
         const existing = prev.sessions.find((s) => s.id === id);
         if (!existing) return prev;
@@ -177,6 +189,10 @@ export function RoleplayHistoryProvider({ children }: { children: ReactNode }) {
           ...existing,
           feedback: patch.feedback ?? existing.feedback,
           endedAt: patch.endedAt ?? existing.endedAt ?? new Date().toISOString(),
+          signals:
+            patch.signals && patch.signals.length > 0
+              ? patch.signals
+              : existing.signals,
           updatedAt: new Date().toISOString(),
         };
         return upsertSessionInState(prev, merged);

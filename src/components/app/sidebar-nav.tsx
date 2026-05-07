@@ -6,6 +6,7 @@ import {
   BookOpen,
   CheckCircle2,
   Circle,
+  Compass,
   LayoutDashboard,
   MessagesSquare,
   Newspaper,
@@ -55,7 +56,7 @@ export function SidebarNav({
   className?: string;
 }) {
   const pathname = usePathname();
-  const { ready, state, passThreshold } = useProgress();
+  const { ready, state, passThreshold, openWeakAreas } = useProgress();
   const modules = getAllModuleSummaries();
 
   return (
@@ -90,6 +91,19 @@ export function SidebarNav({
         >
           <LayoutDashboard className="size-4 opacity-80" />
           Dashboard
+        </NavLink>
+        <NavLink
+          href="/coach"
+          active={pathname.startsWith("/coach")}
+          onNavigate={onNavigate}
+        >
+          <Compass className="size-4 opacity-80" />
+          <span className="flex-1">Coach</span>
+          {openWeakAreas > 0 ? (
+            <span className="inline-flex min-w-[1.25rem] items-center justify-center rounded-full bg-primary/15 px-1.5 py-0.5 font-mono text-[10px] font-medium text-primary ring-1 ring-primary/30">
+              {openWeakAreas}
+            </span>
+          ) : null}
         </NavLink>
         <NavLink
           href="/news"

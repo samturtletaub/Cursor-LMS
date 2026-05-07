@@ -10,7 +10,11 @@
     ],
     "correctIndex": 0,
     "explanation": "Dev tools usually land with developers first. The seller’s job is then to translate that grassroots adoption into a governed enterprise standard without killing the organic story.",
-    "sourceUrl": "https://www.meddicc.com/meddicc"
+    "sourceUrl": "https://www.meddicc.com/meddicc",
+    "conceptTags": [
+      "m4.land-and-expand-stages",
+      "m4.buying-committee-shape"
+    ]
   },
   {
     "id": "m4-q2",
@@ -23,7 +27,11 @@
     ],
     "correctIndex": 0,
     "explanation": "When the CTO or senior tech leader joins early, you are usually in a strategic, platform-bet conversation — that changes the proof and stakeholder map you need.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m4.buying-committee-shape",
+      "m4.persona-language-fit"
+    ]
   },
   {
     "id": "m4-q3",
@@ -36,7 +44,10 @@
     ],
     "correctIndex": 0,
     "explanation": "EMs own the team-level mechanics. Their language is sprint, norms, ramp time, and rework — meet them there.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m4.persona-language-fit"
+    ]
   },
   {
     "id": "m4-q4",
@@ -49,7 +60,10 @@
     ],
     "correctIndex": 0,
     "explanation": "VPs of Eng are wired to platform bets, vendor sprawl, and efficiency at scale — that is the level of conversation they expect.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m4.persona-language-fit"
+    ]
   },
   {
     "id": "m4-q5",
@@ -62,7 +76,10 @@
     ],
     "correctIndex": 0,
     "explanation": "CTOs frame in architecture, risk, and long-horizon bets. ‘Why is this the right platform investment for the next three to five years?’ is their natural question.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m4.persona-language-fit"
+    ]
   },
   {
     "id": "m4-q6",
@@ -75,7 +92,11 @@
     ],
     "correctIndex": 0,
     "explanation": "Security cares about identity, data flows, observability, and vendor risk. Speak in their vocabulary or invite a specialist who can.",
-    "sourceUrl": "https://cursor.com/security"
+    "sourceUrl": "https://cursor.com/security",
+    "conceptTags": [
+      "m4.persona-language-fit",
+      "m6.security-conversation-discipline"
+    ]
   },
   {
     "id": "m4-q7",
@@ -88,7 +109,11 @@
     ],
     "correctIndex": 0,
     "explanation": "Procurement is commercial mechanics. Bring discipline to pricing structure, bundles, and timing — surprises here stall otherwise winnable deals.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m4.buying-committee-shape",
+      "m4.persona-language-fit"
+    ]
   },
   {
     "id": "m4-q8",
@@ -101,7 +126,10 @@
     ],
     "correctIndex": 0,
     "explanation": "Individual usage proves value. Team standardization consolidates norms and budget. Enterprise standardization brings Security and global rollout. Each stage requires different evidence.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m4.land-and-expand-stages"
+    ]
   },
   {
     "id": "m4-q9",
@@ -114,7 +142,12 @@
     ],
     "correctIndex": 0,
     "explanation": "Champions translate. They convert the seller’s story into language that resonates with their colleagues — workflow, friction, what their team actually needs.",
-    "sourceUrl": "https://www.meddicc.com/meddicc"
+    "sourceUrl": "https://www.meddicc.com/meddicc",
+    "conceptTags": [
+      "m4.buying-committee-shape",
+      "m4.persona-language-fit",
+      "cross.workflow-anchoring"
+    ]
   },
   {
     "id": "m4-q10",
@@ -127,7 +160,10 @@
     ],
     "correctIndex": 0,
     "explanation": "Strategic deals stall when stakeholders mean different things by the same word (‘data residency,’ ‘ROI,’ ‘standard’). Build shared language early.",
-    "sourceUrl": "https://www.meddicc.com/meddicc"
+    "sourceUrl": "https://www.meddicc.com/meddicc",
+    "conceptTags": [
+      "m4.shared-language"
+    ]
   },
   {
     "id": "m4-q11",
@@ -140,7 +176,12 @@
     ],
     "correctIndex": 0,
     "explanation": "Data egress and audit evidence are textbook Security/IT concerns. Confirm specifics against the trust center, never improvise.",
-    "sourceUrl": "https://cursor.com/security"
+    "sourceUrl": "https://cursor.com/security",
+    "conceptTags": [
+      "m4.persona-language-fit",
+      "m2.security-translation",
+      "cross.source-discipline"
+    ]
   },
   {
     "id": "m4-q12",
@@ -153,7 +194,11 @@
     ],
     "correctIndex": 0,
     "explanation": "Pricing curves, co-term, and renewal mechanics are Procurement’s home turf. Treat them as a partner — not as the obstacle at the end of the deal.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m4.buying-committee-shape",
+      "m4.persona-language-fit"
+    ]
   },
   {
     "id": "m4-q13",
@@ -166,7 +211,10 @@
     ],
     "correctIndex": 0,
     "explanation": "Tech leads care about maintainability and review burden. The legitimate concern is whether AI-generated change preserves the quality bar.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m4.persona-language-fit"
+    ]
   },
   {
     "id": "m4-q14",
@@ -179,7 +227,11 @@
     ],
     "correctIndex": 0,
     "explanation": "Consolidation is about leverage and lower operational drag. Cursor sells well into that conversation when you can frame it as a platform bet, not a point feature.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m4.persona-language-fit",
+      "m4.buying-committee-shape"
+    ]
   },
   {
     "id": "m4-q15",
@@ -192,7 +244,10 @@
     ],
     "correctIndex": 0,
     "explanation": "A real champion sells inside their org, gives you honest signal, and opens doors. If none of that is happening, you have a contact, not a champion.",
-    "sourceUrl": "https://www.meddicc.com/meddicc"
+    "sourceUrl": "https://www.meddicc.com/meddicc",
+    "conceptTags": [
+      "m6.meddpicc-fit"
+    ]
   },
   {
     "id": "m4-q16",
@@ -205,7 +260,10 @@
     ],
     "correctIndex": 1,
     "explanation": "Surface and align. Letting definitional gaps fester quietly is how strategic deals stall. Building shared language is part of your job.",
-    "sourceUrl": "https://www.meddicc.com/meddicc"
+    "sourceUrl": "https://www.meddicc.com/meddicc",
+    "conceptTags": [
+      "m4.shared-language"
+    ]
   },
   {
     "id": "m4-q17",
@@ -218,7 +276,11 @@
     ],
     "correctIndex": 1,
     "explanation": "Grassroots usage proves value. Turning it into a governed standard requires sponsorship, budget consolidation, and security alignment from above.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m4.land-and-expand-stages",
+      "m4.buying-committee-shape"
+    ]
   },
   {
     "id": "m4-q18",
@@ -231,7 +293,12 @@
     ],
     "correctIndex": 0,
     "explanation": "Anchor to a workflow EMs own (onboarding) and the metric they would actually move (ramp time). That maps directly to the value Cursor can attach to.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m1.discovery-workflow-anchored",
+      "m4.persona-language-fit",
+      "cross.workflow-anchoring"
+    ]
   },
   {
     "id": "m4-q19",
@@ -244,7 +311,10 @@
     ],
     "correctIndex": 0,
     "explanation": "CTOs think in platform horizons. Asking how they are reasoning about category bets and standardization respects their level and gives you durable signal.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m4.persona-language-fit"
+    ]
   },
   {
     "id": "m4-q20",
@@ -257,7 +327,10 @@
     ],
     "correctIndex": 0,
     "explanation": "Hidden semantic gaps between Security and Engineering kill momentum quietly. Smart sellers force the definitional work into the open.",
-    "sourceUrl": "https://www.meddicc.com/meddicc"
+    "sourceUrl": "https://www.meddicc.com/meddicc",
+    "conceptTags": [
+      "m4.shared-language"
+    ]
   },
   {
     "id": "m4-q21",
@@ -270,7 +343,12 @@
     ],
     "correctIndex": 1,
     "explanation": "Enterprise standardization needs three things: real usage, real controls, and a path through the org’s actual security framework. Anything less stalls at the gate.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m4.land-and-expand-stages",
+      "m6.deal-sequencing",
+      "m3.enterprise-controls-vocab"
+    ]
   },
   {
     "id": "m4-q22",
@@ -283,7 +361,11 @@
     ],
     "correctIndex": 1,
     "explanation": "Telling reconcilable stories tuned to each persona is the job. Telling stories that contradict each other is the warning sign — buyers compare notes.",
-    "sourceUrl": "https://www.meddicc.com/meddicc"
+    "sourceUrl": "https://www.meddicc.com/meddicc",
+    "conceptTags": [
+      "m4.shared-language",
+      "m4.buying-committee-shape"
+    ]
   },
   {
     "id": "m4-q23",
@@ -296,7 +378,11 @@
     ],
     "correctIndex": 1,
     "explanation": "That vocabulary is procurement and finance. They are partners on commercial mechanics — invest in them early to avoid late-stage friction.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m4.buying-committee-shape",
+      "m4.persona-language-fit"
+    ]
   },
   {
     "id": "m4-q24",
@@ -309,7 +395,11 @@
     ],
     "correctIndex": 0,
     "explanation": "Scripted feels canned because it is. Vary depth and angle by persona; carry shared themes, not identical sentences.",
-    "sourceUrl": "https://www.meddicc.com/meddicc"
+    "sourceUrl": "https://www.meddicc.com/meddicc",
+    "conceptTags": [
+      "m4.persona-language-fit",
+      "m4.shared-language"
+    ]
   },
   {
     "id": "m4-q25",
@@ -322,6 +412,9 @@
     ],
     "correctIndex": 1,
     "explanation": "The job is bridging organic to governed: surface the usage, partner on standards, and let Security/IT in as partners — not as a roadblock at the end.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m4.land-and-expand-stages"
+    ]
   }
 ]

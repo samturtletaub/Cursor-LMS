@@ -12,6 +12,13 @@ import {
   type ReactNode,
 } from "react";
 
+import {
+  decayWeakAreas,
+  decreaseForPractice,
+  mergeSignals,
+  openWeakAreaCount,
+} from "@/lib/coach/state";
+import type { WeaknessSignal } from "@/lib/coach/types";
 import { QUIZ_PASS_THRESHOLD } from "@/lib/progress/constants";
 import { applyGotIt, applyNeedReview } from "@/lib/spaced-repetition";
 import {
@@ -41,12 +48,22 @@ type ProgressContextValue = {
     moduleId: string,
     cardId: string,
     outcome: "got-it" | "review",
+    conceptTagsForPractice?: string[],
+  ) => void;
+  recordWeaknessSignals: (
+    sessionId: string,
+    signals: WeaknessSignal[],
+  ) => void;
+  markPracticed: (
+    conceptTags: string[] | undefined,
+    kind: "flashcard" | "quiz",
   ) => void;
   pullRemote: (maybeCode?: string) => Promise<void>;
   pushRemote: () => Promise<void>;
   completedCount: number;
   overallPercent: number;
   avgQuiz: number;
+  openWeakAreas: number;
 };
 
 const ProgressContext = createContext<ProgressContextValue | null>(null);
@@ -115,7 +132,12 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
   const commit = useCallback(
     (updater: (prev: ProgressState) => ProgressState) => {
       setState((prev) => {
-        const normalized = normalizeProgressState(updater(prev));
+        const updated = updater(prev);
+        const decayed = {
+          ...updated,
+          weakAreas: decayWeakAreas(updated.weakAreas, Date.now()),
+        };
+        const normalized = normalizeProgressState(decayed);
         const next = bumpUpdatedAt(normalized);
         saveProgressToStorage(next);
         schedulePush(next);
@@ -133,9 +155,14 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
       saveSyncCodeToStorage(code);
     }
 
+    const localDecayed: ProgressState = {
+      ...local,
+      weakAreas: decayWeakAreas(local.weakAreas, Date.now()),
+    };
+
     startTransition(() => {
       setSyncCodeState(code);
-      setState(normalizeProgressState(local));
+      setState(normalizeProgressState(localDecayed));
       setReady(true);
     });
 
@@ -156,10 +183,14 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
         if (!data.ok || !data.state) return;
 
         const server = normalizeProgressState(data.state);
+        const serverDecayed: ProgressState = {
+          ...server,
+          weakAreas: decayWeakAreas(server.weakAreas, Date.now()),
+        };
         setState((current) => {
-          if (server.updatedAt > current.updatedAt) {
-            saveProgressToStorage(server);
-            return server;
+          if (serverDecayed.updatedAt > current.updatedAt) {
+            saveProgressToStorage(serverDecayed);
+            return serverDecayed;
           }
           return current;
         });
@@ -229,7 +260,12 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
   );
 
   const updateFlashcard = useCallback(
-    (moduleId: string, cardId: string, outcome: "got-it" | "review") => {
+    (
+      moduleId: string,
+      cardId: string,
+      outcome: "got-it" | "review",
+      conceptTagsForPractice?: string[],
+    ) => {
       const now = Date.now();
       commit((prev) => {
         const mod = prev.modules[moduleId];
@@ -239,8 +275,22 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
             ? applyGotIt(now, existing)
             : applyNeedReview(now, existing);
 
+        let weakAreas = prev.weakAreas;
+        if (
+          outcome === "got-it" &&
+          conceptTagsForPractice &&
+          conceptTagsForPractice.length > 0
+        ) {
+          weakAreas = decreaseForPractice(
+            weakAreas,
+            conceptTagsForPractice,
+            "flashcard",
+          );
+        }
+
         return {
           ...prev,
+          weakAreas,
           modules: {
             ...prev.modules,
             [moduleId]: {
@@ -275,10 +325,14 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
     if (!data.ok || !data.state) return;
 
     const server = normalizeProgressState(data.state);
+    const serverDecayed: ProgressState = {
+      ...server,
+      weakAreas: decayWeakAreas(server.weakAreas, Date.now()),
+    };
     setState((current) => {
-      if (server.updatedAt > current.updatedAt) {
-        saveProgressToStorage(server);
-        return server;
+      if (serverDecayed.updatedAt > current.updatedAt) {
+        saveProgressToStorage(serverDecayed);
+        return serverDecayed;
       }
       return current;
     });
@@ -287,6 +341,33 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
   const pushRemote = useCallback(async () => {
     await pushRemoteInner(loadProgressFromStorage(), syncCodeRef.current);
   }, [pushRemoteInner]);
+
+  const recordWeaknessSignals = useCallback(
+    (sessionId: string, signals: WeaknessSignal[]) => {
+      if (!signals || signals.length === 0) return;
+      commit((prev) => ({
+        ...prev,
+        weakAreas: mergeSignals(
+          prev.weakAreas,
+          signals,
+          sessionId,
+          Date.now(),
+        ),
+      }));
+    },
+    [commit],
+  );
+
+  const markPracticed = useCallback(
+    (conceptTags: string[] | undefined, kind: "flashcard" | "quiz") => {
+      if (!conceptTags || conceptTags.length === 0) return;
+      commit((prev) => ({
+        ...prev,
+        weakAreas: decreaseForPractice(prev.weakAreas, conceptTags, kind),
+      }));
+    },
+    [commit],
+  );
 
   const completedCount = useMemo(
     () => computeCompletedCount(state, QUIZ_PASS_THRESHOLD),
@@ -300,6 +381,11 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
 
   const avgQuiz = useMemo(() => averageLatestQuizScore(state), [state]);
 
+  const openWeakAreas = useMemo(() => {
+    const decayed = decayWeakAreas(state.weakAreas, Date.now());
+    return openWeakAreaCount(decayed);
+  }, [state.weakAreas]);
+
   const value = useMemo<ProgressContextValue>(
     () => ({
       ready,
@@ -311,21 +397,27 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
       setReadComplete,
       recordQuizAttempt,
       updateFlashcard,
+      recordWeaknessSignals,
+      markPracticed,
       pullRemote,
       pushRemote,
       completedCount,
       overallPercent,
       avgQuiz,
+      openWeakAreas,
     }),
     [
       avgQuiz,
       completedCount,
+      markPracticed,
+      openWeakAreas,
       overallPercent,
       pullRemote,
       pushRemote,
       ready,
       recordQuizAttempt,
       recordVisit,
+      recordWeaknessSignals,
       setReadComplete,
       setSyncCode,
       state,

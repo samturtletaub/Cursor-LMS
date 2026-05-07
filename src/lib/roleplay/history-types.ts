@@ -1,3 +1,5 @@
+import type { WeaknessSignal } from "@/lib/coach/types";
+
 export type RoleplayMessage = {
   role: "user" | "assistant";
   text: string;
@@ -13,6 +15,7 @@ export type RoleplaySession = {
   endedAt?: string;
   messages: RoleplayMessage[];
   feedback?: string;
+  signals?: WeaknessSignal[];
 };
 
 export type RoleplayHistoryState = {

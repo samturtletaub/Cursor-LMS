@@ -3,150 +3,245 @@
     "id": "m6-c1",
     "front": "Name the three layers of a strong dev-tool motion: organic usage, team adoption, enterprise governance.",
     "back": "Organic usage proving real workflows; team adoption standardizing norms/budgets; enterprise governance partnering Security/IT—not random gatekeeping.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m4.land-and-expand-stages"
+    ]
   },
   {
     "id": "m6-c2",
     "front": "What does “make expansion feel inevitable” mean in practice?",
     "back": "Value was already proven in real workflows—then you help govern it responsibly.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m4.land-and-expand-stages",
+      "m6.deal-sequencing"
+    ]
   },
   {
     "id": "m6-c3",
     "front": "List the four steps of a strong ROI story structure from the module.",
     "back": "(1) Baseline cost of engineering time; (2) measurable workflow lever; (3) conservative improvement hypothesis; (4) risk-adjusted implementation.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m6.roi-structure"
+    ]
   },
   {
     "id": "m6-c4",
     "front": "Why use ranges instead of false precision in ROI?",
     "back": "Credibility—buyers smell fantasy math; directional honesty beats fake decimals.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m6.roi-structure",
+      "cross.honest-uncertainty"
+    ]
   },
   {
     "id": "m6-c5",
     "front": "If a stat is promotional, how should a credible seller treat it?",
     "back": "As a hypothesis until validated in the account’s context.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m3.proof-as-hypothesis"
+    ]
   },
   {
     "id": "m6-c6",
     "front": "What topics do security & compliance conversations cover—and what is your advantage?",
     "back": "Identity, access, data handling, retention, audit evidence; advantage is structured follow-up and source discipline.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m6.security-conversation-discipline",
+      "cross.source-discipline"
+    ]
   },
   {
     "id": "m6-c7",
     "front": "Three rules for security conversations with a serious buyer?",
     "back": "Confirm claims against primary trust/security docs; involve specialists when needed; never bluff in front of a CISO.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m6.security-conversation-discipline",
+      "m3.trust-source-discipline",
+      "cross.honest-uncertainty"
+    ]
   },
   {
     "id": "m6-c8",
     "front": "MEDDPICC — Metrics in dev-tool translation: what kinds of metrics?",
     "back": "Throughput, incident rates, onboarding time, developer satisfaction signals—pick what the buyer owns.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m6.meddpicc-fit",
+      "m6.roi-structure"
+    ]
   },
   {
     "id": "m6-c9",
     "front": "Who is often the economic buyer—and when does CTO enter earlier?",
     "back": "Often engineering leadership; CTO earlier in strategic accounts.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m6.meddpicc-fit",
+      "m4.buying-committee-shape"
+    ]
   },
   {
     "id": "m6-c10",
     "front": "Decision criteria for dev tools must include what two requirement types?",
     "back": "Security requirements and developer experience requirements—both matter.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m6.meddpicc-fit",
+      "m4.buying-committee-shape"
+    ]
   },
   {
     "id": "m6-c11",
     "front": "What does “paper process” include for these deals?",
     "back": "Procurement, legal, data processing terms, vendor risk reviews.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m6.meddpicc-fit"
+    ]
   },
   {
     "id": "m6-c12",
     "front": "Apply MEDDPICC without forcing a template—what attitude does the module endorse?",
     "back": "Use the lens where it fits the account; don’t read a checklist robotically—map to dev-tool reality.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m6.meddpicc-fit"
+    ]
   },
   {
     "id": "m6-c13",
     "front": "What does ‘risk-adjusted implementation’ add to an ROI story?",
     "back": "Training, guardrails, and an evaluation plan the buyer can defend internally—answers ‘how do we adopt this safely?’",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m6.roi-structure",
+      "m6.meddpicc-fit"
+    ]
   },
   {
     "id": "m6-c14",
     "front": "Which workflow lever travels well to engineering managers in an ROI conversation?",
     "back": "Onboarding ramp-time compression on the org’s most complex service—measurable and felt every quarter.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m6.roi-structure",
+      "m4.persona-language-fit"
+    ]
   },
   {
     "id": "m6-c15",
     "front": "How should you handle ‘incident recovery time’ as a Cursor lever?",
     "back": "Acknowledge it as a real lever, ask how the org currently measures MTTR, and propose a measurement plan that fits their incident process.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m6.roi-structure",
+      "cross.workflow-anchoring"
+    ]
   },
   {
     "id": "m6-c16",
     "front": "When does developer satisfaction become real signal vs anecdote?",
     "back": "When it is captured in the org’s existing survey methodology with explicit baselines and comparison cohorts.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m6.roi-structure",
+      "m3.proof-as-hypothesis"
+    ]
   },
   {
     "id": "m6-c17",
     "front": "Why pair throughput with a quality metric in the ROI story?",
     "back": "Throughput alone is gameable (more PRs, lower quality)—pair with rework or cycle time to make the story hold up under scrutiny.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m6.roi-structure",
+      "cross.workflow-anchoring"
+    ]
   },
   {
     "id": "m6-c18",
     "front": "Two behaviors that distinguish a real champion in MEDDPICC.",
     "back": "They take introductions to other personas and they tell you when something isn’t landing—not just polite agreement.",
-    "sourceUrl": "https://www.meddicc.com/meddicc"
+    "sourceUrl": "https://www.meddicc.com/meddicc",
+    "conceptTags": [
+      "m6.meddpicc-fit"
+    ]
   },
   {
     "id": "m6-c19",
     "front": "How do you express ‘Identify Pain’ for a Cursor deal so it gets prioritized?",
     "back": "Name a specific workflow loss (review latency, onboarding ramp, multi-file refactor cost) tied to a measurable cost the buyer already feels.",
-    "sourceUrl": "https://www.meddicc.com/meddicc"
+    "sourceUrl": "https://www.meddicc.com/meddicc",
+    "conceptTags": [
+      "m6.meddpicc-fit",
+      "m6.roi-structure",
+      "cross.workflow-anchoring"
+    ]
   },
   {
     "id": "m6-c20",
     "front": "How do you express ‘Implication’ so it lands with leadership?",
     "back": "‘If this workflow doesn’t improve, here’s the named cost—slower releases, higher rework, harder hiring—projected over the next year.’",
-    "sourceUrl": "https://www.meddicc.com/meddicc"
+    "sourceUrl": "https://www.meddicc.com/meddicc",
+    "conceptTags": [
+      "m6.roi-structure",
+      "m4.persona-language-fit"
+    ]
   },
   {
     "id": "m6-c21",
     "front": "Why map the Decision Process explicitly?",
     "back": "Without it, deals end the quarter with ‘legal needs another two weeks’—every time. Map who decides what, in what order, by when.",
-    "sourceUrl": "https://www.meddicc.com/meddicc"
+    "sourceUrl": "https://www.meddicc.com/meddicc",
+    "conceptTags": [
+      "m6.meddpicc-fit",
+      "m6.deal-sequencing"
+    ]
   },
   {
     "id": "m6-c22",
     "front": "What does it mean to ‘sequence the deal’ across stakeholders?",
     "back": "Decide which proof, in which order, lands with which stakeholder so the deal moves forward without contradicting itself.",
-    "sourceUrl": "https://www.meddicc.com/meddicc"
+    "sourceUrl": "https://www.meddicc.com/meddicc",
+    "conceptTags": [
+      "m6.deal-sequencing"
+    ]
   },
   {
     "id": "m6-c23",
     "front": "When should you bring in a Cursor security specialist vs handle it yourself?",
     "back": "When the conversation reaches contractual data-handling terms a CISO is preparing to redline—escalation is credibility, not weakness.",
-    "sourceUrl": "https://cursor.com/security"
+    "sourceUrl": "https://cursor.com/security",
+    "conceptTags": [
+      "m6.security-conversation-discipline"
+    ]
   },
   {
     "id": "m6-c24",
     "front": "Single behavior that converts grassroots usage into a governed standard?",
     "back": "Surface usage to leadership and partner with Security on a control framework—don’t hide it to ‘protect the champion.’",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m4.land-and-expand-stages",
+      "m6.meddpicc-fit"
+    ]
   },
   {
     "id": "m6-c25",
     "front": "What builds long-term trust with an enterprise account, call by call?",
     "back": "Precise sourcing, honest uncertainty, structured ROI, and consistent stories across stakeholders—even when individual calls slow down.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "cross.source-discipline",
+      "cross.honest-uncertainty",
+      "m6.roi-structure"
+    ]
   }
 ]

@@ -1,9 +1,11 @@
 "use client";
 
 import * as React from "react";
-import { ArrowLeft, History, MessagesSquare, Sparkles } from "lucide-react";
+import Link from "next/link";
+import { ArrowLeft, Compass, History, MessagesSquare, Sparkles } from "lucide-react";
 
 import { useRoleplayHistory } from "@/components/providers/roleplay-history-provider";
+import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import {
   Sheet,
@@ -12,6 +14,7 @@ import {
   SheetHeader,
   SheetTitle,
 } from "@/components/ui/sheet";
+import { conceptLabel, isConceptTag } from "@/lib/coach/concepts";
 import { parseBullets } from "@/lib/roleplay/parse-bullets";
 import type { RoleplaySession } from "@/lib/roleplay/history-types";
 import { cn } from "@/lib/utils";
@@ -50,12 +53,17 @@ export function RoleplayHistorySheet({
   const [selectedId, setSelectedId] = React.useState<string | null>(
     initialSessionId ?? null,
   );
+  const [lastOpenedKey, setLastOpenedKey] = React.useState<string | null>(
+    open ? `${initialSessionId ?? ""}` : null,
+  );
 
-  React.useEffect(() => {
+  const currentKey = open ? `${initialSessionId ?? ""}` : null;
+  if (currentKey !== lastOpenedKey) {
+    setLastOpenedKey(currentKey);
     if (open) {
       setSelectedId(initialSessionId ?? null);
     }
-  }, [open, initialSessionId]);
+  }
 
   const visible = React.useMemo(() => {
     return personaId
@@ -249,6 +257,40 @@ function SessionDetail({
               {session.feedback}
             </div>
           )}
+        </div>
+      ) : null}
+
+      {session.signals && session.signals.length > 0 ? (
+        <div className="flex flex-col gap-2">
+          <div className="flex items-center gap-2 text-sm font-medium text-foreground">
+            <Compass className="size-3.5 opacity-80" />
+            Weak areas captured
+          </div>
+          <div className="flex flex-wrap gap-1.5">
+            {session.signals.map((s, i) => {
+              const label = isConceptTag(s.conceptTag)
+                ? conceptLabel(s.conceptTag)
+                : s.conceptTag;
+              return (
+                <Badge
+                  key={`${s.conceptTag}-${i}`}
+                  variant="outline"
+                  className="font-normal"
+                  title={s.evidence || s.conceptTag}
+                >
+                  {label} · {s.severity}
+                </Badge>
+              );
+            })}
+          </div>
+          <div>
+            <Link
+              href="/coach"
+              className="text-xs text-muted-foreground underline-offset-4 hover:text-foreground hover:underline"
+            >
+              Open in Coach
+            </Link>
+          </div>
         </div>
       ) : null}
     </div>

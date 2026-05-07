@@ -3,150 +3,238 @@
     "id": "m1-c1",
     "front": "List the six phases of the SDLC loop in seller-friendly order (Plan → … → Monitor).",
     "back": "Plan, Code, Review, Test, Deploy, Monitor—delivery as a loop (where time is lost, failures are expensive, governance applies).",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m1.sdlc-phases"
+    ]
   },
   {
     "id": "m1-c2",
     "front": "What do engineering buyers actually argue about regarding the SDLC—not the textbook theory?",
     "back": "Where time is lost, where failures are expensive, and what must be governed (security, compliance, reliability).",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m1.sdlc-phases",
+      "m1.persona-incentives",
+      "m1.discovery-workflow-anchored"
+    ]
   },
   {
     "id": "m1-c3",
     "front": "What does an IC engineer optimize for—and what do they fear in a new tool?",
     "back": "Speed, focus, fewer context switches; fears friction and tools that feel like “bossware.”",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m1.persona-incentives"
+    ]
   },
   {
     "id": "m1-c4",
     "front": "What does a tech lead or staff engineer optimize for—and what do they fear about automation?",
     "back": "Architecture risk, maintainability, review burden; fears low-quality or unsafe automation.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m1.persona-incentives"
+    ]
   },
   {
     "id": "m1-c5",
     "front": "What does an engineering manager optimize for? A director or VP of engineering?",
     "back": "EM: team throughput, hiring/retention, predictability, less thrash. Director/VP: delivery commitments, org scale, engineering brand, outages, inefficiency.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m1.persona-incentives"
+    ]
   },
   {
     "id": "m1-c6",
     "front": "In many enterprise deals, who is the economic buyer at the CTO/VP level—and what does Security/IT optimize for?",
     "back": "CTO/VP Eng often owns platform bets, security posture, vendor sprawl, leverage. Security/IT: data handling, access control, audit evidence, procurement alignment.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m4.buying-committee-shape",
+      "m4.persona-language-fit"
+    ]
   },
   {
     "id": "m1-c7",
     "front": "Name four surfaces in the typical developer “collaboration stack.”",
     "back": "IDE; Git + PRs; CI/CD; chat/tickets (e.g. Slack/Teams + Jira/Linear)—coordination across where work happens.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m1.collaboration-stack"
+    ]
   },
   {
     "id": "m1-c8",
     "front": "In one sentence: what are you really selling when you sell Cursor—not “a chat window”?",
     "back": "Less context switching across those surfaces when work spans multiple files and deep repo context.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m1.value-frame"
+    ]
   },
   {
     "id": "m1-c9",
     "front": "Name three recurring frictions AI coding assistants are built to reduce (from the module).",
     "back": "Context loading cost, review latency, boilerplate/repetitive edits across services, knowledge silos (onboarding, legacy, undocumented domains)—examples, not an exhaustive list.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m1.value-frame"
+    ]
   },
   {
     "id": "m1-c10",
     "front": "Give one strong discovery question from the module that reveals workflow—not trivia.",
     "back": "For example: “Walk me through the last change that touched more than three files—where did the team lose time?” (Also: who owns review standards for AI-generated changes; where engineers look first when prod breaks.)",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m1.discovery-workflow-anchored"
+    ]
   },
   {
     "id": "m1-c11",
     "front": "In strategic accounts, multiple personas co-own the decision. What is your job regarding proof?",
     "back": "Sequence proof so each stakeholder hears what maps to their KPIs—without sounding like a different script in every room.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m6.deal-sequencing",
+      "m4.buying-committee-shape",
+      "m4.persona-language-fit"
+    ]
   },
   {
     "id": "m1-c12",
     "front": "Why does coming from cyber-resilience sales not automatically fill the gap for dev-tool selling?",
     "back": "Risk/economic framing helps, but you still need how engineering work flows and how technical buyers evaluate tools that touch the SDLC.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m1.sdlc-phases",
+      "m1.persona-incentives",
+      "cross.workflow-anchoring"
+    ]
   },
   {
     "id": "m1-c13",
     "front": "What does the Plan phase actually produce in a healthy team?",
     "back": "A sliced backlog of changes the team understands and is ready to work on—not a giant doc nobody reads.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m1.sdlc-phases"
+    ]
   },
   {
     "id": "m1-c14",
     "front": "What is happening in the Code phase—not the slogan, the reality?",
     "back": "Engineers implementing changes in an IDE with tight feedback loops (lint, type-check, local tests).",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m1.sdlc-phases",
+      "m1.collaboration-stack"
+    ]
   },
   {
     "id": "m1-c15",
     "front": "What does the Review phase produce besides an approval click?",
     "back": "Risk catch, knowledge spread across the team, and a record of why the change is shaped the way it is.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m1.sdlc-phases"
+    ]
   },
   {
     "id": "m1-c16",
     "front": "Name three kinds of validation in the Test phase.",
     "back": "Unit tests, integration tests, and QA/canary checks—proving the change works before broad rollout.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m1.sdlc-phases"
+    ]
   },
   {
     "id": "m1-c17",
     "front": "Two mechanisms that make the Deploy phase safer in modern teams?",
     "back": "Progressive rollout (e.g. canaries) and feature flags—shipping to users in steps you can revert.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m1.sdlc-phases"
+    ]
   },
   {
     "id": "m1-c18",
     "front": "Why is Monitor the phase that should reshape Plan?",
     "back": "Production signals (incidents, latency, adoption) are the inputs that prioritize the next planning cycle.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m1.sdlc-phases"
+    ]
   },
   {
     "id": "m1-c19",
     "front": "Director vs VP Engineering—what shifts as you go up?",
     "back": "Director focuses on delivery commitments and team scaling; VP carries platform decisions, vendor consolidation, and engineering brand at scale.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m1.persona-incentives",
+      "m4.persona-language-fit"
+    ]
   },
   {
     "id": "m1-c20",
     "front": "What two acronyms most often signal Security/IT has joined the conversation?",
     "back": "SSO (often via SAML or OIDC) and SCIM—identity and lifecycle management.",
-    "sourceUrl": "https://cursor.com/security"
+    "sourceUrl": "https://cursor.com/security",
+    "conceptTags": [
+      "m3.enterprise-controls-vocab"
+    ]
   },
   {
     "id": "m1-c21",
     "front": "Why is “context loading cost” a credible friction to name on a discovery call?",
     "back": "Engineers spend real time figuring out where a change actually lives in a large repo before they can write code.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m1.value-frame",
+      "m1.discovery-workflow-anchored"
+    ]
   },
   {
     "id": "m1-c22",
     "front": "Why is review latency a meaningful friction even when individual PRs are small?",
     "back": "Small PRs accumulate wait time across many engineers; large PRs trade waiting for reviewer cognitive load.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m1.collaboration-stack",
+      "m1.value-frame"
+    ]
   },
   {
     "id": "m1-c23",
     "front": "How do you defuse the IC engineer’s “bossware” fear when introducing a new AI tool?",
     "back": "Lead with autonomy, flow, and opt-in usage—not surveillance metrics or coercive rollout.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m1.persona-incentives"
+    ]
   },
   {
     "id": "m1-c24",
     "front": "Give one strong question to surface whether AI-generated change has any governance owner.",
     "back": "“Who owns review standards for AI-generated changes today, and how is that being enforced?”",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m1.discovery-workflow-anchored",
+      "m2.mcp-governance",
+      "m1.persona-incentives"
+    ]
   },
   {
     "id": "m1-c25",
     "front": "In one sentence, the Cursor pitch—not the buzzword version.",
     "back": "Less context switching across IDE, PRs, CI, chat, and tickets, especially on multi-file work that needs deep repo context.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m1.value-frame"
+    ]
   }
 ]

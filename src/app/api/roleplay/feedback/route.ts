@@ -1,6 +1,8 @@
 import { anthropic } from "@ai-sdk/anthropic";
 import { generateText } from "ai";
 
+import { isConceptTag } from "@/lib/coach/concepts";
+import type { Severity, WeaknessSignal } from "@/lib/coach/types";
 import { getPersona } from "@/lib/roleplay/personas";
 import {
   buildFeedbackPrompt,
@@ -11,6 +13,60 @@ export const runtime = "nodejs";
 export const maxDuration = 60;
 
 const MODEL_ID = process.env.ANTHROPIC_MODEL ?? "claude-sonnet-4-6";
+const SIGNALS_DELIMITER = /^={3,}\s*SIGNALS\s*={3,}\s*$/im;
+const SEVERITIES: readonly Severity[] = ["low", "med", "high"];
+
+function parseSignals(raw: string): {
+  feedback: string;
+  signals: WeaknessSignal[];
+} {
+  const match = raw.match(SIGNALS_DELIMITER);
+  if (!match || match.index === undefined) {
+    return { feedback: raw.trim(), signals: [] };
+  }
+
+  const feedback = raw.slice(0, match.index).trim();
+  const tail = raw.slice(match.index + match[0].length).trim();
+
+  const signals: WeaknessSignal[] = [];
+  if (!tail) return { feedback, signals };
+
+  const cleaned = tail
+    .replace(/^```(?:json)?\s*/i, "")
+    .replace(/```\s*$/i, "");
+  let parsed: unknown;
+  try {
+    parsed = JSON.parse(cleaned);
+  } catch {
+    const arr = cleaned.match(/\[[\s\S]*\]/);
+    if (!arr) return { feedback, signals };
+    try {
+      parsed = JSON.parse(arr[0]);
+    } catch {
+      return { feedback, signals };
+    }
+  }
+
+  if (!Array.isArray(parsed)) return { feedback, signals };
+
+  for (const item of parsed) {
+    if (!item || typeof item !== "object") continue;
+    const obj = item as Record<string, unknown>;
+    const conceptTag = typeof obj.conceptTag === "string" ? obj.conceptTag : "";
+    const severity =
+      typeof obj.severity === "string" ? (obj.severity as Severity) : "med";
+    const evidence =
+      typeof obj.evidence === "string" ? obj.evidence.slice(0, 240).trim() : "";
+
+    if (!conceptTag || !isConceptTag(conceptTag)) continue;
+    if (!SEVERITIES.includes(severity)) continue;
+
+    signals.push({ conceptTag, severity, evidence });
+    if (signals.length >= 4) break;
+  }
+
+  return { feedback, signals };
+}
 
 export async function POST(req: Request) {
   if (!process.env.ANTHROPIC_API_KEY) {
@@ -50,7 +106,9 @@ export async function POST(req: Request) {
       temperature: 0.4,
     });
 
-    return Response.json({ feedback: result.text });
+    const { feedback, signals } = parseSignals(result.text);
+
+    return Response.json({ feedback, signals });
   } catch (err) {
     console.error("[roleplay/feedback] generateText failed:", err);
     return Response.json(

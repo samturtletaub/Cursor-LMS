@@ -16,7 +16,9 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Textarea } from "@/components/ui/textarea";
+import { useProgress } from "@/components/providers/progress-provider";
 import { useRoleplayHistory } from "@/components/providers/roleplay-history-provider";
+import type { WeaknessSignal } from "@/lib/coach/types";
 import type { RoleplayMessage } from "@/lib/roleplay/history-types";
 import { cn } from "@/lib/utils";
 
@@ -54,6 +56,7 @@ export function RoleplayChat({ personaId, personaName, opener }: Props) {
   const scrollerRef = React.useRef<HTMLDivElement | null>(null);
 
   const { upsertSession, finalizeSession } = useRoleplayHistory();
+  const { recordWeaknessSignals } = useProgress();
   const sessionIdRef = React.useRef<string | null>(null);
   const sessionStartedAtRef = React.useRef<string | null>(null);
 
@@ -145,17 +148,30 @@ export function RoleplayChat({ personaId, personaName, opener }: Props) {
         headers: { "content-type": "application/json" },
         body: JSON.stringify({ personaId, transcript }),
       });
-      const data = (await res.json()) as { feedback?: string; error?: string };
+      const data = (await res.json()) as {
+        feedback?: string;
+        signals?: WeaknessSignal[];
+        error?: string;
+      };
       if (!res.ok || !data.feedback) {
         throw new Error(data.error || `HTTP ${res.status}`);
       }
       setFeedback(data.feedback);
 
+      const signals = Array.isArray(data.signals) ? data.signals : [];
+
       if (sessionIdRef.current) {
         finalizeSession(sessionIdRef.current, {
           feedback: data.feedback,
           endedAt: new Date().toISOString(),
+          signals,
         });
+        if (signals.length > 0) {
+          recordWeaknessSignals(sessionIdRef.current, signals);
+          toast.success("Coach updated", {
+            description: `Logged ${signals.length} weak area${signals.length === 1 ? "" : "s"} for your next study block.`,
+          });
+        }
       }
     } catch (err) {
       const msg = err instanceof Error ? err.message : "Unknown error";

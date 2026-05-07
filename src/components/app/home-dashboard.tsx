@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 
+import { CoachDashboardWidget } from "@/components/app/coach-dashboard-widget";
 import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
 import {
@@ -77,6 +78,8 @@ export function HomeDashboard() {
           </div>
         </div>
       </section>
+
+      <CoachDashboardWidget />
 
       <section className="grid gap-6 lg:grid-cols-3">
         <Card className="lg:col-span-1">

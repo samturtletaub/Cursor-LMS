@@ -1,3 +1,5 @@
+import { isConceptTag } from "@/lib/coach/concepts";
+import type { Severity, WeaknessSignal } from "@/lib/coach/types";
 import {
   ROLEPLAY_HISTORY_MAX_MESSAGES_PER_SESSION,
   ROLEPLAY_HISTORY_MAX_SESSIONS,
@@ -6,6 +8,20 @@ import {
   type RoleplayMessage,
   type RoleplaySession,
 } from "@/lib/roleplay/history-types";
+
+const SEVERITIES: readonly Severity[] = ["low", "med", "high"];
+
+function normalizeSignal(input: unknown): WeaknessSignal | null {
+  if (!input || typeof input !== "object") return null;
+  const obj = input as Record<string, unknown>;
+  const conceptTag = typeof obj.conceptTag === "string" ? obj.conceptTag : "";
+  const severity = typeof obj.severity === "string" ? (obj.severity as Severity) : "med";
+  const evidence =
+    typeof obj.evidence === "string" ? obj.evidence.slice(0, 240) : "";
+  if (!conceptTag || !isConceptTag(conceptTag)) return null;
+  if (!SEVERITIES.includes(severity)) return null;
+  return { conceptTag, severity, evidence };
+}
 
 function assertBrowser() {
   if (typeof window === "undefined") {
@@ -51,6 +67,12 @@ function normalizeSession(input: unknown): RoleplaySession | null {
       ? messages.slice(-ROLEPLAY_HISTORY_MAX_MESSAGES_PER_SESSION)
       : messages;
 
+  const signals = Array.isArray(s.signals)
+    ? (s.signals
+        .map(normalizeSignal)
+        .filter(Boolean) as WeaknessSignal[])
+    : [];
+
   return {
     id: s.id,
     personaId: s.personaId,
@@ -61,6 +83,7 @@ function normalizeSession(input: unknown): RoleplaySession | null {
     messages: cappedMessages,
     feedback:
       typeof s.feedback === "string" && s.feedback.length > 0 ? s.feedback : undefined,
+    signals: signals.length > 0 ? signals.slice(0, 6) : undefined,
   };
 }
 

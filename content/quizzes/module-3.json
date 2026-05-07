@@ -10,7 +10,11 @@
     ],
     "correctIndex": 0,
     "explanation": "Inline completion is the surface that compresses local edits — the smallest, fastest acceleration story. Bigger surfaces (chat, composer, agents) tackle larger workflows.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m3.surface-to-workflow",
+      "m2.category-spectrum"
+    ]
   },
   {
     "id": "m3-q2",
@@ -23,7 +27,10 @@
     ],
     "correctIndex": 1,
     "explanation": "Chat is the conversational surface for exploration and guided changes. It is where developers ask ‘where does this live?’ and ‘what would this refactor look like?’",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m3.surface-to-workflow"
+    ]
   },
   {
     "id": "m3-q3",
@@ -36,7 +43,11 @@
     ],
     "correctIndex": 1,
     "explanation": "Composer-style flows shine on multi-step, multi-file changes — exactly where you also need strong validation and review, which is why governance comes up.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m3.surface-to-workflow",
+      "m2.category-spectrum"
+    ]
   },
   {
     "id": "m3-q4",
@@ -49,7 +60,12 @@
     ],
     "correctIndex": 1,
     "explanation": "Lead with value-with-guardrails and turn the question back to their required controls. That posture demonstrates respect for governance and earns the conversation.",
-    "sourceUrl": "https://cursor.com/security"
+    "sourceUrl": "https://cursor.com/security",
+    "conceptTags": [
+      "m3.trust-source-discipline",
+      "m2.mcp-governance",
+      "m6.security-conversation-discipline"
+    ]
   },
   {
     "id": "m3-q5",
@@ -62,7 +78,11 @@
     ],
     "correctIndex": 0,
     "explanation": "SSO via SAML (or OIDC) is the standard identity ask. Confirm support and configuration specifics from primary trust documentation rather than hand-waving.",
-    "sourceUrl": "https://cursor.com/security"
+    "sourceUrl": "https://cursor.com/security",
+    "conceptTags": [
+      "m3.enterprise-controls-vocab",
+      "m3.trust-source-discipline"
+    ]
   },
   {
     "id": "m3-q6",
@@ -75,7 +95,10 @@
     ],
     "correctIndex": 0,
     "explanation": "SCIM is the lifecycle story: when an employee joins, changes role, or leaves, their access changes automatically — required at enterprise scale and audited by IT.",
-    "sourceUrl": "https://cursor.com/security"
+    "sourceUrl": "https://cursor.com/security",
+    "conceptTags": [
+      "m3.enterprise-controls-vocab"
+    ]
   },
   {
     "id": "m3-q7",
@@ -88,7 +111,11 @@
     ],
     "correctIndex": 0,
     "explanation": "Enterprises need policy gates on model usage — by team, environment, or data sensitivity. That is the conversation, not benchmark scores.",
-    "sourceUrl": "https://cursor.com/security"
+    "sourceUrl": "https://cursor.com/security",
+    "conceptTags": [
+      "m3.enterprise-controls-vocab",
+      "m2.security-translation"
+    ]
   },
   {
     "id": "m3-q8",
@@ -101,7 +128,12 @@
     ],
     "correctIndex": 1,
     "explanation": "Strategic credibility is built on precise sourcing. CISOs will respect ‘let me confirm against the trust docs and follow up’ far more than improvisation.",
-    "sourceUrl": "https://cursor.com/security"
+    "sourceUrl": "https://cursor.com/security",
+    "conceptTags": [
+      "m3.trust-source-discipline",
+      "cross.honest-uncertainty",
+      "m6.security-conversation-discipline"
+    ]
   },
   {
     "id": "m3-q9",
@@ -114,7 +146,10 @@
     ],
     "correctIndex": 1,
     "explanation": "Treat marketing stats as starting hypotheses and prove them in-account. Quoting them as contractual facts is the fastest way to lose CISO trust.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m3.proof-as-hypothesis"
+    ]
   },
   {
     "id": "m3-q10",
@@ -127,7 +162,11 @@
     ],
     "correctIndex": 2,
     "explanation": "Developer preference is real signal but each org measures it differently — surveys, opt-in rates, evaluation rubrics. Define ‘preference’ in their language, then measure it.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m3.proof-as-hypothesis",
+      "m4.shared-language"
+    ]
   },
   {
     "id": "m3-q11",
@@ -140,7 +179,11 @@
     ],
     "correctIndex": 0,
     "explanation": "When buyers say ‘MCP controls,’ they mean policy over which integrations engineers can actually connect — and how that surface is observable.",
-    "sourceUrl": "https://modelcontextprotocol.io/"
+    "sourceUrl": "https://modelcontextprotocol.io/",
+    "conceptTags": [
+      "m2.mcp-governance",
+      "m3.enterprise-controls-vocab"
+    ]
   },
   {
     "id": "m3-q12",
@@ -153,7 +196,10 @@
     ],
     "correctIndex": 0,
     "explanation": "Onboarding into a big repo is exactly the kind of multi-file, context-heavy workflow Cursor’s richer surfaces are designed to compress.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m3.surface-to-workflow"
+    ]
   },
   {
     "id": "m3-q13",
@@ -166,7 +212,11 @@
     ],
     "correctIndex": 0,
     "explanation": "Privacy Mode is a data-handling posture. Describe its scope precisely and confirm against the trust center — buyers will ask how it applies to code, prompts, and tool calls.",
-    "sourceUrl": "https://cursor.com/security"
+    "sourceUrl": "https://cursor.com/security",
+    "conceptTags": [
+      "m3.trust-source-discipline",
+      "m2.security-translation"
+    ]
   },
   {
     "id": "m3-q14",
@@ -179,7 +229,12 @@
     ],
     "correctIndex": 0,
     "explanation": "ZDR speaks to retention. Always confirm packaging and the exact scope on Cursor’s trust materials before quoting it as a contractual fact.",
-    "sourceUrl": "https://trust.cursor.com/"
+    "sourceUrl": "https://trust.cursor.com/",
+    "conceptTags": [
+      "m3.trust-source-discipline",
+      "m2.security-translation",
+      "m3.enterprise-controls-vocab"
+    ]
   },
   {
     "id": "m3-q15",
@@ -192,7 +247,10 @@
     ],
     "correctIndex": 2,
     "explanation": "Treating marketing copy as contract is the classic credibility burner. Sourcing, scoping, and inviting specialists are credibility builders.",
-    "sourceUrl": "https://trust.cursor.com/"
+    "sourceUrl": "https://trust.cursor.com/",
+    "conceptTags": [
+      "m3.trust-source-discipline"
+    ]
   },
   {
     "id": "m3-q16",
@@ -205,7 +263,12 @@
     ],
     "correctIndex": 0,
     "explanation": "The pattern is: take the marketing stat, turn it into a question that surfaces the buyer’s reality, and learn whether their context aligns.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m3.proof-as-hypothesis",
+      "m1.discovery-workflow-anchored",
+      "cross.workflow-anchoring"
+    ]
   },
   {
     "id": "m3-q17",
@@ -218,7 +281,12 @@
     ],
     "correctIndex": 0,
     "explanation": "Higher autonomy means changes can ripple. That is why review, testing, and policy gates matter most exactly where the leverage is highest.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m2.category-spectrum",
+      "m2.mcp-governance",
+      "m3.enterprise-controls-vocab"
+    ]
   },
   {
     "id": "m3-q18",
@@ -231,7 +299,10 @@
     ],
     "correctIndex": 2,
     "explanation": "Surface → workflow mapping is the durable mental model. It connects features to outcomes the buyer cares about, in the time the buyer actually has.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m3.surface-to-workflow"
+    ]
   },
   {
     "id": "m3-q19",
@@ -244,7 +315,10 @@
     ],
     "correctIndex": 0,
     "explanation": "Frame proof as a hypothesis the buyer co-validates. That respects the engineering culture and produces evidence that survives scrutiny.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m3.proof-as-hypothesis"
+    ]
   },
   {
     "id": "m3-q20",
@@ -257,7 +331,11 @@
     ],
     "correctIndex": 3,
     "explanation": "Cursor’s seller-relevant surfaces are inline completion, chat, composer/agent flows, and adjacent automation. A GPU rental marketplace is not part of the product story.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m3.surface-to-workflow",
+      "m2.category-spectrum"
+    ]
   },
   {
     "id": "m3-q21",
@@ -270,7 +348,12 @@
     ],
     "correctIndex": 1,
     "explanation": "Toil-reducing automation lands when the workflow is repeatable and the guardrails are explicit. That is also how it stays trusted at scale.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m3.surface-to-workflow",
+      "m2.workflow-vs-feature",
+      "cross.workflow-anchoring"
+    ]
   },
   {
     "id": "m3-q22",
@@ -283,7 +366,12 @@
     ],
     "correctIndex": 0,
     "explanation": "Tie review latency to a measurable cost. That converts a vague pain into a number worth fixing — and into a workflow Cursor can credibly accelerate.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m1.discovery-workflow-anchored",
+      "cross.workflow-anchoring",
+      "m6.roi-structure"
+    ]
   },
   {
     "id": "m3-q23",
@@ -296,7 +384,10 @@
     ],
     "correctIndex": 0,
     "explanation": "Identity directory integration is the lifecycle backbone. SSO authenticates; SCIM provisions; the directory is the source of truth.",
-    "sourceUrl": "https://cursor.com/security"
+    "sourceUrl": "https://cursor.com/security",
+    "conceptTags": [
+      "m3.enterprise-controls-vocab"
+    ]
   },
   {
     "id": "m3-q24",
@@ -309,7 +400,12 @@
     ],
     "correctIndex": 1,
     "explanation": "You do not need to be a CISO. You need vocabulary, sourcing discipline, and the judgment to escalate when precision matters.",
-    "sourceUrl": "https://cursor.com/security"
+    "sourceUrl": "https://cursor.com/security",
+    "conceptTags": [
+      "m3.trust-source-discipline",
+      "m3.enterprise-controls-vocab",
+      "m6.security-conversation-discipline"
+    ]
   },
   {
     "id": "m3-q25",
@@ -322,6 +418,11 @@
     ],
     "correctIndex": 1,
     "explanation": "Platform teams own cross-cutting work like migrations and refactors. Anchor the conversation to that workflow and a measurable outcome — that is where Cursor shows up best.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m1.discovery-workflow-anchored",
+      "m3.surface-to-workflow",
+      "cross.workflow-anchoring"
+    ]
   }
 ]

@@ -3,150 +3,246 @@
     "id": "m3-c1",
     "front": "What workflow story matches inline completion in Cursor?",
     "back": "Accelerates local edits in the IDE—fast feedback on the line you’re editing.",
-    "sourceUrl": "https://cursor.com/security"
+    "sourceUrl": "https://cursor.com/security",
+    "conceptTags": [
+      "m3.surface-to-workflow"
+    ]
   },
   {
     "id": "m3-c2",
     "front": "What is chat best for when orienting a buyer?",
     "back": "Exploration, clarification, and guided changes—not just Q&A in isolation.",
-    "sourceUrl": "https://cursor.com/security"
+    "sourceUrl": "https://cursor.com/security",
+    "conceptTags": [
+      "m3.surface-to-workflow"
+    ]
   },
   {
     "id": "m3-c3",
     "front": "Where do Composer / agent-style flows matter most—and why?",
     "back": "Multi-step changes across the codebase—where governance (policy, review, controls) matters most.",
-    "sourceUrl": "https://cursor.com/security"
+    "sourceUrl": "https://cursor.com/security",
+    "conceptTags": [
+      "m3.surface-to-workflow",
+      "m2.mcp-governance"
+    ]
   },
   {
     "id": "m3-c4",
     "front": "Background agents / automation-adjacent workflows: when do they help vs when are they risky?",
     "back": "They can reduce toil when teams have clear guardrails; without guardrails, autonomy amplifies risk.",
-    "sourceUrl": "https://trust.cursor.com/"
+    "sourceUrl": "https://trust.cursor.com/",
+    "conceptTags": [
+      "m2.category-spectrum",
+      "m2.mcp-governance",
+      "m3.surface-to-workflow"
+    ]
   },
   {
     "id": "m3-c5",
     "front": "What makes credibility jump when describing Cursor—according to the module?",
     "back": "Connect each surface to a repeatable engineering workflow (onboarding, refactors, test fixes, migrations)—not a list of adjectives.",
-    "sourceUrl": "https://cursor.com/security"
+    "sourceUrl": "https://cursor.com/security",
+    "conceptTags": [
+      "m3.surface-to-workflow",
+      "cross.workflow-anchoring"
+    ]
   },
   {
     "id": "m3-c6",
     "front": "What do SSO/SAML and SCIM prove to Security/IT in enterprise language?",
     "back": "Directory integration (who can access) and lifecycle management (joiners/movers/leavers)—central IT control.",
-    "sourceUrl": "https://trust.cursor.com/"
+    "sourceUrl": "https://trust.cursor.com/",
+    "conceptTags": [
+      "m3.enterprise-controls-vocab"
+    ]
   },
   {
     "id": "m3-c7",
     "front": "Name two policy gates enterprises ask about besides identity.",
     "back": "Model access controls (what models/providers users can use) and MCP controls (which integrations are allowed).",
-    "sourceUrl": "https://cursor.com/security"
+    "sourceUrl": "https://cursor.com/security",
+    "conceptTags": [
+      "m3.enterprise-controls-vocab"
+    ]
   },
   {
     "id": "m3-c8",
     "front": "Before quoting Zero Data Retention or privacy packaging as a contractual fact, what must you do?",
     "back": "Confirm current packaging and claims on Cursor’s trust/security materials—avoid hand-waving and avoid overstating.",
-    "sourceUrl": "https://trust.cursor.com/"
+    "sourceUrl": "https://trust.cursor.com/",
+    "conceptTags": [
+      "m3.trust-source-discipline",
+      "cross.source-discipline",
+      "cross.honest-uncertainty"
+    ]
   },
   {
     "id": "m3-c9",
     "front": "If you’re unsure about a security detail on a live call, what’s the credible response?",
     "back": "Say so—and point to primary sources (trust docs, security pages); offer follow-up with a specialist if needed.",
-    "sourceUrl": "https://cursor.com/security"
+    "sourceUrl": "https://cursor.com/security",
+    "conceptTags": [
+      "m3.trust-source-discipline",
+      "cross.honest-uncertainty",
+      "m6.security-conversation-discipline"
+    ]
   },
   {
     "id": "m3-c10",
     "front": "How should you use public marketing stats when selling strategically?",
     "back": "As hypotheses to validate in-account—not as proof by themselves.",
-    "sourceUrl": "https://cursor.com/security"
+    "sourceUrl": "https://cursor.com/security",
+    "conceptTags": [
+      "m3.proof-as-hypothesis"
+    ]
   },
   {
     "id": "m3-c11",
     "front": "Give three discovery prompts tied to “proof points” from the module.",
     "back": "Where is the team trying to increase merge frequency? Where is review a bottleneck? What would developer preference mean in this org’s evaluation?",
-    "sourceUrl": "https://cursor.com/security"
+    "sourceUrl": "https://cursor.com/security",
+    "conceptTags": [
+      "m3.proof-as-hypothesis",
+      "m1.discovery-workflow-anchored",
+      "m5.evaluation-vs-demo"
+    ]
   },
   {
     "id": "m3-c12",
     "front": "Privacy Mode / data-handling posture: what mistake does the module warn against?",
     "back": "Hand-waving—describe accurately from primary docs; avoid improvised compliance claims.",
-    "sourceUrl": "https://trust.cursor.com/"
+    "sourceUrl": "https://trust.cursor.com/",
+    "conceptTags": [
+      "m3.trust-source-discipline"
+    ]
   },
   {
     "id": "m3-c13",
     "front": "Give the one-minute orient script for Cursor surfaces.",
     "back": "Inline completion accelerates local edits; chat helps exploration and guided changes; composer/agent flows handle multi-step changes; adjacent automation reduces toil with guardrails.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m3.surface-to-workflow",
+      "m2.category-spectrum"
+    ]
   },
   {
     "id": "m3-c14",
     "front": "How should a strategic seller treat a public Cursor ROI stat?",
     "back": "As a hypothesis to validate against the buyer’s own workflow and metrics—never as a contractual fact.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m3.proof-as-hypothesis",
+      "cross.source-discipline"
+    ]
   },
   {
     "id": "m3-c15",
     "front": "Inline completion in one sentence.",
     "back": "Token-level suggestions at the cursor that compress local edits inside the IDE.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m2.category-spectrum",
+      "m3.surface-to-workflow"
+    ]
   },
   {
     "id": "m3-c16",
     "front": "Composer / agent-style flows in one sentence.",
     "back": "Multi-step changes coordinated across files where review and validation matter most.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m2.category-spectrum",
+      "m3.surface-to-workflow"
+    ]
   },
   {
     "id": "m3-c17",
     "front": "Why is onboarding a strong workflow to attach Cursor’s story to?",
     "back": "Ramping into a large unfamiliar repo is exactly the multi-file, context-heavy work that Cursor’s richer surfaces compress.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m3.surface-to-workflow",
+      "m1.value-frame"
+    ]
   },
   {
     "id": "m3-c18",
     "front": "Why are refactors a strong workflow to anchor Cursor on?",
     "back": "They span many files and benefit from coherent multi-file edits that the team can still review and test.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m1.value-frame",
+      "m3.surface-to-workflow"
+    ]
   },
   {
     "id": "m3-c19",
     "front": "Why are migrations a strong workflow to anchor Cursor on?",
     "back": "They are repetitive at scale, sensitive to consistency, and traditionally a pain to spread across services.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m3.surface-to-workflow",
+      "cross.workflow-anchoring"
+    ]
   },
   {
     "id": "m3-c20",
     "front": "Why are test fixes a strong workflow to anchor Cursor on?",
     "back": "Failing-test triage is often the first place a team feels delivery friction—small wins here compound.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m3.surface-to-workflow",
+      "cross.workflow-anchoring"
+    ]
   },
   {
     "id": "m3-c21",
     "front": "What does a “model access control” conversation actually cover?",
     "back": "Which models are allowed for which teams, environments, or data sensitivities—policy, not benchmarks.",
-    "sourceUrl": "https://cursor.com/security"
+    "sourceUrl": "https://cursor.com/security",
+    "conceptTags": [
+      "m3.enterprise-controls-vocab"
+    ]
   },
   {
     "id": "m3-c22",
     "front": "What does an “MCP controls” conversation actually cover?",
     "back": "Which integrations engineers can connect, who approved them, and how that surface stays observable.",
-    "sourceUrl": "https://modelcontextprotocol.io/"
+    "sourceUrl": "https://modelcontextprotocol.io/",
+    "conceptTags": [
+      "m3.enterprise-controls-vocab",
+      "m2.mcp-governance"
+    ]
   },
   {
     "id": "m3-c23",
     "front": "When should a strategic seller bring in a Cursor security specialist?",
     "back": "As soon as the conversation reaches contractual data-handling terms or a CISO is preparing redlines.",
-    "sourceUrl": "https://trust.cursor.com/"
+    "sourceUrl": "https://trust.cursor.com/",
+    "conceptTags": [
+      "m6.security-conversation-discipline"
+    ]
   },
   {
     "id": "m3-c24",
     "front": "‘Adjacent automation workflows’ land most reliably when?",
     "back": "When the team has a clear, repeatable workflow worth automating and explicit guardrails around it.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m3.surface-to-workflow",
+      "m2.workflow-vs-feature"
+    ]
   },
   {
     "id": "m3-c25",
     "front": "Single most damaging misstep on Cursor enterprise controls?",
     "back": "Quoting marketing language as if it were a contractual commitment in front of Security or Legal.",
-    "sourceUrl": "https://trust.cursor.com/"
+    "sourceUrl": "https://trust.cursor.com/",
+    "conceptTags": [
+      "m3.trust-source-discipline",
+      "m6.security-conversation-discipline"
+    ]
   }
 ]

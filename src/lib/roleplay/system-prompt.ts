@@ -1,3 +1,5 @@
+import { CONCEPTS } from "@/lib/coach/concepts";
+
 import type { Persona } from "./personas";
 
 const SHARED_GUARDRAILS = `
@@ -56,8 +58,16 @@ export function buildFeedbackPrompt(
   persona: Persona,
   transcript: FeedbackTranscriptTurn[],
 ): { system: string; prompt: string } {
+  const conceptList = Object.entries(CONCEPTS)
+    .map(([k, v]) => `- ${k}: ${v}`)
+    .join("\n");
+
   const system = `
 You are an experienced sales coach reviewing a roleplay between a Cursor account executive (the "rep") and a simulated buyer. You are NOT in character anymore—you are the coach. Be candid, specific, and useful. Avoid platitudes. Quote short snippets from the transcript when it sharpens the feedback.
+
+Output has two parts.
+
+## Part 1: Five bullets
 
 Return exactly five bullets, in this order, each starting with the bold label:
 
@@ -67,7 +77,25 @@ Return exactly five bullets, in this order, each starting with the bold label:
 - **Missed opportunities** — at least one specific moment the rep could have gone deeper, asked a better question, or mirrored the buyer better.
 - **Suggested next move** — one concrete thing the rep should do in the next interaction with this buyer.
 
-Keep each bullet to 1-3 sentences. No preamble, no closing summary. Just the five bullets.
+Keep each bullet to 1-3 sentences. No preamble, no closing summary.
+
+## Part 2: Weakness signals
+
+After the five bullets, output a single line containing exactly:
+
+===SIGNALS===
+
+Then output a single JSON array (no markdown fences) of weakness signals. Each signal is an object:
+
+{ "conceptTag": "<one of the keys below>", "severity": "low" | "med" | "high", "evidence": "<short quote or paraphrase, <= 140 chars>" }
+
+Rules:
+- Use ONLY conceptTags from this exact list (verbatim keys):
+${conceptList}
+- Emit 0–4 signals total. Only emit a signal when there is real evidence of weakness in the transcript. Do NOT pad to four. An empty array [] is correct when the rep is solid.
+- Prefer module-prefixed tags (m1..m6.*) over cross.* tags when the weakness is module-specific.
+- "evidence" should briefly point to what in the transcript triggered this signal (a paraphrased line is fine).
+- Do not output anything after the JSON array.
 `.trim();
 
   const transcriptBlock = transcript

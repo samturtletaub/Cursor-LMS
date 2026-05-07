@@ -29,6 +29,7 @@ export type QuizQuestion = {
   correctIndex: 0 | 1 | 2 | 3;
   explanation: string;
   sourceUrl: string;
+  conceptTags?: string[];
 };
 
 export type Flashcard = {
@@ -36,6 +37,7 @@ export type Flashcard = {
   front: string;
   back: string;
   sourceUrl?: string;
+  conceptTags?: string[];
 };
 
 export type TocItem = {

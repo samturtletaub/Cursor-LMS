@@ -58,7 +58,7 @@ export function QuizRunner({
   moduleId: string;
   questions: QuizQuestion[];
 }) {
-  const { recordQuizAttempt, passThreshold } = useProgress();
+  const { recordQuizAttempt, markPracticed, passThreshold } = useProgress();
 
   const [attemptKey, setAttemptKey] = useState(0);
   const prepared = useMemo(() => {
@@ -128,7 +128,10 @@ export function QuizRunner({
     setRevealed(true);
 
     const isCorrect = optionIndex === q.correctIndex;
-    if (isCorrect) setCorrectCount((c) => c + 1);
+    if (isCorrect) {
+      setCorrectCount((c) => c + 1);
+      markPracticed(q.conceptTags, "quiz");
+    }
   };
 
   const onNext = () => {

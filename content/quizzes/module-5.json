@@ -10,7 +10,10 @@
     ],
     "correctIndex": 1,
     "explanation": "Strategic buyers know the landscape. Curiosity plus specificity earns trust; tribalism costs it.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m5.competitive-posture"
+    ]
   },
   {
     "id": "m5-q2",
@@ -23,7 +26,12 @@
     ],
     "correctIndex": 0,
     "explanation": "Copilot’s structural strengths are GitHub workflow integration and bundling. That is the starting point — discovery determines whether those strengths actually fit this buyer.",
-    "sourceUrl": "https://github.com/features/copilot"
+    "sourceUrl": "https://github.com/features/copilot",
+    "conceptTags": [
+      "m5.competitive-posture",
+      "m5.copilot-objection",
+      "m5.battle-card-structure"
+    ]
   },
   {
     "id": "m5-q3",
@@ -36,7 +44,11 @@
     ],
     "correctIndex": 1,
     "explanation": "Terminal-native agents lean into autonomy for CLI-heavy engineers. That maps to a specific developer persona — not every engineering org operates that way.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m2.category-spectrum",
+      "m4.persona-language-fit"
+    ]
   },
   {
     "id": "m5-q4",
@@ -49,7 +61,11 @@
     ],
     "correctIndex": 2,
     "explanation": "JetBrains’ structural strength is depth inside its IDEs. Discovery should test how locked in the org actually is and where its workflows live.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m5.competitive-posture",
+      "m5.battle-card-structure"
+    ]
   },
   {
     "id": "m5-q5",
@@ -62,7 +78,11 @@
     ],
     "correctIndex": 2,
     "explanation": "Q Developer rides AWS buyer alignment and packaging. The discovery question is whether AWS-aligned procurement actually drives this account’s decision.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m5.competitive-posture",
+      "m5.battle-card-structure"
+    ]
   },
   {
     "id": "m5-q6",
@@ -75,7 +95,12 @@
     ],
     "correctIndex": 1,
     "explanation": "Convert the objection into discovery. Reveal where the incumbent doesn’t fit the buyer’s real workflow — without dismissing what works.",
-    "sourceUrl": "https://github.com/features/copilot"
+    "sourceUrl": "https://github.com/features/copilot",
+    "conceptTags": [
+      "m5.copilot-objection",
+      "m1.discovery-workflow-anchored",
+      "m5.evaluation-vs-demo"
+    ]
   },
   {
     "id": "m5-q7",
@@ -88,7 +113,12 @@
     ],
     "correctIndex": 1,
     "explanation": "Two products with similar feature lists can produce very different workflow outcomes. Win where the actual evaluation is decided, not on the spreadsheet.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m5.competitive-posture",
+      "m5.evaluation-vs-demo",
+      "cross.workflow-anchoring"
+    ]
   },
   {
     "id": "m5-q8",
@@ -101,7 +131,10 @@
     ],
     "correctIndex": 0,
     "explanation": "Trigger (when this competitor shows up) → landmine questions (to surface weakness) → proof (POC design, security artifacts, references). That is a battle card you can run from.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m5.battle-card-structure"
+    ]
   },
   {
     "id": "m5-q9",
@@ -114,7 +147,11 @@
     ],
     "correctIndex": 1,
     "explanation": "Anchor the question to a real, observable workflow choice. ‘When choice is free, what gets picked’ surfaces preference data that incumbents rarely have.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m5.battle-card-structure",
+      "cross.workflow-anchoring"
+    ]
   },
   {
     "id": "m5-q10",
@@ -127,7 +164,11 @@
     ],
     "correctIndex": 1,
     "explanation": "Force the buyer to articulate evaluation criteria and the decider. That alone reveals whether you’re in a one-dimensional speed bake-off or a serious enterprise evaluation.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m5.evaluation-vs-demo",
+      "m4.buying-committee-shape"
+    ]
   },
   {
     "id": "m5-q11",
@@ -140,7 +181,11 @@
     ],
     "correctIndex": 1,
     "explanation": "Acknowledge the noise, then concentrate the conversation on real-repo evaluation results. That is the conversation a serious engineering buyer respects.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m5.competitive-posture",
+      "m5.evaluation-vs-demo"
+    ]
   },
   {
     "id": "m5-q12",
@@ -153,7 +198,10 @@
     ],
     "correctIndex": 2,
     "explanation": "If you mock or misrepresent a tool the buyer’s team relies on, you insult their judgment. That is a credibility burn that follows you across the deal.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m5.competitive-posture"
+    ]
   },
   {
     "id": "m5-q13",
@@ -166,7 +214,12 @@
     ],
     "correctIndex": 0,
     "explanation": "GitHub-centric does not mean Copilot is automatically right for every workflow. Probe where multi-file work, review, and governance actually break.",
-    "sourceUrl": "https://github.com/features/copilot"
+    "sourceUrl": "https://github.com/features/copilot",
+    "conceptTags": [
+      "m5.copilot-objection",
+      "m1.discovery-workflow-anchored",
+      "cross.workflow-anchoring"
+    ]
   },
   {
     "id": "m5-q14",
@@ -179,7 +232,11 @@
     ],
     "correctIndex": 0,
     "explanation": "Bundles change the price-to-value math even when the standalone tool is weaker. Be ready to engage that conversation with workflow and governance evidence.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m5.copilot-objection",
+      "m5.competitive-posture"
+    ]
   },
   {
     "id": "m5-q15",
@@ -192,7 +249,12 @@
     ],
     "correctIndex": 1,
     "explanation": "Proof should be specific to this buyer’s workflow, supported by security artifacts they will actually require, and corroborated by references they will actually trust.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m5.battle-card-structure",
+      "m5.evaluation-vs-demo",
+      "m3.trust-source-discipline"
+    ]
   },
   {
     "id": "m5-q16",
@@ -205,7 +267,11 @@
     ],
     "correctIndex": 1,
     "explanation": "Pure feature-matrix evaluations rarely correlate with how teams actually choose tools. Reframe toward workflow whenever you can.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m5.evaluation-vs-demo",
+      "cross.workflow-anchoring"
+    ]
   },
   {
     "id": "m5-q17",
@@ -218,7 +284,12 @@
     ],
     "correctIndex": 0,
     "explanation": "Preference is real but easily anecdotal. Ask how it was actually measured, by whom, and over what time horizon — that converts a vibe into evidence.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m5.competitive-posture",
+      "m5.evaluation-vs-demo",
+      "cross.honest-uncertainty"
+    ]
   },
   {
     "id": "m5-q18",
@@ -231,7 +302,12 @@
     ],
     "correctIndex": 1,
     "explanation": "Repo-spanning multi-file work plus review and governance is where Cursor’s differentiated story has the most room to land.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m5.competitive-posture",
+      "m5.battle-card-structure",
+      "m1.value-frame"
+    ]
   },
   {
     "id": "m5-q19",
@@ -244,7 +320,12 @@
     ],
     "correctIndex": 1,
     "explanation": "Acknowledge X’s real strengths to earn the right to talk about its real limits. Discounting first signals you don’t believe in your own value.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m5.copilot-objection",
+      "m5.competitive-posture",
+      "m1.discovery-workflow-anchored"
+    ]
   },
   {
     "id": "m5-q20",
@@ -257,7 +338,12 @@
     ],
     "correctIndex": 1,
     "explanation": "Public competitor claims drift. Workflow, governance, and preference outlast the spec sheet — anchor there and verify specifics when needed.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m5.competitive-posture",
+      "cross.workflow-anchoring",
+      "cross.source-discipline"
+    ]
   },
   {
     "id": "m5-q21",
@@ -270,7 +356,10 @@
     ],
     "correctIndex": 0,
     "explanation": "Senior engineers can smell tribalism. It signals you can’t win on substance — and it costs you the relationship even when you win the slide.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m5.competitive-posture"
+    ]
   },
   {
     "id": "m5-q22",
@@ -283,7 +372,10 @@
     ],
     "correctIndex": 1,
     "explanation": "Demos are theater; evaluations are evidence. Push toward an in-repo, in-workflow comparison whenever the buyer is serious.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m5.evaluation-vs-demo"
+    ]
   },
   {
     "id": "m5-q23",
@@ -296,7 +388,12 @@
     ],
     "correctIndex": 1,
     "explanation": "‘JetBrains shop’ is rarely literal at scale — engineers cross IDEs, repos, and tools constantly. Discover where the friction actually is before assuming you can’t play.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m5.competitive-posture",
+      "m1.discovery-workflow-anchored",
+      "m3.surface-to-workflow"
+    ]
   },
   {
     "id": "m5-q24",
@@ -309,7 +406,10 @@
     ],
     "correctIndex": 0,
     "explanation": "Define success up front: workflow, metric, and decider. POCs without explicit success criteria become political instead of evidentiary.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m5.evaluation-vs-demo"
+    ]
   },
   {
     "id": "m5-q25",
@@ -322,6 +422,9 @@
     ],
     "correctIndex": 0,
     "explanation": "Mature competitive talk acknowledges strengths, holds your differentiation without insult, and proves it in the buyer’s context. That is what serious engineering leaders respect.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m5.competitive-posture"
+    ]
   }
 ]

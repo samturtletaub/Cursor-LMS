@@ -10,7 +10,10 @@
     ],
     "correctIndex": 2,
     "explanation": "Test is the phase explicitly about proving correctness — unit, integration, QA, and canary checks all live here. Review catches risk in code; Deploy moves bits to production; Monitor watches what happened after.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m1.sdlc-phases"
+    ]
   },
   {
     "id": "m1-q2",
@@ -23,7 +26,10 @@
     ],
     "correctIndex": 1,
     "explanation": "Engineering managers are accountable for team-level outcomes: sprint predictability, retention, ramp time, and rework. ICs talk personal flow; CTOs talk platform; Security talks evidence.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m1.persona-incentives"
+    ]
   },
   {
     "id": "m1-q3",
@@ -36,7 +42,10 @@
     ],
     "correctIndex": 2,
     "explanation": "PRs / MRs in Git hosting are the durable, reviewable record of proposed change. Chat and tickets coordinate work; the IDE is where edits start, but PRs are the merge gate.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m1.collaboration-stack"
+    ]
   },
   {
     "id": "m1-q4",
@@ -49,7 +58,11 @@
     ],
     "correctIndex": 1,
     "explanation": "Context switching is the cost of leaving the IDE to chase information across PRs, CI output, chat threads, and tickets. The collaboration stack is where most of the loss accrues.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m1.collaboration-stack",
+      "m1.value-frame"
+    ]
   },
   {
     "id": "m1-q5",
@@ -62,7 +75,10 @@
     ],
     "correctIndex": 1,
     "explanation": "Strategic dev-tool spend usually escalates to engineering executive ownership — frequently the CTO or VP Eng — with Security and Procurement as required co-signers.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m4.buying-committee-shape"
+    ]
   },
   {
     "id": "m1-q6",
@@ -75,7 +91,11 @@
     ],
     "correctIndex": 0,
     "explanation": "‘Where does this bug actually live?’ is the canonical context-loading problem — and exactly the friction AI assistants with strong repo retrieval are designed to compress.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m1.value-frame",
+      "m2.context-and-retrieval"
+    ]
   },
   {
     "id": "m1-q7",
@@ -88,7 +108,10 @@
     ],
     "correctIndex": 2,
     "explanation": "PRs are a structured proposal for change — they bundle the diff, automated checks, review comments, and merge gating in one auditable place.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m1.collaboration-stack"
+    ]
   },
   {
     "id": "m1-q8",
@@ -101,7 +124,11 @@
     ],
     "correctIndex": 1,
     "explanation": "Security/IT owns identity, lifecycle, and audit. Those questions usually surface from them first — even when the engineering org is the initial champion.",
-    "sourceUrl": "https://cursor.com/security"
+    "sourceUrl": "https://cursor.com/security",
+    "conceptTags": [
+      "m1.persona-incentives",
+      "m3.enterprise-controls-vocab"
+    ]
   },
   {
     "id": "m1-q9",
@@ -114,7 +141,10 @@
     ],
     "correctIndex": 1,
     "explanation": "Dev tools typically land bottoms-up via individual or team usage and then expand top-down once Engineering, Security, and Procurement formalize the standard.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m4.land-and-expand-stages"
+    ]
   },
   {
     "id": "m1-q10",
@@ -127,7 +157,10 @@
     ],
     "correctIndex": 1,
     "explanation": "Concrete, recent, multi-file scenarios surface real time loss. Generic enthusiasm questions do not move the deal forward and tell you nothing about workflow.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m1.discovery-workflow-anchored"
+    ]
   },
   {
     "id": "m1-q11",
@@ -140,7 +173,10 @@
     ],
     "correctIndex": 0,
     "explanation": "The seller-friendly loop is Plan → Code → Review → Test → Deploy → Monitor, with Monitor feeding learnings back into Plan.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m1.sdlc-phases"
+    ]
   },
   {
     "id": "m1-q12",
@@ -153,7 +189,10 @@
     ],
     "correctIndex": 1,
     "explanation": "ICs care about flow and autonomy. Tools that surveil, slow, or interrupt them get rejected even when leadership likes the metrics on paper.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m1.persona-incentives"
+    ]
   },
   {
     "id": "m1-q13",
@@ -166,7 +205,10 @@
     ],
     "correctIndex": 0,
     "explanation": "Tech leads own architecture and maintainability. Low-quality automation creates more review burden, not less — that is the credible objection to anticipate.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m1.persona-incentives"
+    ]
   },
   {
     "id": "m1-q14",
@@ -179,7 +221,10 @@
     ],
     "correctIndex": 1,
     "explanation": "VPs of Engineering are accountable for big outcomes: shipping commitments, scaling the org, the engineering reputation that affects hiring, and avoiding visible failure.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m1.persona-incentives"
+    ]
   },
   {
     "id": "m1-q15",
@@ -192,7 +237,10 @@
     ],
     "correctIndex": 3,
     "explanation": "The collaboration stack is IDE, Git+PRs, CI/CD, and chat+tickets. Paging tools matter in incident response, but they are not the day-to-day collaboration stack the module emphasizes.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m1.collaboration-stack"
+    ]
   },
   {
     "id": "m1-q16",
@@ -205,7 +253,11 @@
     ],
     "correctIndex": 1,
     "explanation": "Small PRs have less individual risk but pile up wait time at scale. Large PRs reduce wait but raise reviewer cognitive load and risk — both are real frictions.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m1.collaboration-stack",
+      "m1.value-frame"
+    ]
   },
   {
     "id": "m1-q17",
@@ -218,7 +270,11 @@
     ],
     "correctIndex": 1,
     "explanation": "Silos express themselves as long ramp time, fear around legacy code, and dependence on a few people who happen to remember how a domain works.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m1.persona-incentives",
+      "m1.discovery-workflow-anchored"
+    ]
   },
   {
     "id": "m1-q18",
@@ -231,7 +287,12 @@
     ],
     "correctIndex": 1,
     "explanation": "You tailor the cut of the story per stakeholder (workflow for ICs, throughput for EMs, governance for Security), but the underlying narrative must hold up across rooms.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m6.deal-sequencing",
+      "m4.persona-language-fit",
+      "m4.buying-committee-shape"
+    ]
   },
   {
     "id": "m1-q19",
@@ -244,7 +305,10 @@
     ],
     "correctIndex": 1,
     "explanation": "Discovery should pull out workflow and the KPI movement the buyer cares about. Incident questions surface monitoring, ownership, and what ‘fast’ means in this org.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m1.discovery-workflow-anchored"
+    ]
   },
   {
     "id": "m1-q20",
@@ -257,7 +321,11 @@
     ],
     "correctIndex": 1,
     "explanation": "Engineering buyers rarely litigate SDLC theory. They care about loss, blast radius, and governance — that is where the conversation belongs.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m1.sdlc-phases",
+      "m1.discovery-workflow-anchored"
+    ]
   },
   {
     "id": "m1-q21",
@@ -270,7 +338,12 @@
     ],
     "correctIndex": 0,
     "explanation": "Cyber sellers carry strong risk and economic muscle. The gap to close is mechanical fluency in how the SDLC, dev personas, and dev workflows actually work day to day.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "cross.honest-uncertainty",
+      "m1.sdlc-phases",
+      "m1.persona-incentives"
+    ]
   },
   {
     "id": "m1-q22",
@@ -283,7 +356,11 @@
     ],
     "correctIndex": 1,
     "explanation": "Repetitive multi-file or multi-service edits are textbook AI-assistant territory and a credible discovery topic with engineering teams.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m1.value-frame",
+      "m1.discovery-workflow-anchored"
+    ]
   },
   {
     "id": "m1-q23",
@@ -296,7 +373,10 @@
     ],
     "correctIndex": 1,
     "explanation": "The module is explicit: Cursor’s value frame is reduced context switching across the collaboration stack on real, multi-file, repo-aware work.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m1.value-frame"
+    ]
   },
   {
     "id": "m1-q24",
@@ -309,7 +389,12 @@
     ],
     "correctIndex": 1,
     "explanation": "Asking who owns standards for AI-generated change exposes whether the org has actually thought about governance — and creates an opening for Cursor’s enterprise story.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m1.discovery-workflow-anchored",
+      "m3.enterprise-controls-vocab",
+      "m4.buying-committee-shape"
+    ]
   },
   {
     "id": "m1-q25",
@@ -322,6 +407,9 @@
     ],
     "correctIndex": 2,
     "explanation": "Monitor closes the loop. Production signals — incidents, latency, adoption — should be the inputs that prioritize the next Plan cycle.",
-    "sourceUrl": "https://cursor.com/docs"
+    "sourceUrl": "https://cursor.com/docs",
+    "conceptTags": [
+      "m1.sdlc-phases"
+    ]
   }
 ]

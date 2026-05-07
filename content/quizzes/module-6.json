@@ -10,7 +10,10 @@
     ],
     "correctIndex": 0,
     "explanation": "Strong land-and-expand stitches three layers: real usage, real team standardization, and real governance partnership — none of which is optional at enterprise scale.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m4.land-and-expand-stages"
+    ]
   },
   {
     "id": "m6-q2",
@@ -23,7 +26,10 @@
     ],
     "correctIndex": 1,
     "explanation": "ROI travels when it is structured: baseline you can defend, lever the buyer believes in, range that respects uncertainty, and a credible plan to get there.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m6.roi-structure"
+    ]
   },
   {
     "id": "m6-q3",
@@ -36,7 +42,10 @@
     ],
     "correctIndex": 1,
     "explanation": "Marketing stats start as hypotheses. Validate them in the buyer’s workflow before letting them carry the deal — and never treat them as contracts.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m3.proof-as-hypothesis"
+    ]
   },
   {
     "id": "m6-q4",
@@ -49,7 +58,10 @@
     ],
     "correctIndex": 0,
     "explanation": "‘How will the org actually adopt this safely?’ — training, guardrails, and an explicit evaluation plan answer that question and protect the credibility of the savings number.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m6.roi-structure"
+    ]
   },
   {
     "id": "m6-q5",
@@ -62,7 +74,11 @@
     ],
     "correctIndex": 0,
     "explanation": "Open with their job: required controls and audit evidence at scale. That posture earns you the right to discuss specifics afterward.",
-    "sourceUrl": "https://cursor.com/security"
+    "sourceUrl": "https://cursor.com/security",
+    "conceptTags": [
+      "m6.security-conversation-discipline",
+      "m4.persona-language-fit"
+    ]
   },
   {
     "id": "m6-q6",
@@ -75,7 +91,12 @@
     ],
     "correctIndex": 1,
     "explanation": "Metrics travel only when they are the buyer’s — pick the ones they already own and measure, not the ones that look best in your pitch.",
-    "sourceUrl": "https://www.meddicc.com/meddicc"
+    "sourceUrl": "https://www.meddicc.com/meddicc",
+    "conceptTags": [
+      "m6.meddpicc-fit",
+      "m6.roi-structure",
+      "cross.workflow-anchoring"
+    ]
   },
   {
     "id": "m6-q7",
@@ -88,7 +109,12 @@
     ],
     "correctIndex": 1,
     "explanation": "Economic buyers tend to live in engineering leadership for dev tools, with the CTO showing up sooner when the deal is strategic platform-level.",
-    "sourceUrl": "https://www.meddicc.com/meddicc"
+    "sourceUrl": "https://www.meddicc.com/meddicc",
+    "conceptTags": [
+      "m6.meddpicc-fit",
+      "m4.buying-committee-shape",
+      "m4.persona-language-fit"
+    ]
   },
   {
     "id": "m6-q8",
@@ -101,7 +127,12 @@
     ],
     "correctIndex": 1,
     "explanation": "Both gates must clear: governance and developer experience. Winning one and losing the other does not produce an enterprise standard.",
-    "sourceUrl": "https://www.meddicc.com/meddicc"
+    "sourceUrl": "https://www.meddicc.com/meddicc",
+    "conceptTags": [
+      "m6.meddpicc-fit",
+      "m2.security-translation",
+      "m4.buying-committee-shape"
+    ]
   },
   {
     "id": "m6-q9",
@@ -114,7 +145,10 @@
     ],
     "correctIndex": 0,
     "explanation": "Paper process is the unglamorous critical path: procurement mechanics, legal redlines, DPA terms, and vendor risk review. Map it early or lose the quarter.",
-    "sourceUrl": "https://www.meddicc.com/meddicc"
+    "sourceUrl": "https://www.meddicc.com/meddicc",
+    "conceptTags": [
+      "m6.meddpicc-fit"
+    ]
   },
   {
     "id": "m6-q10",
@@ -127,7 +161,11 @@
     ],
     "correctIndex": 0,
     "explanation": "Sourcing discipline beats improvisation every time. Bluffing once with a CISO usually ends the deal — and the relationship.",
-    "sourceUrl": "https://cursor.com/security"
+    "sourceUrl": "https://cursor.com/security",
+    "conceptTags": [
+      "m6.security-conversation-discipline",
+      "cross.source-discipline"
+    ]
   },
   {
     "id": "m6-q11",
@@ -140,7 +178,11 @@
     ],
     "correctIndex": 1,
     "explanation": "When the org has already proven value, your job is to make standardization the obvious next move and to make Security a partner in how it happens — not an obstacle.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m4.land-and-expand-stages",
+      "m6.deal-sequencing"
+    ]
   },
   {
     "id": "m6-q12",
@@ -153,7 +195,11 @@
     ],
     "correctIndex": 1,
     "explanation": "Ranges acknowledge uncertainty while still pointing to value. False precision invites a fight you don’t need — and burns you when results land within the range.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m6.roi-structure",
+      "cross.honest-uncertainty"
+    ]
   },
   {
     "id": "m6-q13",
@@ -166,7 +212,11 @@
     ],
     "correctIndex": 1,
     "explanation": "Throughput alone can be gamed (more PRs, lower quality). Pair it with a quality or cycle-time signal so the story holds up under serious scrutiny.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m6.roi-structure",
+      "m6.meddpicc-fit"
+    ]
   },
   {
     "id": "m6-q14",
@@ -179,7 +229,12 @@
     ],
     "correctIndex": 1,
     "explanation": "Frame as a hypothesis the buyer co-validates against their hardest service. That respects engineering culture and produces evidence that survives leadership scrutiny.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m3.proof-as-hypothesis",
+      "m6.roi-structure",
+      "m5.evaluation-vs-demo"
+    ]
   },
   {
     "id": "m6-q15",
@@ -192,7 +247,10 @@
     ],
     "correctIndex": 0,
     "explanation": "Real champions sell internally and give you honest signal. Without those two behaviors, you have a contact, not a champion — and the deal will lurch.",
-    "sourceUrl": "https://www.meddicc.com/meddicc"
+    "sourceUrl": "https://www.meddicc.com/meddicc",
+    "conceptTags": [
+      "m6.meddpicc-fit"
+    ]
   },
   {
     "id": "m6-q16",
@@ -205,7 +263,11 @@
     ],
     "correctIndex": 1,
     "explanation": "Pain that is specific to a workflow and tied to a number gets prioritized; abstract pain quietly slips off the roadmap.",
-    "sourceUrl": "https://www.meddicc.com/meddicc"
+    "sourceUrl": "https://www.meddicc.com/meddicc",
+    "conceptTags": [
+      "m6.meddpicc-fit",
+      "cross.workflow-anchoring"
+    ]
   },
   {
     "id": "m6-q17",
@@ -218,7 +280,12 @@
     ],
     "correctIndex": 1,
     "explanation": "Competition includes incumbents like Copilot. Treat it as honest mapping — strengths and limits against the buyer’s real workflow — not as a fight.",
-    "sourceUrl": "https://github.com/features/copilot"
+    "sourceUrl": "https://github.com/features/copilot",
+    "conceptTags": [
+      "m5.competitive-posture",
+      "m6.meddpicc-fit",
+      "m5.copilot-objection"
+    ]
   },
   {
     "id": "m6-q18",
@@ -231,7 +298,10 @@
     ],
     "correctIndex": 0,
     "explanation": "When the conversation reaches contractual data handling and CISO redlines, bring in the specialist. Strategic credibility is built on knowing when to escalate.",
-    "sourceUrl": "https://cursor.com/security"
+    "sourceUrl": "https://cursor.com/security",
+    "conceptTags": [
+      "m6.security-conversation-discipline"
+    ]
   },
   {
     "id": "m6-q19",
@@ -244,7 +314,12 @@
     ],
     "correctIndex": 0,
     "explanation": "Standardization needs sponsorship, security alignment, and procurement mechanics moving in parallel. Skipping any one causes stalls or surprises at the worst time.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m4.land-and-expand-stages",
+      "m6.meddpicc-fit",
+      "m6.deal-sequencing"
+    ]
   },
   {
     "id": "m6-q20",
@@ -257,7 +332,11 @@
     ],
     "correctIndex": 0,
     "explanation": "A decision process map is your antidote to surprises. Without it, the quarter ends with ‘legal needs another two weeks’ — every time.",
-    "sourceUrl": "https://www.meddicc.com/meddicc"
+    "sourceUrl": "https://www.meddicc.com/meddicc",
+    "conceptTags": [
+      "m6.meddpicc-fit",
+      "m6.deal-sequencing"
+    ]
   },
   {
     "id": "m6-q21",
@@ -270,7 +349,12 @@
     ],
     "correctIndex": 1,
     "explanation": "Incident metrics are an excellent ROI angle, but they are noisy and political. Anchor to how this org actually measures, then propose a defensible plan.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m6.roi-structure",
+      "cross.honest-uncertainty",
+      "cross.workflow-anchoring"
+    ]
   },
   {
     "id": "m6-q22",
@@ -283,7 +367,11 @@
     ],
     "correctIndex": 0,
     "explanation": "Developer satisfaction is real signal but only when measured in the org’s existing methodology with proper baselines — otherwise it is anecdote.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "m6.roi-structure",
+      "cross.workflow-anchoring"
+    ]
   },
   {
     "id": "m6-q23",
@@ -296,7 +384,10 @@
     ],
     "correctIndex": 0,
     "explanation": "Strategic sellers run a sequencing plan. Workflow proof for engineers, governance proof for Security, commercial proof for Procurement — all consistent, all timed.",
-    "sourceUrl": "https://www.meddicc.com/meddicc"
+    "sourceUrl": "https://www.meddicc.com/meddicc",
+    "conceptTags": [
+      "m6.deal-sequencing"
+    ]
   },
   {
     "id": "m6-q24",
@@ -309,7 +400,12 @@
     ],
     "correctIndex": 1,
     "explanation": "Implication is where pain becomes business case. Name the workflow cost and project it forward in the buyer’s language — not generic doom.",
-    "sourceUrl": "https://www.meddicc.com/meddicc"
+    "sourceUrl": "https://www.meddicc.com/meddicc",
+    "conceptTags": [
+      "m6.meddpicc-fit",
+      "m6.roi-structure",
+      "cross.workflow-anchoring"
+    ]
   },
   {
     "id": "m6-q25",
@@ -322,6 +418,11 @@
     ],
     "correctIndex": 1,
     "explanation": "Strategic trust is built call by call: precise sourcing, honest uncertainty, structured ROI, and consistent stories across stakeholders. That is what buys you the next renewal — and the next account.",
-    "sourceUrl": "https://cursor.com/enterprise"
+    "sourceUrl": "https://cursor.com/enterprise",
+    "conceptTags": [
+      "cross.source-discipline",
+      "cross.honest-uncertainty",
+      "m6.meddpicc-fit"
+    ]
   }
 ]

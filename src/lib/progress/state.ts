@@ -1,3 +1,5 @@
+import { isConceptTag } from "@/lib/coach/concepts";
+import type { WeakArea } from "@/lib/coach/types";
 import { MODULE_COUNT } from "@/lib/progress/constants";
 import type { ModuleProgress, ProgressState } from "@/lib/progress/types";
 
@@ -7,6 +9,33 @@ export function createEmptyModuleProgress(): ModuleProgress {
     quizAttempts: 0,
     flashcards: {},
   };
+}
+
+function normalizeWeakAreas(
+  input: Partial<ProgressState> | null,
+): Record<string, WeakArea> {
+  const out: Record<string, WeakArea> = {};
+  const raw = input?.weakAreas;
+  if (!raw || typeof raw !== "object") return out;
+
+  for (const [tag, value] of Object.entries(raw)) {
+    if (!value || typeof value !== "object") continue;
+    if (!isConceptTag(tag)) continue;
+    const score = typeof value.score === "number" ? value.score : 0;
+    if (!Number.isFinite(score) || score <= 0) continue;
+    out[tag] = {
+      conceptTag: tag,
+      score,
+      lastObservedAt:
+        typeof value.lastObservedAt === "number" ? value.lastObservedAt : 0,
+      lastEvidence:
+        typeof value.lastEvidence === "string" ? value.lastEvidence : "",
+      sourceSessionIds: Array.isArray(value.sourceSessionIds)
+        ? value.sourceSessionIds.filter((s) => typeof s === "string").slice(-10)
+        : [],
+    };
+  }
+  return out;
 }
 
 export function normalizeProgressState(input: Partial<ProgressState> | null): ProgressState {
@@ -25,6 +54,7 @@ export function normalizeProgressState(input: Partial<ProgressState> | null): Pr
   return {
     updatedAt: input?.updatedAt ?? 0,
     modules,
+    weakAreas: normalizeWeakAreas(input),
   };
 }
 

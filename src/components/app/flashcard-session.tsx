@@ -73,7 +73,12 @@ export function FlashcardSession({
   }
 
   const onOutcome = (outcome: "got-it" | "review") => {
-    updateFlashcard(moduleId, card.id, outcome);
+    updateFlashcard(
+      moduleId,
+      card.id,
+      outcome,
+      outcome === "got-it" ? card.conceptTags : undefined,
+    );
     setFlipped(false);
     setIndex((i) => (i + 1 < ordered.length ? i + 1 : 0));
   };
