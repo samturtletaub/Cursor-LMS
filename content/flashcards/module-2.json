@@ -70,5 +70,83 @@
     "front": "Buyers use inconsistent labels (“Copilot,” “agent,” etc.). What is your job as the seller?",
     "back": "Translate claims into workflow outcomes—not win a vocabulary fight.",
     "sourceUrl": "https://modelcontextprotocol.io/"
+  },
+  {
+    "id": "m2-c13",
+    "front": "When is multi-file editing the right tool—and when is it overkill?",
+    "back": "Right when a coherent change has to ripple across files; overkill for a single-line tweak that autocomplete handles cleanly.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m2-c14",
+    "front": "Three things that decide whether multi-file edits succeed in practice?",
+    "back": "Tests that catch regressions, types that catch shape mistakes, human review that catches intent mistakes.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m2-c15",
+    "front": "Name three retrieval techniques an assistant might use to find the right slices of a repo.",
+    "back": "Lexical search, embedding-based semantic search, and explicit user selection (open files, pinned context).",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m2-c16",
+    "front": "Why does “handle big diffs and long threads without losing the plot” matter to a buyer?",
+    "back": "It tests whether the tool stays coherent on long, multi-step engineering tasks—where real value lives.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m2-c17",
+    "front": "Why do enterprises insist on governance over which model is used where?",
+    "back": "Models differ in capability, cost, and data handling; teams and data sensitivity require different policy gates.",
+    "sourceUrl": "https://cursor.com/security"
+  },
+  {
+    "id": "m2-c18",
+    "front": "Why does moving from autocomplete to agentic flows trigger new security conversations?",
+    "back": "Autonomy raises the stakes—who approved the integration, what data crosses boundaries, who is accountable when it acts.",
+    "sourceUrl": "https://cursor.com/security"
+  },
+  {
+    "id": "m2-c19",
+    "front": "Best discovery question to test if AI is being treated as a feature vs a workflow change?",
+    "back": "“Which workflow—onboarding, refactors, test repair, or migrations—do you most want to compress, and how would you measure it?”",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m2-c20",
+    "front": "When senior engineers push back on AI hype, what framing earns the room back?",
+    "back": "“Help me drive a coherent change safely across the system, with the validation and review your team already trusts.”",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m2-c21",
+    "front": "Plain-English answer when a buyer asks about Zero Data Retention?",
+    "back": "It is a data-retention posture about whether prompts/outputs are stored—confirm packaging on Cursor’s trust materials before quoting as contract.",
+    "sourceUrl": "https://trust.cursor.com/"
+  },
+  {
+    "id": "m2-c22",
+    "front": "Two attack-surface categories beyond the prompt itself that buyers will name?",
+    "back": "Tool calls (what integrations can do on the user’s behalf) and supply-chain dependencies (what the assistant pulls in).",
+    "sourceUrl": "https://modelcontextprotocol.io/"
+  },
+  {
+    "id": "m2-c23",
+    "front": "Why is autocomplete called “limited in planning capability”?",
+    "back": "It suggests the next token or short span and does not coordinate intent across files or across steps.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m2-c24",
+    "front": "Workflow that most clearly benefits from agentic capabilities?",
+    "back": "Multi-step migrations or refactors that touch many files, run tests, and iterate until checks pass.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m2-c25",
+    "front": "Posture that loses trust fastest with a security-aware buyer?",
+    "back": "Inventing contractual data-handling commitments on the call—source from trust docs and follow up if you don’t know.",
+    "sourceUrl": "https://cursor.com/security"
   }
 ]

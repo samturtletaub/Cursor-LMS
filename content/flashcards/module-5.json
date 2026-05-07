@@ -70,5 +70,83 @@
     "front": "Why are one-line competitor anchors “starting points, not scripture”?",
     "back": "You validate hypotheses in discovery—accounts differ; stale positioning loses credibility.",
     "sourceUrl": "https://github.com/features/copilot"
+  },
+  {
+    "id": "m5-c13",
+    "front": "Why is insulting a competitor the buyer’s team uses a credibility burn?",
+    "back": "It signals you can’t win on substance and insults the buyer’s judgment for choosing it in the first place.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m5-c14",
+    "front": "Why must a competitive POC mirror the buyer’s real workflow?",
+    "back": "Because polished generic demos don’t predict how a tool behaves on their repo, with their reviewers, on their constraints.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m5-c15",
+    "front": "What single question keeps a POC from becoming political instead of evidentiary?",
+    "back": "“What outcome would we both call ‘success’ on this POC, and how would we know?”",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m5-c16",
+    "front": "Define ‘bundling power’ as a competitive dynamic.",
+    "back": "Vendors offering products inside a larger contract or platform suite, lowering perceived incremental cost—even when the standalone tool is weaker.",
+    "sourceUrl": "https://github.com/features/copilot"
+  },
+  {
+    "id": "m5-c17",
+    "front": "Why anchor your story in workflow + governance + preference instead of feature claims?",
+    "back": "Public competitor specs drift; workflow depth, governance, and developer preference outlast the spec sheet.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m5-c18",
+    "front": "Why does ‘tribal’ competitive talk hurt with senior engineering leaders?",
+    "back": "They live in the same category—tribalism reads as insecurity and erodes the trust you need for a strategic deal.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m5-c19",
+    "front": "How do you separate “good demo” from “good evaluation” for the buyer?",
+    "back": "Push toward an in-repo, in-workflow comparison run by their reviewers—demos are theater, evaluations are evidence.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m5-c20",
+    "front": "How should you treat a self-described “JetBrains shop” in a Cursor pursuit?",
+    "back": "Probe—engineers cross IDEs, repos, and tools constantly; ask where engineers actually leave JetBrains today.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m5-c21",
+    "front": "AWS-aligned account—how do you test if Q Developer is truly the default?",
+    "back": "Ask how procurement is structured, who decided ‘good enough,’ and what workflows actually run inside the AWS console.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m5-c22",
+    "front": "When the buyer is GitHub-centric, the strongest workflow questions are about?",
+    "back": "How multi-file work, review depth, and governance for agentic changes are handled today inside that workflow.",
+    "sourceUrl": "https://github.com/features/copilot"
+  },
+  {
+    "id": "m5-c23",
+    "front": "When a buyer wants a feature matrix and refuses to discuss workflow, what does that signal?",
+    "back": "A checklist evaluation—reframe toward a workflow-anchored POC whenever you can; checklists rarely correlate with how teams actually choose.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m5-c24",
+    "front": "How do you separate real preference signal from rumor?",
+    "back": "Ask how preference was measured—opt-in usage, structured evaluation, surveys—over what time horizon, and by whom.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m5-c25",
+    "front": "What kind of reference call actually moves a competitive deal?",
+    "back": "One the buyer trusts (similar org, similar workflow), not just any logo on a slide.",
+    "sourceUrl": "https://cursor.com/enterprise"
   }
 ]

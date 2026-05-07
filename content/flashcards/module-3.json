@@ -70,5 +70,83 @@
     "front": "Privacy Mode / data-handling posture: what mistake does the module warn against?",
     "back": "Hand-waving—describe accurately from primary docs; avoid improvised compliance claims.",
     "sourceUrl": "https://trust.cursor.com/"
+  },
+  {
+    "id": "m3-c13",
+    "front": "Give the one-minute orient script for Cursor surfaces.",
+    "back": "Inline completion accelerates local edits; chat helps exploration and guided changes; composer/agent flows handle multi-step changes; adjacent automation reduces toil with guardrails.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m3-c14",
+    "front": "How should a strategic seller treat a public Cursor ROI stat?",
+    "back": "As a hypothesis to validate against the buyer’s own workflow and metrics—never as a contractual fact.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m3-c15",
+    "front": "Inline completion in one sentence.",
+    "back": "Token-level suggestions at the cursor that compress local edits inside the IDE.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m3-c16",
+    "front": "Composer / agent-style flows in one sentence.",
+    "back": "Multi-step changes coordinated across files where review and validation matter most.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m3-c17",
+    "front": "Why is onboarding a strong workflow to attach Cursor’s story to?",
+    "back": "Ramping into a large unfamiliar repo is exactly the multi-file, context-heavy work that Cursor’s richer surfaces compress.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m3-c18",
+    "front": "Why are refactors a strong workflow to anchor Cursor on?",
+    "back": "They span many files and benefit from coherent multi-file edits that the team can still review and test.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m3-c19",
+    "front": "Why are migrations a strong workflow to anchor Cursor on?",
+    "back": "They are repetitive at scale, sensitive to consistency, and traditionally a pain to spread across services.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m3-c20",
+    "front": "Why are test fixes a strong workflow to anchor Cursor on?",
+    "back": "Failing-test triage is often the first place a team feels delivery friction—small wins here compound.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m3-c21",
+    "front": "What does a “model access control” conversation actually cover?",
+    "back": "Which models are allowed for which teams, environments, or data sensitivities—policy, not benchmarks.",
+    "sourceUrl": "https://cursor.com/security"
+  },
+  {
+    "id": "m3-c22",
+    "front": "What does an “MCP controls” conversation actually cover?",
+    "back": "Which integrations engineers can connect, who approved them, and how that surface stays observable.",
+    "sourceUrl": "https://modelcontextprotocol.io/"
+  },
+  {
+    "id": "m3-c23",
+    "front": "When should a strategic seller bring in a Cursor security specialist?",
+    "back": "As soon as the conversation reaches contractual data-handling terms or a CISO is preparing redlines.",
+    "sourceUrl": "https://trust.cursor.com/"
+  },
+  {
+    "id": "m3-c24",
+    "front": "‘Adjacent automation workflows’ land most reliably when?",
+    "back": "When the team has a clear, repeatable workflow worth automating and explicit guardrails around it.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m3-c25",
+    "front": "Single most damaging misstep on Cursor enterprise controls?",
+    "back": "Quoting marketing language as if it were a contractual commitment in front of Security or Legal.",
+    "sourceUrl": "https://trust.cursor.com/"
   }
 ]

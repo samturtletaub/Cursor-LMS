@@ -70,5 +70,83 @@
     "front": "When matching objections to stakeholders: an objection about audit evidence and SSO—who owns it first?",
     "back": "Security/IT (risk, access, compliance evidence)—often paired with Engineering on feasibility.",
     "sourceUrl": "https://www.meddicc.com/meddicc"
+  },
+  {
+    "id": "m4-c13",
+    "front": "Two behaviors that separate a real champion from a polite contact.",
+    "back": "They introduce you to other personas in their org, and they restate your value in their own words inside meetings you’re not in.",
+    "sourceUrl": "https://www.meddicc.com/meddicc"
+  },
+  {
+    "id": "m4-c14",
+    "front": "Why does a decision-process map matter early?",
+    "back": "It is the antidote to end-of-quarter “legal needs another two weeks” surprises—name who decides what, in what order, by when.",
+    "sourceUrl": "https://www.meddicc.com/meddicc"
+  },
+  {
+    "id": "m4-c15",
+    "front": "What does it usually mean when a CTO joins discovery early?",
+    "back": "You’re in a strategic, platform-level conversation—your proof and stakeholder map need to escalate.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m4-c16",
+    "front": "How do you make Security a partner instead of a gate?",
+    "back": "Bring them in early with the controls discussion, source from primary trust docs, and surface usage data they can audit.",
+    "sourceUrl": "https://cursor.com/security"
+  },
+  {
+    "id": "m4-c17",
+    "front": "Two procurement mechanics that quietly kill quarter timing if ignored?",
+    "back": "Bundling versus standalone pricing, and co-term/renewal alignment with existing contracts.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m4-c18",
+    "front": "What does an engineering manager dread that Cursor can address?",
+    "back": "Rework loops and unpredictable sprints—not abstract “productivity.”",
+    "sourceUrl": "https://www.meddicc.com/meddicc"
+  },
+  {
+    "id": "m4-c19",
+    "front": "What does a tech lead fear about AI tooling that you must respect?",
+    "back": "Low-quality automation that increases review burden instead of reducing it.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m4-c20",
+    "front": "What does the IC engineer fear about a top-down AI rollout?",
+    "back": "“Bossware” feel—surveillance, friction, and tools that interrupt flow rather than support it.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m4-c21",
+    "front": "How do you state ‘implication of pain’ in a way that travels in the buying committee?",
+    "back": "Name the workflow cost (slower releases, higher rework, harder hiring) and project it forward in the buyer’s own language.",
+    "sourceUrl": "https://www.meddicc.com/meddicc"
+  },
+  {
+    "id": "m4-c22",
+    "front": "Strongest landmine question to test real preference (not anecdote)?",
+    "back": "“When developers can pick freely on the same task, which tool finishes the multi-file change with fewer reviewer comments?”",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m4-c23",
+    "front": "What is your job when grassroots usage is real and leadership doesn’t know?",
+    "back": "Surface usage to leadership and partner with Security on standardization—don’t hide it to “protect the champion.”",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m4-c24",
+    "front": "Two requirement types that BOTH must clear for an enterprise standard?",
+    "back": "Security requirements and developer experience requirements—winning one and losing the other does not produce a standard.",
+    "sourceUrl": "https://www.meddicc.com/meddicc"
+  },
+  {
+    "id": "m4-c25",
+    "front": "Where do strategic deals most often quietly stall?",
+    "back": "Hidden semantic gaps between Security and Engineering—same word, different meaning—that nobody surfaces.",
+    "sourceUrl": "https://www.meddicc.com/meddicc"
   }
 ]
