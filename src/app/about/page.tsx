@@ -56,7 +56,7 @@ export default function AboutPage() {
             <ul className="list-disc pl-5">
               <li>Six modules of long-form reading content</li>
               <li>Flashcards with spaced repetition (Leitner-style)</li>
-              <li>Ten-question quizzes with explanations and sources</li>
+              <li>Twenty-five-question quizzes with explanations and sources</li>
               <li>Progress that persists and syncs across devices</li>
             </ul>
           </CardContent>

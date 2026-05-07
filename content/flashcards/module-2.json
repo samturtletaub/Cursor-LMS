@@ -1,74 +1,74 @@
 [
   {
     "id": "m2-c1",
-    "front": "Define the headline goal of Module 2 in one sentence.",
-    "back": "Build sales-credible fluency on AI coding assistant category without sounding like you memorized marketing copy.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "Contrast autocomplete with chat grounded in the repo—what is each good for, and what does chat depend on?",
+    "back": "Autocomplete: next-token suggestions, strong for local edits, limited planning. Chat in-repo: Q&A + guided changes; quality depends on retrieving the right context.",
+    "sourceUrl": "https://modelcontextprotocol.io/"
   },
   {
     "id": "m2-c2",
-    "front": "What is the buyer really optimizing for in this module?",
-    "back": "Time-to-value, risk reduction, governance, and measurable engineering outcomes—phrased in their KPI language.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "What does “multi-file edits” mean in the category map—and what determines whether it succeeds?",
+    "back": "A coherent change across files; success depends on validation—tests, types, human review—not just generation.",
+    "sourceUrl": "https://modelcontextprotocol.io/"
   },
   {
     "id": "m2-c3",
-    "front": "Name one discovery question you’d ask a VP Engineering after this module.",
-    "back": "Ask how multi-file changes are reviewed, measured, and governed as usage scales.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "Why is “agentic workflow” a buying-conversation word—not just buzz?",
+    "back": "The tool plans steps, uses tools, and iterates—higher upside and higher governance need (controls, auditability, policy).",
+    "sourceUrl": "https://modelcontextprotocol.io/"
   },
   {
     "id": "m2-c4",
-    "front": "What is a common mistake sellers make here?",
-    "back": "Feature dumping instead of mapping to workflow, proof, and procurement reality.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "What is the core category shift the module emphasizes—from what to what?",
+    "back": "From “help me write syntax” to “help me drive a change safely across the system”—which changes who gets nervous and what proof you need.",
+    "sourceUrl": "https://modelcontextprotocol.io/"
   },
   {
     "id": "m2-c5",
-    "front": "What proof should you prepare before a second meeting?",
-    "back": "Security artifacts directionally, evaluation design, and success metrics tied to their stack.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "A model has a finite context window. Name three practical questions buyers ask—not a lecture on transformers.",
+    "back": "How much of my repo can you reason about for this task? How do you retrieve the right slices (search, embeddings, selection)? How do big diffs and long threads stay coherent?",
+    "sourceUrl": "https://modelcontextprotocol.io/"
   },
   {
     "id": "m2-c6",
-    "front": "What should you verify externally before quoting compliance claims?",
-    "back": "Primary trust/security documentation and the customer’s own requirements—not rumors.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "Without winning a math debate: why are large-codebase workflows hard for assistants?",
+    "back": "You must show you understand retrieval limits, change scope, and validation—not pretend context is unlimited.",
+    "sourceUrl": "https://modelcontextprotocol.io/"
   },
   {
     "id": "m2-c7",
-    "front": "What is the ‘next step’ after learning this module?",
-    "back": "Flashcards until fast recall, then quiz until you can explain wrong answers cleanly.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "Give a sales-credible one-liner: what is MCP (Model Context Protocol)?",
+    "back": "A standard way for an assistant to connect to tools and data sources with explicit integration boundaries—enterprise-relevant when they fear ad-hoc plugins.",
+    "sourceUrl": "https://modelcontextprotocol.io/"
   },
   {
     "id": "m2-c8",
-    "front": "How does this module connect to MEDDPICC?",
-    "back": "It helps you identify metrics, stakeholders, criteria, and paper process risks specific to dev tools.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "Translate MCP for Security in one phrase—what kind of story is it?",
+    "back": "An integration story: what is connected, who approves it, how access is scoped, how activity is observable in enterprise controls.",
+    "sourceUrl": "https://modelcontextprotocol.io/"
   },
   {
     "id": "m2-c9",
-    "front": "What is a strong ‘translation’ skill for this topic?",
-    "back": "Turn engineering jargon into business risk and business questions into engineering workflows.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "A buyer asks: “What data leaves our environment?” What category of concern are you addressing?",
+    "back": "Data egress / boundary / trust—exact answer comes from their stack and the product’s trust posture; you position the question seriously.",
+    "sourceUrl": "https://modelcontextprotocol.io/"
   },
   {
     "id": "m2-c10",
-    "front": "What is one sign you truly understand the material?",
-    "back": "You can teach it briefly using examples from a realistic enterprise account.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "Complete the buyer question: “Can we restrict ___ by policy?”",
+    "back": "Models, agents, and integrations—aligning tool behavior with enterprise policy.",
+    "sourceUrl": "https://modelcontextprotocol.io/"
   },
   {
     "id": "m2-c11",
-    "front": "What is the capstone behavior this LMS is training?",
-    "back": "Run credible discovery and multi-threading without losing technical precision.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "Name one exfiltration-related concern buyers raise (prompts, tools, or supply chain).",
+    "back": "How we prevent exfiltration via prompts, tools, or supply-chain dependencies—governance and observability, not hand-waving.",
+    "sourceUrl": "https://modelcontextprotocol.io/"
   },
   {
     "id": "m2-c12",
-    "front": "What should you do if information goes stale?",
-    "back": "Update sources and re-check primary docs—especially fast-moving product facts.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "Buyers use inconsistent labels (“Copilot,” “agent,” etc.). What is your job as the seller?",
+    "back": "Translate claims into workflow outcomes—not win a vocabulary fight.",
+    "sourceUrl": "https://modelcontextprotocol.io/"
   }
 ]

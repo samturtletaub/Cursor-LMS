@@ -1,132 +1,327 @@
 [
   {
     "id": "m1-q1",
-    "question": "Which phase of the SDLC is most associated with validating change via automated checks?",
+    "question": "Which phase of the SDLC is most associated with validating change via automated checks like unit tests, integration tests, and canaries?",
     "options": [
-      "Best: Tie SDLC & developer personas to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "Plan — slicing scope and committing to delivery dates.",
+      "Code — implementing changes inside an IDE with tight feedback loops.",
+      "Test — proving a change works through automated and manual verification before broad rollout.",
+      "Monitor — observing production signals after the change is fully released."
     ],
-    "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "correctIndex": 2,
+    "explanation": "Test is the phase explicitly about proving correctness — unit, integration, QA, and canary checks all live here. Review catches risk in code; Deploy moves bits to production; Monitor watches what happened after.",
     "sourceUrl": "https://cursor.com/docs"
   },
   {
     "id": "m1-q2",
-    "question": "Which role is most likely to care about team throughput and sprint predictability?",
+    "question": "Which role is most likely to talk first about team throughput, sprint predictability, and onboarding velocity?",
     "options": [
-      "Best: Tie SDLC & developer personas to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "IC engineer — focused on personal flow and keyboard speed.",
+      "Engineering manager — owns delivery cadence, hiring, and team-level predictability.",
+      "CTO — owns architecture direction and long-term platform bets.",
+      "Security lead — owns access controls, audit evidence, and vendor review."
     ],
-    "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
-    "sourceUrl": "https://cursor.com/docs"
+    "correctIndex": 1,
+    "explanation": "Engineering managers are accountable for team-level outcomes: sprint predictability, retention, ramp time, and rework. ICs talk personal flow; CTOs talk platform; Security talks evidence.",
+    "sourceUrl": "https://cursor.com/enterprise"
   },
   {
     "id": "m1-q3",
-    "question": "Which surface is typically the system of record for proposed code changes?",
+    "question": "Which surface is typically the system of record where proposed code changes are reviewed and merged?",
     "options": [
-      "Best: Tie SDLC & developer personas to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "Slack or Microsoft Teams channels.",
+      "Jira or Linear tickets.",
+      "Git hosting via pull requests / merge requests.",
+      "The IDE’s local diff view."
     ],
-    "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "correctIndex": 2,
+    "explanation": "PRs / MRs in Git hosting are the durable, reviewable record of proposed change. Chat and tickets coordinate work; the IDE is where edits start, but PRs are the merge gate.",
     "sourceUrl": "https://cursor.com/docs"
   },
   {
     "id": "m1-q4",
-    "question": "A developer complaining about 'context switching' is most likely describing friction between:",
+    "question": "When a developer complains about ‘context switching,’ they are usually describing friction between:",
     "options": [
-      "Best: Tie SDLC & developer personas to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "Two competing keyboard shortcuts inside the same IDE.",
+      "Hopping between IDE, PRs, CI logs, chat, and tickets to keep one change moving.",
+      "Switching between two different programming languages within a single file.",
+      "Disagreement between two reviewers on the same PR."
     ],
-    "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "correctIndex": 1,
+    "explanation": "Context switching is the cost of leaving the IDE to chase information across PRs, CI output, chat threads, and tickets. The collaboration stack is where most of the loss accrues.",
     "sourceUrl": "https://cursor.com/docs"
   },
   {
     "id": "m1-q5",
-    "question": "In many engineering orgs, who is frequently an economic buyer for strategic platform purchases?",
+    "question": "In strategic enterprise dev-tool deals, who frequently functions as economic buyer for platform-level purchases?",
     "options": [
-      "Best: Tie SDLC & developer personas to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "An individual contributor who liked the product first.",
+      "The CTO or VP Engineering, often working with Security and Procurement.",
+      "The HR business partner for the engineering org.",
+      "The QA manager for a single product line."
     ],
-    "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
-    "sourceUrl": "https://cursor.com/docs"
+    "correctIndex": 1,
+    "explanation": "Strategic dev-tool spend usually escalates to engineering executive ownership — frequently the CTO or VP Eng — with Security and Procurement as required co-signers.",
+    "sourceUrl": "https://cursor.com/enterprise"
   },
   {
     "id": "m1-q6",
-    "question": "Which item is a common 'developer friction' theme relevant to AI coding tools?",
+    "question": "Which of these is a recurring developer-friction theme that AI coding assistants are positioned to reduce?",
     "options": [
-      "Best: Tie SDLC & developer personas to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "Context loading cost — figuring out where a change actually lives in a large repo.",
+      "The cost of buying additional monitor real estate per engineer.",
+      "Disagreement over which open-source license to apply to a new repo.",
+      "Travel and per-diem for in-person sprint planning."
     ],
     "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "explanation": "‘Where does this bug actually live?’ is the canonical context-loading problem — and exactly the friction AI assistants with strong repo retrieval are designed to compress.",
     "sourceUrl": "https://cursor.com/docs"
   },
   {
     "id": "m1-q7",
-    "question": "What is the primary purpose of a pull request in typical workflows?",
+    "question": "What is the primary purpose of a pull request in modern team workflows?",
     "options": [
-      "Best: Tie SDLC & developer personas to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "To deploy the change directly to production with no further review.",
+      "To trigger payroll for the engineer who authored the change.",
+      "To propose a code change for review, validation, and merge into a shared branch.",
+      "To replace the need for any continuous integration pipeline."
     ],
-    "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "correctIndex": 2,
+    "explanation": "PRs are a structured proposal for change — they bundle the diff, automated checks, review comments, and merge gating in one auditable place.",
     "sourceUrl": "https://cursor.com/docs"
   },
   {
     "id": "m1-q8",
-    "question": "Which persona is most likely to ask about SSO, SCIM, and audit evidence first?",
+    "question": "Which persona is most likely to open the conversation with SSO, SCIM, audit logging, and data-handling questions?",
     "options": [
-      "Best: Tie SDLC & developer personas to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "The frontend tech lead.",
+      "Security or IT.",
+      "An engineering manager focused on sprint velocity.",
+      "An IC engineer doing the daily work."
     ],
-    "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
-    "sourceUrl": "https://cursor.com/docs"
+    "correctIndex": 1,
+    "explanation": "Security/IT owns identity, lifecycle, and audit. Those questions usually surface from them first — even when the engineering org is the initial champion.",
+    "sourceUrl": "https://cursor.com/security"
   },
   {
     "id": "m1-q9",
-    "question": "Which buying pattern is common for developer tools?",
+    "question": "Which buying pattern is most common for modern developer tools?",
     "options": [
-      "Best: Tie SDLC & developer personas to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "Single executive top-down decree with no end-user input.",
+      "Bottoms-up adoption inside teams that later expands into an enterprise standard.",
+      "RFP-only procurement with no developer trial.",
+      "Replacement only after a vendor goes out of business."
     ],
-    "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
-    "sourceUrl": "https://cursor.com/docs"
+    "correctIndex": 1,
+    "explanation": "Dev tools typically land bottoms-up via individual or team usage and then expand top-down once Engineering, Security, and Procurement formalize the standard.",
+    "sourceUrl": "https://cursor.com/enterprise"
   },
   {
     "id": "m1-q10",
-    "question": "Which question is most diagnostic in discovery with an engineering leader?",
+    "question": "Which discovery question is most diagnostic when talking with an engineering leader about workflow friction?",
     "options": [
-      "Best: Tie SDLC & developer personas to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "‘Are you excited about AI in general?’",
+      "‘Walk me through the last change that touched more than three files — where did the team lose time?’",
+      "‘Would you like a discount if you sign this quarter?’",
+      "‘Have you seen our latest brand video?’"
+    ],
+    "correctIndex": 1,
+    "explanation": "Concrete, recent, multi-file scenarios surface real time loss. Generic enthusiasm questions do not move the deal forward and tell you nothing about workflow.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m1-q11",
+    "question": "Which sequence correctly orders the SDLC loop as described in the module?",
+    "options": [
+      "Plan → Code → Review → Test → Deploy → Monitor.",
+      "Code → Plan → Deploy → Monitor → Test → Review.",
+      "Test → Plan → Code → Monitor → Review → Deploy.",
+      "Deploy → Test → Plan → Review → Code → Monitor."
     ],
     "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "explanation": "The seller-friendly loop is Plan → Code → Review → Test → Deploy → Monitor, with Monitor feeding learnings back into Plan.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m1-q12",
+    "question": "An IC engineer’s deepest fear about a new AI tool tends to be:",
+    "options": [
+      "That it will increase their compensation.",
+      "That it will feel like ‘bossware,’ add friction, or interrupt flow.",
+      "That it will reduce the number of meetings on their calendar.",
+      "That it will make their laptop faster."
+    ],
+    "correctIndex": 1,
+    "explanation": "ICs care about flow and autonomy. Tools that surveil, slow, or interrupt them get rejected even when leadership likes the metrics on paper.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m1-q13",
+    "question": "A tech lead or staff engineer is most likely to push back on AI tooling when:",
+    "options": [
+      "It promises to reduce review burden but produces low-quality, hard-to-maintain changes.",
+      "It supports their preferred linter configuration.",
+      "It integrates with their git host.",
+      "It is available on their operating system."
+    ],
+    "correctIndex": 0,
+    "explanation": "Tech leads own architecture and maintainability. Low-quality automation creates more review burden, not less — that is the credible objection to anticipate.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m1-q14",
+    "question": "A VP of Engineering most often frames success in terms of:",
+    "options": [
+      "Number of keystrokes saved per developer per hour.",
+      "Delivery commitments, org scalability, engineering brand, and avoiding outages or inefficiency.",
+      "Specific IDE color themes adopted across the team.",
+      "Whether the tool has a mobile app."
+    ],
+    "correctIndex": 1,
+    "explanation": "VPs of Engineering are accountable for big outcomes: shipping commitments, scaling the org, the engineering reputation that affects hiring, and avoiding visible failure.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m1-q15",
+    "question": "Which of these is NOT one of the four collaboration surfaces called out in the module?",
+    "options": [
+      "IDE.",
+      "Git + PRs.",
+      "CI/CD.",
+      "On-call pager rotation tool."
+    ],
+    "correctIndex": 3,
+    "explanation": "The collaboration stack is IDE, Git+PRs, CI/CD, and chat+tickets. Paging tools matter in incident response, but they are not the day-to-day collaboration stack the module emphasizes.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m1-q16",
+    "question": "Why is ‘review latency’ a meaningful friction even when individual PRs are small?",
+    "options": [
+      "Small PRs are exempt from review in most orgs.",
+      "Even small PRs accumulate wait time across many engineers, and large PRs trade waiting for reviewer risk.",
+      "Reviewers are paid per PR they approve, so they go slowly.",
+      "PRs cannot be opened until tests pass."
+    ],
+    "correctIndex": 1,
+    "explanation": "Small PRs have less individual risk but pile up wait time at scale. Large PRs reduce wait but raise reviewer cognitive load and risk — both are real frictions.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m1-q17",
+    "question": "‘Knowledge silos’ in an engineering org typically show up as:",
+    "options": [
+      "A single language standard across all services.",
+      "Slow onboarding, fragile legacy code, and tribal knowledge about poorly documented domains.",
+      "Universal documentation maintained automatically.",
+      "Identical tooling across all teams with no exceptions."
+    ],
+    "correctIndex": 1,
+    "explanation": "Silos express themselves as long ramp time, fear around legacy code, and dependence on a few people who happen to remember how a domain works.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m1-q18",
+    "question": "What does ‘sequencing proof’ mean when multiple personas co-own a strategic deal?",
+    "options": [
+      "Telling each persona a different story unrelated to the others.",
+      "Showing each stakeholder the proof that maps to their KPIs, while staying consistent across rooms.",
+      "Withholding evidence from Security until contract signature.",
+      "Putting all proof in a single 80-page PDF up front."
+    ],
+    "correctIndex": 1,
+    "explanation": "You tailor the cut of the story per stakeholder (workflow for ICs, throughput for EMs, governance for Security), but the underlying narrative must hold up across rooms.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m1-q19",
+    "question": "You ask ‘When something breaks in prod, what is the first place engineers look — and what would fast look like?’ This question is strong because it:",
+    "options": [
+      "Tests the buyer’s memory of vendor brand names.",
+      "Reveals the actual incident workflow and what time-to-detect / time-to-resolve improvement would mean for them.",
+      "Forces the buyer to commit to a purchase order.",
+      "Confirms whether the buyer prefers light or dark theme."
+    ],
+    "correctIndex": 1,
+    "explanation": "Discovery should pull out workflow and the KPI movement the buyer cares about. Incident questions surface monitoring, ownership, and what ‘fast’ means in this org.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m1-q20",
+    "question": "Which statement about the SDLC is most accurate from a buying-conversation standpoint?",
+    "options": [
+      "Buyers debate the textbook definition of each phase.",
+      "Buyers focus on where time is lost, where failures are expensive, and what must be governed.",
+      "Buyers only care about the Plan phase.",
+      "Buyers consider Monitor optional in regulated industries."
+    ],
+    "correctIndex": 1,
+    "explanation": "Engineering buyers rarely litigate SDLC theory. They care about loss, blast radius, and governance — that is where the conversation belongs.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m1-q21",
+    "question": "Coming from cyber-resilience sales, your strongest transferable skill is:",
+    "options": [
+      "Risk, urgency, and economic framing — but you still need to learn how engineering work flows.",
+      "The ability to write production code in any language.",
+      "Memorizing every CVE published in the last five years.",
+      "A pre-existing relationship with every CTO in the territory."
+    ],
+    "correctIndex": 0,
+    "explanation": "Cyber sellers carry strong risk and economic muscle. The gap to close is mechanical fluency in how the SDLC, dev personas, and dev workflows actually work day to day.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m1-q22",
+    "question": "‘Boilerplate and repetitive edits across services’ is described in the module as:",
+    "options": [
+      "An entirely solved problem in modern monorepos.",
+      "A friction that AI coding tools can compress, especially when changes span many files or services.",
+      "A non-issue that buyers never raise.",
+      "Something only QA engineers experience."
+    ],
+    "correctIndex": 1,
+    "explanation": "Repetitive multi-file or multi-service edits are textbook AI-assistant territory and a credible discovery topic with engineering teams.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m1-q23",
+    "question": "When you sell Cursor, the underlying value you are really selling is best described as:",
+    "options": [
+      "A chat window for code questions.",
+      "Less context switching across IDE, PRs, CI, chat, and tickets — especially for changes spanning multiple files and deep repo context.",
+      "A replacement for the company’s git host.",
+      "A new ticketing system for product managers."
+    ],
+    "correctIndex": 1,
+    "explanation": "The module is explicit: Cursor’s value frame is reduced context switching across the collaboration stack on real, multi-file, repo-aware work.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m1-q24",
+    "question": "Which question is most useful for surfacing whether AI-generated changes have governance ownership inside an org?",
+    "options": [
+      "‘Do your engineers prefer tabs or spaces?’",
+      "‘Who owns review standards for AI-generated changes today, and how is that being enforced?’",
+      "‘What color is your company logo?’",
+      "‘How many monitors does your average engineer use?’"
+    ],
+    "correctIndex": 1,
+    "explanation": "Asking who owns standards for AI-generated change exposes whether the org has actually thought about governance — and creates an opening for Cursor’s enterprise story.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m1-q25",
+    "question": "Which phase of the SDLC most directly produces feedback that should reshape the next round of planning?",
+    "options": [
+      "Plan, by re-reading old planning docs.",
+      "Code, by counting commits.",
+      "Monitor, by observing production signals and feeding them back into the next Plan.",
+      "Review, by closing comments on stale PRs."
+    ],
+    "correctIndex": 2,
+    "explanation": "Monitor closes the loop. Production signals — incidents, latency, adoption — should be the inputs that prioritize the next Plan cycle.",
     "sourceUrl": "https://cursor.com/docs"
   }
 ]

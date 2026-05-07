@@ -1,74 +1,74 @@
 [
   {
     "id": "m6-c1",
-    "front": "Define the headline goal of Module 6 in one sentence.",
-    "back": "Build sales-credible fluency on Enterprise sales motion without sounding like you memorized marketing copy.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "Name the three layers of a strong dev-tool motion: organic usage, team adoption, enterprise governance.",
+    "back": "Organic usage proving real workflows; team adoption standardizing norms/budgets; enterprise governance partnering Security/IT—not random gatekeeping.",
+    "sourceUrl": "https://cursor.com/enterprise"
   },
   {
     "id": "m6-c2",
-    "front": "What is the buyer really optimizing for in this module?",
-    "back": "Time-to-value, risk reduction, governance, and measurable engineering outcomes—phrased in their KPI language.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "What does “make expansion feel inevitable” mean in practice?",
+    "back": "Value was already proven in real workflows—then you help govern it responsibly.",
+    "sourceUrl": "https://cursor.com/enterprise"
   },
   {
     "id": "m6-c3",
-    "front": "Name one discovery question you’d ask a VP Engineering after this module.",
-    "back": "Ask how multi-file changes are reviewed, measured, and governed as usage scales.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "List the four steps of a strong ROI story structure from the module.",
+    "back": "(1) Baseline cost of engineering time; (2) measurable workflow lever; (3) conservative improvement hypothesis; (4) risk-adjusted implementation.",
+    "sourceUrl": "https://cursor.com/enterprise"
   },
   {
     "id": "m6-c4",
-    "front": "What is a common mistake sellers make here?",
-    "back": "Feature dumping instead of mapping to workflow, proof, and procurement reality.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "Why use ranges instead of false precision in ROI?",
+    "back": "Credibility—buyers smell fantasy math; directional honesty beats fake decimals.",
+    "sourceUrl": "https://cursor.com/enterprise"
   },
   {
     "id": "m6-c5",
-    "front": "What proof should you prepare before a second meeting?",
-    "back": "Security artifacts directionally, evaluation design, and success metrics tied to their stack.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "If a stat is promotional, how should a credible seller treat it?",
+    "back": "As a hypothesis until validated in the account’s context.",
+    "sourceUrl": "https://cursor.com/enterprise"
   },
   {
     "id": "m6-c6",
-    "front": "What should you verify externally before quoting compliance claims?",
-    "back": "Primary trust/security documentation and the customer’s own requirements—not rumors.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "What topics do security & compliance conversations cover—and what is your advantage?",
+    "back": "Identity, access, data handling, retention, audit evidence; advantage is structured follow-up and source discipline.",
+    "sourceUrl": "https://cursor.com/enterprise"
   },
   {
     "id": "m6-c7",
-    "front": "What is the ‘next step’ after learning this module?",
-    "back": "Flashcards until fast recall, then quiz until you can explain wrong answers cleanly.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "Three rules for security conversations with a serious buyer?",
+    "back": "Confirm claims against primary trust/security docs; involve specialists when needed; never bluff in front of a CISO.",
+    "sourceUrl": "https://cursor.com/enterprise"
   },
   {
     "id": "m6-c8",
-    "front": "How does this module connect to MEDDPICC?",
-    "back": "It helps you identify metrics, stakeholders, criteria, and paper process risks specific to dev tools.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "MEDDPICC — Metrics in dev-tool translation: what kinds of metrics?",
+    "back": "Throughput, incident rates, onboarding time, developer satisfaction signals—pick what the buyer owns.",
+    "sourceUrl": "https://cursor.com/enterprise"
   },
   {
     "id": "m6-c9",
-    "front": "What is a strong ‘translation’ skill for this topic?",
-    "back": "Turn engineering jargon into business risk and business questions into engineering workflows.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "Who is often the economic buyer—and when does CTO enter earlier?",
+    "back": "Often engineering leadership; CTO earlier in strategic accounts.",
+    "sourceUrl": "https://cursor.com/enterprise"
   },
   {
     "id": "m6-c10",
-    "front": "What is one sign you truly understand the material?",
-    "back": "You can teach it briefly using examples from a realistic enterprise account.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "Decision criteria for dev tools must include what two requirement types?",
+    "back": "Security requirements and developer experience requirements—both matter.",
+    "sourceUrl": "https://cursor.com/enterprise"
   },
   {
     "id": "m6-c11",
-    "front": "What is the capstone behavior this LMS is training?",
-    "back": "Run credible discovery and multi-threading without losing technical precision.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "What does “paper process” include for these deals?",
+    "back": "Procurement, legal, data processing terms, vendor risk reviews.",
+    "sourceUrl": "https://cursor.com/enterprise"
   },
   {
     "id": "m6-c12",
-    "front": "What should you do if information goes stale?",
-    "back": "Update sources and re-check primary docs—especially fast-moving product facts.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "Apply MEDDPICC without forcing a template—what attitude does the module endorse?",
+    "back": "Use the lens where it fits the account; don’t read a checklist robotically—map to dev-tool reality.",
+    "sourceUrl": "https://cursor.com/enterprise"
   }
 ]

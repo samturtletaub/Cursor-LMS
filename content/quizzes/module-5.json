@@ -1,132 +1,327 @@
 [
   {
     "id": "m5-q1",
-    "question": "When a buyer says 'We already have Copilot,' the best next step is:",
+    "question": "Which competitive posture wins most reliably in strategic accounts?",
     "options": [
-      "Best: Tie Competitive landscape to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "Dismissive jokes about competitors.",
+      "Curious, specific, evidence-seeking — anchored to the buyer’s workflow and evaluation criteria.",
+      "Refusing to acknowledge any competitor by name.",
+      "A pre-recorded ‘why we win’ pitch deck."
     ],
-    "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
-    "sourceUrl": "https://cursor.com/docs"
+    "correctIndex": 1,
+    "explanation": "Strategic buyers know the landscape. Curiosity plus specificity earns trust; tribalism costs it.",
+    "sourceUrl": "https://cursor.com/enterprise"
   },
   {
     "id": "m5-q2",
-    "question": "GitHub Copilot's strongest structural advantage in many accounts is:",
+    "question": "Which one-line anchor best matches GitHub Copilot?",
     "options": [
-      "Best: Tie Competitive landscape to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "Deeply integrated GitHub workflow with strong bundling power, especially for GitHub-centric shops.",
+      "Terminal-native autonomy for CLI-heavy engineers.",
+      "JetBrains-native depth.",
+      "AWS-aligned packaging and buyer alignment."
     ],
     "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
-    "sourceUrl": "https://cursor.com/docs"
+    "explanation": "Copilot’s structural strengths are GitHub workflow integration and bundling. That is the starting point — discovery determines whether those strengths actually fit this buyer.",
+    "sourceUrl": "https://github.com/features/copilot"
   },
   {
     "id": "m5-q3",
-    "question": "A credible competitive conversation should anchor in:",
+    "question": "Which one-line anchor best matches Claude Code or terminal-native agents?",
     "options": [
-      "Best: Tie Competitive landscape to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "Deeply integrated GitHub workflow with bundling power.",
+      "Strong autonomy story for engineers who live in CLI workflows.",
+      "JetBrains-native depth.",
+      "AWS-aligned packaging."
     ],
-    "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "correctIndex": 1,
+    "explanation": "Terminal-native agents lean into autonomy for CLI-heavy engineers. That maps to a specific developer persona — not every engineering org operates that way.",
     "sourceUrl": "https://cursor.com/docs"
   },
   {
     "id": "m5-q4",
-    "question": "Terminal-native agent workflows are most associated with which competitive theme?",
+    "question": "Which one-line anchor best matches the JetBrains ecosystem?",
     "options": [
-      "Best: Tie Competitive landscape to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "GitHub-native bundling power.",
+      "Terminal-native autonomy.",
+      "IDE-native depth for teams standardized on JetBrains.",
+      "AWS-aligned packaging dynamics."
     ],
-    "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
-    "sourceUrl": "https://cursor.com/docs"
+    "correctIndex": 2,
+    "explanation": "JetBrains’ structural strength is depth inside its IDEs. Discovery should test how locked in the org actually is and where its workflows live.",
+    "sourceUrl": "https://cursor.com/enterprise"
   },
   {
     "id": "m5-q5",
-    "question": "JetBrains AI is most likely to resonate when:",
+    "question": "Which one-line anchor best matches Amazon Q Developer?",
     "options": [
-      "Best: Tie Competitive landscape to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "Terminal-native autonomy story.",
+      "JetBrains-native IDE depth.",
+      "AWS-centric buyer alignment and packaging dynamics.",
+      "Browser-only chat with no IDE story."
     ],
-    "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
-    "sourceUrl": "https://cursor.com/docs"
+    "correctIndex": 2,
+    "explanation": "Q Developer rides AWS buyer alignment and packaging. The discovery question is whether AWS-aligned procurement actually drives this account’s decision.",
+    "sourceUrl": "https://cursor.com/enterprise"
   },
   {
     "id": "m5-q6",
-    "question": "Which question helps you identify whether a deal is real vs a checkbox exercise?",
+    "question": "When a buyer says ‘we already have Copilot via GitHub,’ the most credible response is:",
     "options": [
-      "Best: Tie Competitive landscape to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "‘Then there’s no point in evaluating us.’",
+      "‘Help me understand where multi-file work stalls today, how review is handled for agentic changes, what controls are required, and what developers choose when they actually have a choice.’",
+      "‘Copilot doesn’t exist anymore.’",
+      "‘You’re overpaying for GitHub.’"
     ],
-    "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
-    "sourceUrl": "https://cursor.com/docs"
+    "correctIndex": 1,
+    "explanation": "Convert the objection into discovery. Reveal where the incumbent doesn’t fit the buyer’s real workflow — without dismissing what works.",
+    "sourceUrl": "https://github.com/features/copilot"
   },
   {
     "id": "m5-q7",
-    "question": "Which behavior wins in strategic accounts?",
+    "question": "‘Feature parity’ as a competitive frame is most often misleading because:",
     "options": [
-      "Best: Tie Competitive landscape to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "Features are identical across all vendors.",
+      "Real differentiation lives in workflow depth, governance, and what wins evaluations in practice — not feature checklists.",
+      "Buyers do not evaluate features.",
+      "Features cannot be tested at all."
     ],
-    "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
-    "sourceUrl": "https://cursor.com/docs"
+    "correctIndex": 1,
+    "explanation": "Two products with similar feature lists can produce very different workflow outcomes. Win where the actual evaluation is decided, not on the spreadsheet.",
+    "sourceUrl": "https://cursor.com/enterprise"
   },
   {
     "id": "m5-q8",
-    "question": "Which mistake makes a seller sound unprepared?",
+    "question": "A great battle card includes which three sections?",
     "options": [
-      "Best: Tie Competitive landscape to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "Trigger, landmine questions, and proof.",
+      "Vendor jokes, slogans, and disclaimers.",
+      "Pricing, discounts, and signing bonuses.",
+      "Office addresses, headshots, and logos."
     ],
     "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
-    "sourceUrl": "https://cursor.com/docs"
+    "explanation": "Trigger (when this competitor shows up) → landmine questions (to surface weakness) → proof (POC design, security artifacts, references). That is a battle card you can run from.",
+    "sourceUrl": "https://cursor.com/enterprise"
   },
   {
     "id": "m5-q9",
-    "question": "Which item is a good 'landmine question' in competitive discovery?",
+    "question": "Which is a strong landmine question to use when an incumbent is positioned as ‘good enough’?",
     "options": [
-      "Best: Tie Competitive landscape to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "‘Do you like their logo?’",
+      "‘When developers can choose freely between tools on the same task, which one finishes the multi-file change with fewer reviewer comments?’",
+      "‘Have you considered firing your engineers?’",
+      "‘What color are their socks?’"
     ],
-    "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
-    "sourceUrl": "https://cursor.com/docs"
+    "correctIndex": 1,
+    "explanation": "Anchor the question to a real, observable workflow choice. ‘When choice is free, what gets picked’ surfaces preference data that incumbents rarely have.",
+    "sourceUrl": "https://cursor.com/enterprise"
   },
   {
     "id": "m5-q10",
-    "question": "Positioning should be tested against:",
+    "question": "Which discovery question best separates a ‘speed’ evaluation from a ‘quality + governance’ evaluation?",
     "options": [
-      "Best: Tie Competitive landscape to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "‘Does the tool feel fast in a single demo?’",
+      "‘What did the last evaluation actually measure — speed alone, quality of merged change, security controls, or developer adoption — and who decided ‘good enough’?’",
+      "‘Did the demo include emojis?’",
+      "‘How many slides did the vendor present?’"
+    ],
+    "correctIndex": 1,
+    "explanation": "Force the buyer to articulate evaluation criteria and the decider. That alone reveals whether you’re in a one-dimensional speed bake-off or a serious enterprise evaluation.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m5-q11",
+    "question": "Which posture toward Windsurf or other newer entrants is most appropriate?",
+    "options": [
+      "Pretend they don’t exist.",
+      "Treat the category noise as real and ask which alternatives the team has tried and what specifically broke in real repos.",
+      "Personal attacks on the founders.",
+      "Refuse to take meetings if Windsurf comes up."
+    ],
+    "correctIndex": 1,
+    "explanation": "Acknowledge the noise, then concentrate the conversation on real-repo evaluation results. That is the conversation a serious engineering buyer respects.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m5-q12",
+    "question": "Which behavior most undermines competitive credibility in a strategic deal?",
+    "options": [
+      "Asking what the team measured in past evaluations.",
+      "Citing primary sources for specific claims.",
+      "Saying something disparaging or factually wrong about a competitor that the buyer’s team uses today.",
+      "Offering to design a small in-account evaluation."
+    ],
+    "correctIndex": 2,
+    "explanation": "If you mock or misrepresent a tool the buyer’s team relies on, you insult their judgment. That is a credibility burn that follows you across the deal.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m5-q13",
+    "question": "When the buyer is GitHub-centric, the strongest workflow questions to ask are about:",
+    "options": [
+      "How multi-file work, review depth, and governance for agentic changes are handled today inside that workflow.",
+      "Whether to switch git providers.",
+      "Whether to abandon GitHub entirely.",
+      "Whether to switch laptops."
     ],
     "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "explanation": "GitHub-centric does not mean Copilot is automatically right for every workflow. Probe where multi-file work, review, and governance actually break.",
+    "sourceUrl": "https://github.com/features/copilot"
+  },
+  {
+    "id": "m5-q14",
+    "question": "‘Bundling power’ as a competitive dynamic refers to:",
+    "options": [
+      "Vendors offering products as part of a larger contract or platform suite, which can lower perceived incremental cost.",
+      "Free t-shirts at conferences.",
+      "Pre-installed system fonts.",
+      "Mandatory office desk arrangements."
+    ],
+    "correctIndex": 0,
+    "explanation": "Bundles change the price-to-value math even when the standalone tool is weaker. Be ready to engage that conversation with workflow and governance evidence.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m5-q15",
+    "question": "Which is a strong proof element to attach to a competitive battle card?",
+    "options": [
+      "An MS Paint diagram.",
+      "A POC design that mirrors the buyer’s real workflow, plus relevant security artifacts and credible references.",
+      "A list of office holiday parties.",
+      "A spreadsheet of vendor revenue."
+    ],
+    "correctIndex": 1,
+    "explanation": "Proof should be specific to this buyer’s workflow, supported by security artifacts they will actually require, and corroborated by references they will actually trust.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m5-q16",
+    "question": "Which is the most reliable signal that an evaluation is leaning ‘checklist’ rather than ‘workflow’?",
+    "options": [
+      "The buyer asks for live walkthroughs of multi-file refactors on their repo.",
+      "The buyer asks for a feature matrix and refuses to discuss any actual workflow.",
+      "Security joins the call to talk about controls.",
+      "Engineering proposes a small in-account POC."
+    ],
+    "correctIndex": 1,
+    "explanation": "Pure feature-matrix evaluations rarely correlate with how teams actually choose tools. Reframe toward workflow whenever you can.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m5-q17",
+    "question": "Which question helps separate ‘our developers prefer X’ rumor from real preference signal?",
+    "options": [
+      "‘How was preference measured — opt-in usage, surveys, structured evaluation — and over what period?’",
+      "‘Do you know our CEO personally?’",
+      "‘Which color is your laptop?’",
+      "‘Have you been to our office?’"
+    ],
+    "correctIndex": 0,
+    "explanation": "Preference is real but easily anecdotal. Ask how it was actually measured, by whom, and over what time horizon — that converts a vibe into evidence.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m5-q18",
+    "question": "Which competitive scenario is the strongest natural opening for Cursor?",
+    "options": [
+      "Single-developer, single-file scripts with no review.",
+      "Repo-spanning, multi-file changes where review depth, governance, and developer preference are all in play.",
+      "Office furniture purchases.",
+      "Mobile-only consumer applications."
+    ],
+    "correctIndex": 1,
+    "explanation": "Repo-spanning multi-file work plus review and governance is where Cursor’s differentiated story has the most room to land.",
     "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m5-q19",
+    "question": "‘We already have X’ objections are best handled by:",
+    "options": [
+      "Telling the buyer they made a mistake.",
+      "Naming what X does well, then asking the workflow questions that surface where X doesn’t serve the buyer’s next horizon.",
+      "Refusing to discuss X.",
+      "Offering an immediate steep discount."
+    ],
+    "correctIndex": 1,
+    "explanation": "Acknowledge X’s real strengths to earn the right to talk about its real limits. Discounting first signals you don’t believe in your own value.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m5-q20",
+    "question": "When competitors’ models, prices, or features change frequently, the most durable seller behavior is:",
+    "options": [
+      "Memorize today’s public claims as if they were permanent.",
+      "Anchor your story in workflow depth, governance, and preference — and treat specific competitor claims as verifiable hypotheses.",
+      "Avoid mentioning competitors entirely.",
+      "Match every competitor announcement with a slogan."
+    ],
+    "correctIndex": 1,
+    "explanation": "Public competitor claims drift. Workflow, governance, and preference outlast the spec sheet — anchor there and verify specifics when needed.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m5-q21",
+    "question": "‘Tribal’ competitive talk most often hurts because:",
+    "options": [
+      "It signals insecurity and erodes trust with senior engineering leaders who live in the same category.",
+      "It is illegal in most jurisdictions.",
+      "It violates SSO standards.",
+      "It is forbidden by Slack guidelines."
+    ],
+    "correctIndex": 0,
+    "explanation": "Senior engineers can smell tribalism. It signals you can’t win on substance — and it costs you the relationship even when you win the slide.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m5-q22",
+    "question": "Which framing best separates ‘good demo’ from ‘good evaluation’?",
+    "options": [
+      "‘Did the demo look polished?’",
+      "‘When the same multi-file workflow is run on your real repo, with your real reviewers, what does each tool actually produce?’",
+      "‘Was the demo presenter friendly?’",
+      "‘Did the demo include music?’"
+    ],
+    "correctIndex": 1,
+    "explanation": "Demos are theater; evaluations are evidence. Push toward an in-repo, in-workflow comparison whenever the buyer is serious.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m5-q23",
+    "question": "‘JetBrains-shop’ is most usefully treated as:",
+    "options": [
+      "An immediate disqualification for Cursor.",
+      "A signal to ask which workflows live in JetBrains, where engineers leave that environment, and what cross-IDE realities the team already faces.",
+      "An invitation to insult the JetBrains brand.",
+      "A reason to abandon the deal."
+    ],
+    "correctIndex": 1,
+    "explanation": "‘JetBrains shop’ is rarely literal at scale — engineers cross IDEs, repos, and tools constantly. Discover where the friction actually is before assuming you can’t play.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m5-q24",
+    "question": "Which question helps anchor a competitive POC in something measurable?",
+    "options": [
+      "‘What outcome would we both call ‘success’ on this POC, and how would we know?’",
+      "‘What is your favorite color?’",
+      "‘Do you prefer round or square tables?’",
+      "‘Do you watch the same shows as your CEO?’"
+    ],
+    "correctIndex": 0,
+    "explanation": "Define success up front: workflow, metric, and decider. POCs without explicit success criteria become political instead of evidentiary.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m5-q25",
+    "question": "Which behavior is the cleanest way to signal competitive maturity to an engineering buyer?",
+    "options": [
+      "Demonstrating that you have actually used the alternatives, can name what they’re good at, and can show where your story differs in their context.",
+      "Refusing to acknowledge competitors exist.",
+      "Quoting unverified rumors about competitors’ internal struggles.",
+      "Dismissing every competitor with the same one-liner."
+    ],
+    "correctIndex": 0,
+    "explanation": "Mature competitive talk acknowledges strengths, holds your differentiation without insult, and proves it in the buyer’s context. That is what serious engineering leaders respect.",
+    "sourceUrl": "https://cursor.com/enterprise"
   }
 ]

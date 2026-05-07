@@ -1,132 +1,327 @@
 [
   {
     "id": "m2-q1",
-    "question": "What does a larger effective context window most directly influence?",
+    "question": "What does an effective context window most directly determine for an AI coding assistant?",
     "options": [
-      "Best: Tie AI coding assistant category to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "How many users can log in to the product simultaneously.",
+      "How much relevant code, conversation, and tool output the model can reason about for one task.",
+      "Whether the assistant runs locally or in the cloud.",
+      "The price of the underlying inference hardware."
     ],
-    "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "correctIndex": 1,
+    "explanation": "Context window is the budget of tokens the model can attend to in a single inference. It bounds how much repo, prior chat, and tool output can inform a single task — which is why repo retrieval matters so much.",
     "sourceUrl": "https://cursor.com/docs"
   },
   {
     "id": "m2-q2",
-    "question": "MCP is best described as:",
+    "question": "MCP (Model Context Protocol) is best described as:",
     "options": [
-      "Best: Tie AI coding assistant category to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "A new programming language for writing AI prompts.",
+      "A standard way for an assistant to connect to tools and data sources with explicit integration boundaries.",
+      "A proprietary chip architecture for running LLMs.",
+      "A pricing model used only by GitHub Copilot."
     ],
-    "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
-    "sourceUrl": "https://cursor.com/docs"
+    "correctIndex": 1,
+    "explanation": "MCP standardizes how assistants talk to tools and data sources. The sales-credible framing is integration boundaries: what is connected, who approved it, and how that surface is governed.",
+    "sourceUrl": "https://modelcontextprotocol.io/"
   },
   {
     "id": "m2-q3",
-    "question": "An 'agentic' workflow most directly implies:",
+    "question": "An ‘agentic’ workflow most directly implies that the assistant:",
     "options": [
-      "Best: Tie AI coding assistant category to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "Replaces the IDE with a chat-only interface.",
+      "Plans steps, uses tools, and iterates toward an outcome — raising both upside and the need for governance.",
+      "Runs only on a single file at a time, with no planning.",
+      "Operates without consuming any tokens."
     ],
-    "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "correctIndex": 1,
+    "explanation": "Agentic = plan, act with tools, observe, iterate. The seller takeaway: more autonomy means more impact and a louder governance conversation with Security and quality stakeholders.",
     "sourceUrl": "https://cursor.com/docs"
   },
   {
     "id": "m2-q4",
     "question": "Autocomplete differs from multi-file editing primarily because:",
     "options": [
-      "Best: Tie AI coding assistant category to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "Autocomplete suggests local next tokens, while multi-file editing applies a coherent change across many files and depends on validation.",
+      "Autocomplete is always free and multi-file editing is always paid.",
+      "Multi-file editing requires no tests, while autocomplete always runs the full suite.",
+      "Multi-file editing only works in dynamically typed languages."
     ],
     "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "explanation": "Autocomplete is local and tactical. Multi-file editing is system-level — it has to be coherent across files and is judged by tests, types, and human review.",
     "sourceUrl": "https://cursor.com/docs"
   },
   {
     "id": "m2-q5",
-    "question": "Why do enterprises ask about model choice and governance?",
+    "question": "Why do enterprise buyers ask about model choice and model governance?",
     "options": [
-      "Best: Tie AI coding assistant category to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "Because they want every team to use a different model.",
+      "Because models differ in cost, capability, and data-handling posture, and the enterprise needs policy control over which are used.",
+      "Because regulators require all engineers to memorize model names.",
+      "Because model choice has no impact on output quality."
     ],
-    "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
-    "sourceUrl": "https://cursor.com/docs"
+    "correctIndex": 1,
+    "explanation": "Models vary in capability, cost, and data handling. Enterprises need governance over which models are allowed where — that is the conversation, not ‘which is best on a benchmark.’",
+    "sourceUrl": "https://cursor.com/security"
   },
   {
     "id": "m2-q6",
     "question": "Which statement about retrieval-augmented workflows is most accurate?",
     "options": [
-      "Best: Tie AI coding assistant category to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "Retrieval is unnecessary if the context window is large enough for the whole repo.",
+      "Retrieval picks the most relevant slices of code and history so the model conditions on what actually matters for the task.",
+      "Retrieval randomly selects files to inject into the prompt.",
+      "Retrieval is only used for marketing demos."
     ],
-    "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "correctIndex": 1,
+    "explanation": "Even with large context windows, you want the right slices, not all slices. Good retrieval is what makes large-codebase workflows feasible at quality.",
     "sourceUrl": "https://cursor.com/docs"
   },
   {
     "id": "m2-q7",
-    "question": "Which category shift creates new security conversations?",
+    "question": "Which category shift creates the most new security and compliance conversation?",
     "options": [
-      "Best: Tie AI coding assistant category to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "Moving from typed to untyped languages.",
+      "Moving from local autocomplete toward agentic workflows that act across the system.",
+      "Moving from dark mode to light mode in the IDE.",
+      "Moving from spaces to tabs in code style."
     ],
-    "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
-    "sourceUrl": "https://cursor.com/docs"
+    "correctIndex": 1,
+    "explanation": "Autonomy raises the stakes: who approved the integration, what data crosses boundaries, and who is accountable when an agent acts. That is the governance shift Security cares about.",
+    "sourceUrl": "https://cursor.com/security"
   },
   {
     "id": "m2-q8",
-    "question": "What is a realistic buyer concern about autonomous changes?",
+    "question": "What is a realistic buyer concern about autonomous AI changes?",
     "options": [
-      "Best: Tie AI coding assistant category to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "That they cannot be reverted with git.",
+      "That they may be merged without sufficient review, validation, or audit trail at scale.",
+      "That they will reduce build times.",
+      "That they will be too small to be useful."
     ],
-    "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
-    "sourceUrl": "https://cursor.com/docs"
+    "correctIndex": 1,
+    "explanation": "The legitimate concern is governance: review depth, test coverage, and auditability when an agent — not a human — initiated a change.",
+    "sourceUrl": "https://cursor.com/security"
   },
   {
     "id": "m2-q9",
-    "question": "Which question tests whether 'AI' is being bought as a feature vs a workflow change?",
+    "question": "Which question best tests whether a buyer is treating AI as a feature versus a workflow change?",
     "options": [
-      "Best: Tie AI coding assistant category to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "‘Do you have AI in your stack today?’",
+      "‘Which workflow — onboarding, refactors, test repair, or migrations — do you most want to compress, and how would you measure it?’",
+      "‘How many AI vendors have you heard of?’",
+      "‘Can you spell the name of the model you’re using?’"
     ],
-    "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "correctIndex": 1,
+    "explanation": "Workflow-anchored discovery forces the buyer to commit to a target outcome and a measurement, separating real intent from generic AI interest.",
     "sourceUrl": "https://cursor.com/docs"
   },
   {
     "id": "m2-q10",
-    "question": "Which framing helps a seller sound credible with senior engineers?",
+    "question": "Which framing is most credible with senior engineers when discussing AI assistants?",
     "options": [
-      "Best: Tie AI coding assistant category to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "‘It will write all your code for you, no review needed.’",
+      "‘Help me drive a coherent change safely across the system, with the validation and review your team already trusts.’",
+      "‘Replace your tech leads.’",
+      "‘Skip your existing CI pipeline.’"
+    ],
+    "correctIndex": 1,
+    "explanation": "Senior engineers respect framing that respects their guardrails: tests, types, review, CI. The pitch is augmentation through their existing quality bar, not bypassing it.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m2-q11",
+    "question": "‘Chat grounded in the repo’ differs from a generic chat assistant because:",
+    "options": [
+      "It only answers questions about the weather.",
+      "It uses repo retrieval so its answers and suggested edits reference the actual codebase, not generic patterns.",
+      "It runs without any model behind it.",
+      "It cannot reference any code at all."
+    ],
+    "correctIndex": 1,
+    "explanation": "Grounded chat retrieves from the actual repository so answers reflect the buyer’s code, conventions, and constraints — not generic Stack Overflow shape.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m2-q12",
+    "question": "Which property most increases the difficulty of large-codebase AI workflows?",
+    "options": [
+      "Repos with millions of lines, deep cross-service dependencies, and inconsistent documentation.",
+      "Repos with a single file under one hundred lines.",
+      "Repos written entirely in markdown.",
+      "Repos that only contain unit tests."
     ],
     "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "explanation": "Scale plus cross-service coupling plus weak docs is exactly where naive retrieval and small context windows fail — and where mature tools earn their value.",
     "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m2-q13",
+    "question": "The phrase ‘what data leaves our environment?’ most directly maps to which buyer concern?",
+    "options": [
+      "Color theme of the IDE.",
+      "Data handling and privacy posture for code, prompts, and tool calls.",
+      "Whether the company has a hiring freeze.",
+      "Whether the assistant supports emoji."
+    ],
+    "correctIndex": 1,
+    "explanation": "It is a privacy and data-handling question. The seller-credible answer points to documented retention and routing claims, ideally on the trust center.",
+    "sourceUrl": "https://cursor.com/security"
+  },
+  {
+    "id": "m2-q14",
+    "question": "Why is policy-level control over models, agents, and integrations important for enterprises?",
+    "options": [
+      "Because policies make engineers type faster.",
+      "Because enterprises need to constrain capability by team, environment, or data sensitivity in an auditable way.",
+      "Because policies eliminate the need for any review process.",
+      "Because policies remove the need for SSO."
+    ],
+    "correctIndex": 1,
+    "explanation": "At enterprise scale, ‘who can use which model, which agent, and which integration where’ is a governance question — and a hard requirement, not a nice-to-have.",
+    "sourceUrl": "https://cursor.com/security"
+  },
+  {
+    "id": "m2-q15",
+    "question": "Which item is NOT a credible part of a sales-grade explanation of MCP?",
+    "options": [
+      "It is a standard for connecting assistants to tools and data sources.",
+      "It encourages explicit integration boundaries.",
+      "It can be referenced in conversations about ungoverned plugin sprawl.",
+      "It guarantees that no LLM can ever produce an incorrect answer."
+    ],
+    "correctIndex": 3,
+    "explanation": "MCP is an integration-and-governance story, not a correctness guarantee. Anyone selling it as ‘makes the model right’ should be corrected immediately.",
+    "sourceUrl": "https://modelcontextprotocol.io/"
+  },
+  {
+    "id": "m2-q16",
+    "question": "What is the most accurate description of ‘context windows’ when a CISO asks?",
+    "options": [
+      "A network firewall configuration.",
+      "A finite amount of text the model can attend to at once, which constrains how much code, history, and tool output influence a single response.",
+      "A separate database of customer credentials.",
+      "A type of build cache."
+    ],
+    "correctIndex": 1,
+    "explanation": "Frame it for the audience: it is a per-inference token budget. CISOs care because it implies what data can be in-prompt at once and how retrieval is governed.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m2-q17",
+    "question": "When buyers ask ‘how do you handle big diffs and long threads without losing the plot?’ they are really asking about:",
+    "options": [
+      "The vendor’s logo.",
+      "Whether the assistant can manage long-running, repo-spanning work without degrading quality or losing prior decisions.",
+      "Whether the assistant runs on Linux.",
+      "Whether the IDE supports vertical splits."
+    ],
+    "correctIndex": 1,
+    "explanation": "It is a quality-at-scale question: can this tool sustain a complex, multi-step engineering task without forgetting earlier decisions or producing inconsistent edits.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m2-q18",
+    "question": "Which is the most credible response to ‘can we restrict which integrations engineers connect via MCP?’",
+    "options": [
+      "‘That isn’t a real concern in modern engineering orgs.’",
+      "‘Yes — integrations should be reviewable and policy-controlled, and that is exactly the kind of question the trust documentation is built to answer in detail.’",
+      "‘MCP doesn’t actually exist.’",
+      "‘Connect anything you want, governance is overrated.’"
+    ],
+    "correctIndex": 1,
+    "explanation": "Acknowledge the legitimacy, point to controls and primary sources, and avoid bluffing on specifics. That posture builds CISO trust.",
+    "sourceUrl": "https://cursor.com/security"
+  },
+  {
+    "id": "m2-q19",
+    "question": "Why is autocomplete sometimes called ‘limited in planning capability’?",
+    "options": [
+      "It only suggests the next token or short span and does not model multi-step intent across files.",
+      "It cannot run on modern laptops.",
+      "It cannot complete a single line of code.",
+      "It requires a Ph.D. to use."
+    ],
+    "correctIndex": 0,
+    "explanation": "Autocomplete is reactive at the cursor. It does not plan a multi-step change or coordinate across files — that is what richer chat, multi-file edits, and agents are for.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m2-q20",
+    "question": "Which workflow most clearly benefits from agentic capabilities?",
+    "options": [
+      "A typo fix in a single comment.",
+      "A multi-step migration that touches many files, runs tests, and iterates until checks pass.",
+      "Renaming one local variable in one function.",
+      "Re-indenting a single file."
+    ],
+    "correctIndex": 1,
+    "explanation": "Agentic shines when the task has plan-execute-validate loops over many files. Trivial single-file edits do not need it — and over-applying agents to trivial tasks weakens trust.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m2-q21",
+    "question": "‘Exfiltration via prompts, tools, or supply-chain dependencies’ is a category of risk that:",
+    "options": [
+      "Has been fully eliminated by the existence of LLMs.",
+      "Should be acknowledged as legitimate, with explicit controls discussed and documented before scale-out.",
+      "Is unrelated to AI coding tools.",
+      "Only matters in startups under fifty people."
+    ],
+    "correctIndex": 1,
+    "explanation": "This is real and live. Sellers earn trust by naming the risk class clearly and pointing to how the platform reasons about prompt, tool, and dependency surfaces.",
+    "sourceUrl": "https://cursor.com/security"
+  },
+  {
+    "id": "m2-q22",
+    "question": "The ‘category shift’ in AI coding assistants is best summarized as:",
+    "options": [
+      "From small models to bigger logos.",
+      "From ‘help me write syntax’ to ‘help me drive a change safely across the system.’",
+      "From compiled languages to interpreted ones.",
+      "From local IDEs to web-only IDEs."
+    ],
+    "correctIndex": 1,
+    "explanation": "That one-line shift drives everything that follows in the deal: who gets nervous (Security, quality), what proof you need, and what success looks like.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m2-q23",
+    "question": "Which question is most useful for measuring whether a team’s AI usage is ‘actually changing how they ship’?",
+    "options": [
+      "‘How many AI logos do you have?’",
+      "‘What workflow — review, refactors, onboarding, migrations — has measurably gotten faster, and how do you know?’",
+      "‘Which font do you use?’",
+      "‘Which conference do you attend?’"
+    ],
+    "correctIndex": 1,
+    "explanation": "Tie usage back to a workflow and a measurement. Vendor counts and trivia tell you nothing about whether AI is moving the business.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m2-q24",
+    "question": "What is the most accurate way to describe ‘multi-file edits depend on validation’?",
+    "options": [
+      "Tests, types, and review are how you know a coherent multi-file change actually works.",
+      "Validation only matters for single-line edits.",
+      "Validation is a marketing term with no real engineering meaning.",
+      "Validation removes the need for any human review."
+    ],
+    "correctIndex": 0,
+    "explanation": "Coherence at scale is proven through the team’s existing quality fabric: tests, types, review. AI edits ride on the same gates — that is also how you sell credibly to engineers.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m2-q25",
+    "question": "Which posture most reliably loses trust with a security-aware engineering buyer?",
+    "options": [
+      "Saying ‘I don’t know — let me confirm against the trust documentation and come back with specifics.’",
+      "Citing the trust center for retention claims.",
+      "Inventing a contractual data-handling commitment on the call to win the room.",
+      "Asking the buyer what their internal data-classification policy requires."
+    ],
+    "correctIndex": 2,
+    "explanation": "Bluffing on security loses the deal and the relationship. Honest sourcing — even when it means slowing down — is the credibility move.",
+    "sourceUrl": "https://cursor.com/security"
   }
 ]

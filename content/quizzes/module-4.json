@@ -1,132 +1,327 @@
 [
   {
     "id": "m4-q1",
-    "question": "A champion who talks about keyboard flow and PR cycle time is most likely:",
+    "question": "Which group is most often the initial champion in a bottoms-up dev-tool motion?",
     "options": [
-      "Best: Tie Personas & buying centers to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "End users / developers using the product day to day.",
+      "External regulators.",
+      "The customer’s legal counsel.",
+      "The board of directors."
     ],
     "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
-    "sourceUrl": "https://cursor.com/docs"
+    "explanation": "Dev tools usually land with developers first. The seller’s job is then to translate that grassroots adoption into a governed enterprise standard without killing the organic story.",
+    "sourceUrl": "https://www.meddicc.com/meddicc"
   },
   {
     "id": "m4-q2",
-    "question": "Security is most likely to raise concerns about:",
+    "question": "Which persona most often signals a strategic-account engagement when they enter the conversation early?",
     "options": [
-      "Best: Tie Personas & buying centers to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "A CTO or senior technology leader.",
+      "An intern doing a summer project.",
+      "A junior recruiter.",
+      "An office facilities manager."
     ],
     "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
-    "sourceUrl": "https://cursor.com/docs"
+    "explanation": "When the CTO or senior tech leader joins early, you are usually in a strategic, platform-bet conversation — that changes the proof and stakeholder map you need.",
+    "sourceUrl": "https://cursor.com/enterprise"
   },
   {
     "id": "m4-q3",
-    "question": "Procurement is most likely to focus on:",
+    "question": "An EM (engineering manager) is most likely to focus discovery on:",
     "options": [
-      "Best: Tie Personas & buying centers to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "Sprint predictability, team norms, onboarding ramp, and rework volume.",
+      "Theoretical computer science topics.",
+      "Choosing the company’s CRM vendor.",
+      "Long-term M&A strategy."
     ],
     "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
-    "sourceUrl": "https://cursor.com/docs"
+    "explanation": "EMs own the team-level mechanics. Their language is sprint, norms, ramp time, and rework — meet them there.",
+    "sourceUrl": "https://cursor.com/enterprise"
   },
   {
     "id": "m4-q4",
-    "question": "A VP Engineering is most likely to optimize for:",
+    "question": "A VP of Engineering is most likely to talk about:",
     "options": [
-      "Best: Tie Personas & buying centers to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "Vendor consolidation, platform decisions, and engineering efficiency at scale.",
+      "Personal IDE color themes.",
+      "Daily commute logistics.",
+      "Office snack preferences."
     ],
     "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
-    "sourceUrl": "https://cursor.com/docs"
+    "explanation": "VPs of Eng are wired to platform bets, vendor sprawl, and efficiency at scale — that is the level of conversation they expect.",
+    "sourceUrl": "https://cursor.com/enterprise"
   },
   {
     "id": "m4-q5",
-    "question": "Which dynamic is common in dev-tool expansion motions?",
+    "question": "A CTO is most likely to ground the discussion in:",
     "options": [
-      "Best: Tie Personas & buying centers to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "Architecture direction, risk posture, and long-term technology bets.",
+      "Whether to switch from coffee to tea in the office.",
+      "Internal seating charts.",
+      "Conference travel policies."
     ],
     "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
-    "sourceUrl": "https://cursor.com/docs"
+    "explanation": "CTOs frame in architecture, risk, and long-horizon bets. ‘Why is this the right platform investment for the next three to five years?’ is their natural question.",
+    "sourceUrl": "https://cursor.com/enterprise"
   },
   {
     "id": "m4-q6",
-    "question": "Which question helps uncover the real economic buyer?",
+    "question": "Which set of concerns most clearly belongs to the Security persona?",
     "options": [
-      "Best: Tie Personas & buying centers to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "Data flows, SSO/SCIM, logging, DLP-adjacent issues, vendor review.",
+      "Sprint capacity for the next two weeks.",
+      "Which conferences sponsor swag.",
+      "Office WiFi password rotation."
     ],
     "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
-    "sourceUrl": "https://cursor.com/docs"
+    "explanation": "Security cares about identity, data flows, observability, and vendor risk. Speak in their vocabulary or invite a specialist who can.",
+    "sourceUrl": "https://cursor.com/security"
   },
   {
     "id": "m4-q7",
-    "question": "Which stakeholder is most likely to care about developer retention signals?",
+    "question": "Procurement most often evaluates:",
     "options": [
-      "Best: Tie Personas & buying centers to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "Price-to-value, bundling, contract flexibility, and rollout timing relative to renewals.",
+      "Whether the IDE supports vim mode.",
+      "How fast unit tests run.",
+      "Which programming language is most popular this year."
     ],
     "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
-    "sourceUrl": "https://cursor.com/docs"
+    "explanation": "Procurement is commercial mechanics. Bring discipline to pricing structure, bundles, and timing — surprises here stall otherwise winnable deals.",
+    "sourceUrl": "https://cursor.com/enterprise"
   },
   {
     "id": "m4-q8",
-    "question": "Which trap should sellers avoid in multi-threaded deals?",
+    "question": "‘Land-and-expand’ in dev tools most commonly progresses through which sequence?",
     "options": [
-      "Best: Tie Personas & buying centers to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "Individual adoption → team standardization → enterprise standardization.",
+      "Enterprise standardization → team standardization → individual adoption.",
+      "RFP → silence → contract.",
+      "Free trial → cancellation → re-purchase later."
     ],
     "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
-    "sourceUrl": "https://cursor.com/docs"
+    "explanation": "Individual usage proves value. Team standardization consolidates norms and budget. Enterprise standardization brings Security and global rollout. Each stage requires different evidence.",
+    "sourceUrl": "https://cursor.com/enterprise"
   },
   {
     "id": "m4-q9",
-    "question": "Which question helps you learn the customer's decision criteria early?",
+    "question": "A developer champion is most useful to the deal when they:",
     "options": [
-      "Best: Tie Personas & buying centers to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "Articulate daily friction and PR-cycle pain in concrete terms that other personas can relate to.",
+      "Sign the master service agreement.",
+      "Negotiate procurement timelines.",
+      "Run security audits."
     ],
     "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
-    "sourceUrl": "https://cursor.com/docs"
+    "explanation": "Champions translate. They convert the seller’s story into language that resonates with their colleagues — workflow, friction, what their team actually needs.",
+    "sourceUrl": "https://www.meddicc.com/meddicc"
   },
   {
     "id": "m4-q10",
-    "question": "Land-and-expand in dev tools often starts with:",
+    "question": "‘Discovery discipline’ across personas means:",
     "options": [
-      "Best: Tie Personas & buying centers to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "Asking questions that create shared language between Security, Engineering, Procurement, and end users.",
+      "Asking the same question over and over until the buyer signs.",
+      "Avoiding any question that could embarrass the seller.",
+      "Letting the buyer ask all the questions while you take notes."
     ],
     "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "explanation": "Strategic deals stall when stakeholders mean different things by the same word (‘data residency,’ ‘ROI,’ ‘standard’). Build shared language early.",
+    "sourceUrl": "https://www.meddicc.com/meddicc"
+  },
+  {
+    "id": "m4-q11",
+    "question": "Which objection most likely originates with Security/IT?",
+    "options": [
+      "‘We need clarity on what data leaves our environment, and what audit evidence we’d have at scale.’",
+      "‘I personally hate the IDE’s default font.’",
+      "‘We want a different conference sponsor.’",
+      "‘Can we change the website color?’"
+    ],
+    "correctIndex": 0,
+    "explanation": "Data egress and audit evidence are textbook Security/IT concerns. Confirm specifics against the trust center, never improvise.",
+    "sourceUrl": "https://cursor.com/security"
+  },
+  {
+    "id": "m4-q12",
+    "question": "Which objection most likely originates with Procurement?",
+    "options": [
+      "‘Walk me through your pricing curves at scale and how you handle co-term and renewal alignment.’",
+      "‘I’d prefer the chat font to be slightly larger.’",
+      "‘Can we change the company logo color?’",
+      "‘Can we move the office cafeteria?’"
+    ],
+    "correctIndex": 0,
+    "explanation": "Pricing curves, co-term, and renewal mechanics are Procurement’s home turf. Treat them as a partner — not as the obstacle at the end of the deal.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m4-q13",
+    "question": "Which objection most likely originates with a tech lead?",
+    "options": [
+      "‘How do we maintain quality and review depth as AI generates more change?’",
+      "‘What size hoodie does the AE wear?’",
+      "‘Can we change the desk arrangement?’",
+      "‘Does the assistant work on a tablet at the beach?’"
+    ],
+    "correctIndex": 0,
+    "explanation": "Tech leads care about maintainability and review burden. The legitimate concern is whether AI-generated change preserves the quality bar.",
     "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m4-q14",
+    "question": "‘Vendor consolidation’ as a VP-Eng theme usually implies:",
+    "options": [
+      "Reducing tool sprawl and aligning on a smaller set of strategic platforms with stronger leverage.",
+      "Buying every tool on the market.",
+      "Switching to entirely open-source stacks overnight.",
+      "Hiring a separate team per tool."
+    ],
+    "correctIndex": 0,
+    "explanation": "Consolidation is about leverage and lower operational drag. Cursor sells well into that conversation when you can frame it as a platform bet, not a point feature.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m4-q15",
+    "question": "A useful test for whether your champion is real is:",
+    "options": [
+      "They will introduce you to other personas, restate your value in their own words, and tell you when something isn’t landing.",
+      "They forwarded your email once.",
+      "They liked one of your social posts.",
+      "They opened a calendar invite."
+    ],
+    "correctIndex": 0,
+    "explanation": "A real champion sells inside their org, gives you honest signal, and opens doors. If none of that is happening, you have a contact, not a champion.",
+    "sourceUrl": "https://www.meddicc.com/meddicc"
+  },
+  {
+    "id": "m4-q16",
+    "question": "Which is the most credible move in a strategic account when Security and Engineering disagree on a definition?",
+    "options": [
+      "Pick the definition that makes Cursor look better and stick with it.",
+      "Surface the difference, propose a shared definition, and let both sides validate it before you continue.",
+      "Email the CEO to break the tie.",
+      "Ignore the disagreement and hope it resolves itself."
+    ],
+    "correctIndex": 1,
+    "explanation": "Surface and align. Letting definitional gaps fester quietly is how strategic deals stall. Building shared language is part of your job.",
+    "sourceUrl": "https://www.meddicc.com/meddicc"
+  },
+  {
+    "id": "m4-q17",
+    "question": "‘Bottoms-up adoption’ alone is rarely enough at enterprise scale because:",
+    "options": [
+      "Engineers don’t know how to use new tools.",
+      "Standardization, governance, and Security/IT alignment require explicit top-down support.",
+      "Bottoms-up adoption is forbidden by federal law.",
+      "Bottoms-up usage cannot be measured."
+    ],
+    "correctIndex": 1,
+    "explanation": "Grassroots usage proves value. Turning it into a governed standard requires sponsorship, budget consolidation, and security alignment from above.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m4-q18",
+    "question": "Which question is strongest for an engineering manager-level discovery call?",
+    "options": [
+      "‘What does ramp time look like for a new engineer in your most complex service today, and what would faster look like?’",
+      "‘Do you prefer dogs or cats?’",
+      "‘How long is your average vacation?’",
+      "‘Is your CTO on Twitter?’"
+    ],
+    "correctIndex": 0,
+    "explanation": "Anchor to a workflow EMs own (onboarding) and the metric they would actually move (ramp time). That maps directly to the value Cursor can attach to.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m4-q19",
+    "question": "A CTO-level discovery question that travels well is:",
+    "options": [
+      "‘How are you thinking about platform bets in the AI-coding category over the next two to three years, and what would standardization actually require here?’",
+      "‘What’s your favorite pizza topping?’",
+      "‘Do you watch the same TV shows as your team?’",
+      "‘Did you go to college?’"
+    ],
+    "correctIndex": 0,
+    "explanation": "CTOs think in platform horizons. Asking how they are reasoning about category bets and standardization respects their level and gives you durable signal.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m4-q20",
+    "question": "Which is the most common cause of a stalled enterprise deal across personas?",
+    "options": [
+      "Security and Engineering using the same words to mean different things, with no shared definition.",
+      "The IDE icon being too small.",
+      "Too many engineers liking the product.",
+      "An over-supply of free trials."
+    ],
+    "correctIndex": 0,
+    "explanation": "Hidden semantic gaps between Security and Engineering kill momentum quietly. Smart sellers force the definitional work into the open.",
+    "sourceUrl": "https://www.meddicc.com/meddicc"
+  },
+  {
+    "id": "m4-q21",
+    "question": "Which evidence is most likely to move a deal from ‘team standardization’ to ‘enterprise standardization’?",
+    "options": [
+      "A signed employee photo.",
+      "Documented adoption metrics, governance posture, and a Security review path that maps to the org’s control framework.",
+      "A blog post by an unrelated company.",
+      "A video of a happy CEO somewhere else."
+    ],
+    "correctIndex": 1,
+    "explanation": "Enterprise standardization needs three things: real usage, real controls, and a path through the org’s actual security framework. Anything less stalls at the gate.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m4-q22",
+    "question": "Which behavior is the strongest signal that a multi-stakeholder deal is in trouble?",
+    "options": [
+      "Every persona uses the same precise language and definitions.",
+      "You are telling a different story to each persona — and the stories don’t reconcile.",
+      "Security has a defined review path.",
+      "The CTO has weighed in once on direction."
+    ],
+    "correctIndex": 1,
+    "explanation": "Telling reconcilable stories tuned to each persona is the job. Telling stories that contradict each other is the warning sign — buyers compare notes.",
+    "sourceUrl": "https://www.meddicc.com/meddicc"
+  },
+  {
+    "id": "m4-q23",
+    "question": "‘Talks about price-to-value, bundling, contract flex, and rollout timing’ best describes:",
+    "options": [
+      "A frontend developer.",
+      "A procurement or finance contact.",
+      "A site reliability engineer.",
+      "A QA tester."
+    ],
+    "correctIndex": 1,
+    "explanation": "That vocabulary is procurement and finance. They are partners on commercial mechanics — invest in them early to avoid late-stage friction.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m4-q24",
+    "question": "‘Sounding scripted’ in persona-specific discovery is most often caused by:",
+    "options": [
+      "Reading the same questions in the same order regardless of the buyer in front of you.",
+      "Using shared vocabulary across personas.",
+      "Showing curiosity about the buyer’s actual workflow.",
+      "Citing primary sources."
+    ],
+    "correctIndex": 0,
+    "explanation": "Scripted feels canned because it is. Vary depth and angle by persona; carry shared themes, not identical sentences.",
+    "sourceUrl": "https://www.meddicc.com/meddicc"
+  },
+  {
+    "id": "m4-q25",
+    "question": "What is the seller’s primary job once an enterprise has organic, grassroots usage of Cursor?",
+    "options": [
+      "Hide the usage from leadership to protect the champion.",
+      "Help the org turn that usage into a governed standard without killing the organic adoption story.",
+      "Force the buyer to start over with a different evaluation.",
+      "Cancel the trial and restart it under a new name."
+    ],
+    "correctIndex": 1,
+    "explanation": "The job is bridging organic to governed: surface the usage, partner on standards, and let Security/IT in as partners — not as a roadblock at the end.",
+    "sourceUrl": "https://cursor.com/enterprise"
   }
 ]

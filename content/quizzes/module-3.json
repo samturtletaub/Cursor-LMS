@@ -1,132 +1,327 @@
 [
   {
     "id": "m3-q1",
-    "question": "Which Cursor surface maps best to exploratory questions while coding?",
+    "question": "Which Cursor surface is most associated with accelerating local edits at the cursor position?",
     "options": [
-      "Best: Tie Cursor product to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "Inline completion (autocomplete in the editor).",
+      "Background agents running on a server.",
+      "The trust center landing page.",
+      "The pricing calculator."
     ],
     "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "explanation": "Inline completion is the surface that compresses local edits — the smallest, fastest acceleration story. Bigger surfaces (chat, composer, agents) tackle larger workflows.",
     "sourceUrl": "https://cursor.com/docs"
   },
   {
     "id": "m3-q2",
-    "question": "Enterprise buyers frequently evaluate Cursor alongside questions about:",
+    "question": "Which surface is most appropriate for ‘exploration, clarification, and guided changes’ inside the IDE?",
     "options": [
-      "Best: Tie Cursor product to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "Inline completion.",
+      "Chat grounded in the repo.",
+      "The procurement portal.",
+      "The status page."
     ],
-    "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "correctIndex": 1,
+    "explanation": "Chat is the conversational surface for exploration and guided changes. It is where developers ask ‘where does this live?’ and ‘what would this refactor look like?’",
     "sourceUrl": "https://cursor.com/docs"
   },
   {
     "id": "m3-q3",
-    "question": "A strong product demo story connects a feature to:",
+    "question": "Composer / agent-style flows in Cursor are most useful for:",
     "options": [
-      "Best: Tie Cursor product to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "Single-character typo fixes.",
+      "Multi-step changes across files where governance and validation matter most.",
+      "Replacing the company SSO provider.",
+      "Generating finance dashboards."
     ],
-    "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "correctIndex": 1,
+    "explanation": "Composer-style flows shine on multi-step, multi-file changes — exactly where you also need strong validation and review, which is why governance comes up.",
     "sourceUrl": "https://cursor.com/docs"
   },
   {
     "id": "m3-q4",
-    "question": "Why do 'background' or agent-style workflows raise governance questions?",
+    "question": "Which is the most credible way to position background agents to a security-conscious buyer?",
     "options": [
-      "Best: Tie Cursor product to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "‘They run unsupervised, so you don’t need any guardrails.’",
+      "‘They reduce toil when teams have clear guardrails — what controls would you require to trust them on real work?’",
+      "‘Background agents are not real, just a marketing term.’",
+      "‘They eliminate the need for code review entirely.’"
     ],
-    "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
-    "sourceUrl": "https://cursor.com/docs"
+    "correctIndex": 1,
+    "explanation": "Lead with value-with-guardrails and turn the question back to their required controls. That posture demonstrates respect for governance and earns the conversation.",
+    "sourceUrl": "https://cursor.com/security"
   },
   {
     "id": "m3-q5",
-    "question": "Which proof point should be treated as a hypothesis until validated in-account?",
+    "question": "Which acronym does Security/IT typically reference when asking about identity provider integration?",
     "options": [
-      "Best: Tie Cursor product to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "SSO / SAML.",
+      "JPEG / GIF.",
+      "TCP / UDP.",
+      "RAM / ROM."
     ],
     "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
-    "sourceUrl": "https://cursor.com/docs"
+    "explanation": "SSO via SAML (or OIDC) is the standard identity ask. Confirm support and configuration specifics from primary trust documentation rather than hand-waving.",
+    "sourceUrl": "https://cursor.com/security"
   },
   {
     "id": "m3-q6",
-    "question": "Bugbot is best positioned as:",
+    "question": "What does SCIM most directly enable for an enterprise rolling out Cursor?",
     "options": [
-      "Best: Tie Cursor product to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "Automated user lifecycle: provisioning, group membership, and deprovisioning from the directory.",
+      "Renaming PRs in bulk.",
+      "Faster CPU performance on developer laptops.",
+      "Replacing the team’s git host."
     ],
     "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
-    "sourceUrl": "https://cursor.com/docs"
+    "explanation": "SCIM is the lifecycle story: when an employee joins, changes role, or leaves, their access changes automatically — required at enterprise scale and audited by IT.",
+    "sourceUrl": "https://cursor.com/security"
   },
   {
     "id": "m3-q7",
-    "question": "Which control helps organizations restrict integrations and tool access?",
+    "question": "When a buyer asks about ‘model access controls,’ they most likely want to know:",
     "options": [
-      "Best: Tie Cursor product to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "Whether they can constrain which models are available to which teams or for which data.",
+      "Whether the model has a pet name.",
+      "Whether the model can be used after business hours.",
+      "Whether the model writes poetry."
     ],
     "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
-    "sourceUrl": "https://cursor.com/docs"
+    "explanation": "Enterprises need policy gates on model usage — by team, environment, or data sensitivity. That is the conversation, not benchmark scores.",
+    "sourceUrl": "https://cursor.com/security"
   },
   {
     "id": "m3-q8",
-    "question": "When a buyer asks about Privacy Mode / data handling, the best response pattern is:",
+    "question": "The most credible thing to do when you are unsure of a Cursor security detail in front of a CISO is:",
     "options": [
-      "Best: Tie Cursor product to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "Make up a confident-sounding answer to keep momentum.",
+      "Acknowledge the uncertainty, point to primary trust/security documentation, and follow up with the specialist.",
+      "Change the topic to pricing.",
+      "Promise the feature exists in next quarter’s release."
     ],
-    "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
-    "sourceUrl": "https://cursor.com/docs"
+    "correctIndex": 1,
+    "explanation": "Strategic credibility is built on precise sourcing. CISOs will respect ‘let me confirm against the trust docs and follow up’ far more than improvisation.",
+    "sourceUrl": "https://cursor.com/security"
   },
   {
     "id": "m3-q9",
-    "question": "Which mistake most often hurts credibility in front of a CTO?",
+    "question": "Public marketing stats about Cursor are best used as:",
     "options": [
-      "Best: Tie Cursor product to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "Contractual commitments quoted verbatim in the MSA.",
+      "Hypotheses to validate against the buyer’s context, workflows, and evaluation criteria.",
+      "Proof that further discovery is unnecessary.",
+      "Replacements for any internal benchmarks."
     ],
-    "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
-    "sourceUrl": "https://cursor.com/docs"
+    "correctIndex": 1,
+    "explanation": "Treat marketing stats as starting hypotheses and prove them in-account. Quoting them as contractual facts is the fastest way to lose CISO trust.",
+    "sourceUrl": "https://cursor.com/enterprise"
   },
   {
     "id": "m3-q10",
-    "question": "Which discovery question helps you map how Cursor would be adopted in a large eng org?",
+    "question": "Which statement about ‘developer preference’ is most credible in an enterprise evaluation?",
     "options": [
-      "Best: Tie Cursor product to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "It is irrelevant because Security makes the call.",
+      "It only matters for startups under twenty engineers.",
+      "It matters and should be measured the way the org actually evaluates — not as a generic NPS score.",
+      "It can be guaranteed by the vendor in writing."
+    ],
+    "correctIndex": 2,
+    "explanation": "Developer preference is real signal but each org measures it differently — surveys, opt-in rates, evaluation rubrics. Define ‘preference’ in their language, then measure it.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m3-q11",
+    "question": "‘MCP controls’ in an enterprise context refer to:",
+    "options": [
+      "Controlling which integrations are allowed to be wired up via MCP.",
+      "Controlling the IDE’s color theme.",
+      "Controlling which programming languages developers can use.",
+      "Controlling office WiFi."
     ],
     "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
+    "explanation": "When buyers say ‘MCP controls,’ they mean policy over which integrations engineers can actually connect — and how that surface is observable.",
+    "sourceUrl": "https://modelcontextprotocol.io/"
+  },
+  {
+    "id": "m3-q12",
+    "question": "Which workflow is a strong fit to attach to Cursor’s composer/agent-style story?",
+    "options": [
+      "Onboarding new engineers into a large unfamiliar codebase.",
+      "Choosing a corporate health insurance plan.",
+      "Hosting a launch party for the marketing team.",
+      "Designing a new physical office floor plan."
+    ],
+    "correctIndex": 0,
+    "explanation": "Onboarding into a big repo is exactly the kind of multi-file, context-heavy workflow Cursor’s richer surfaces are designed to compress.",
     "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m3-q13",
+    "question": "What does ‘Privacy Mode’ generally refer to in dev-tool sales conversations?",
+    "options": [
+      "A posture about whether code or prompts are stored or used to train models — described accurately, not hand-waved.",
+      "A feature that hides the IDE icon from the dock.",
+      "A discount tier for nonprofits.",
+      "A keyboard shortcut to clear the chat."
+    ],
+    "correctIndex": 0,
+    "explanation": "Privacy Mode is a data-handling posture. Describe its scope precisely and confirm against the trust center — buyers will ask how it applies to code, prompts, and tool calls.",
+    "sourceUrl": "https://cursor.com/security"
+  },
+  {
+    "id": "m3-q14",
+    "question": "‘Zero Data Retention’ (where applicable) most directly addresses which buyer concern?",
+    "options": [
+      "Whether prompts and outputs are stored, and for how long, in the assistant’s pipeline.",
+      "How fast the IDE loads on cold start.",
+      "Whether the assistant is offered as open source.",
+      "Whether the company offers free t-shirts at conferences."
+    ],
+    "correctIndex": 0,
+    "explanation": "ZDR speaks to retention. Always confirm packaging and the exact scope on Cursor’s trust materials before quoting it as a contractual fact.",
+    "sourceUrl": "https://trust.cursor.com/"
+  },
+  {
+    "id": "m3-q15",
+    "question": "Which behavior most damages a strategic seller’s credibility on Cursor enterprise controls?",
+    "options": [
+      "Citing the trust center as the source of record.",
+      "Distinguishing between current packaging and roadmap.",
+      "Quoting marketing language as if it were a contractual commitment.",
+      "Inviting a Cursor security specialist into the conversation."
+    ],
+    "correctIndex": 2,
+    "explanation": "Treating marketing copy as contract is the classic credibility burner. Sourcing, scoping, and inviting specialists are credibility builders.",
+    "sourceUrl": "https://trust.cursor.com/"
+  },
+  {
+    "id": "m3-q16",
+    "question": "Which question best converts a Cursor ‘merge frequency’ proof point into discovery?",
+    "options": [
+      "‘Where is your team trying to increase merge frequency, and what is currently in the way?’",
+      "‘Do you like the color of our website?’",
+      "‘How many engineers can you fire?’",
+      "‘Will you sign today?’"
+    ],
+    "correctIndex": 0,
+    "explanation": "The pattern is: take the marketing stat, turn it into a question that surfaces the buyer’s reality, and learn whether their context aligns.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m3-q17",
+    "question": "‘Composer / agent-style flows’ require strong governance because they:",
+    "options": [
+      "Coordinate multi-step changes across many files where mistakes propagate quickly.",
+      "Require new physical hardware on every laptop.",
+      "Cannot be reverted with git.",
+      "Disable the IDE’s syntax highlighting."
+    ],
+    "correctIndex": 0,
+    "explanation": "Higher autonomy means changes can ripple. That is why review, testing, and policy gates matter most exactly where the leverage is highest.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m3-q18",
+    "question": "When orienting a buyer to Cursor in roughly one minute, the most useful frame is:",
+    "options": [
+      "A walkthrough of every UI tab.",
+      "A list of Cursor’s competitors.",
+      "Surfaces (inline completion, chat, composer/agent, background) → which workflow each accelerates.",
+      "A reading of the Terms of Service."
+    ],
+    "correctIndex": 2,
+    "explanation": "Surface → workflow mapping is the durable mental model. It connects features to outcomes the buyer cares about, in the time the buyer actually has.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m3-q19",
+    "question": "Which is a credible enterprise ‘proof point as hypothesis’ statement?",
+    "options": [
+      "‘Some teams report meaningfully shorter review cycles — would you like to design a small evaluation in your repo to see whether the same shape holds for you?’",
+      "‘We guarantee a 10x productivity boost for every engineer in writing.’",
+      "‘You don’t need to evaluate — just sign.’",
+      "‘Trust me, it works.’"
+    ],
+    "correctIndex": 0,
+    "explanation": "Frame proof as a hypothesis the buyer co-validates. That respects the engineering culture and produces evidence that survives scrutiny.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m3-q20",
+    "question": "Which is NOT a Cursor surface that sellers should be able to orient a buyer to?",
+    "options": [
+      "Inline completion.",
+      "Chat.",
+      "Composer / agent-style flows.",
+      "Cloud GPU rental marketplace."
+    ],
+    "correctIndex": 3,
+    "explanation": "Cursor’s seller-relevant surfaces are inline completion, chat, composer/agent flows, and adjacent automation. A GPU rental marketplace is not part of the product story.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m3-q21",
+    "question": "‘Adjacent automation workflows’ in Cursor’s story tend to deliver value most when:",
+    "options": [
+      "Engineers want a tool to act with no constraints.",
+      "Teams have clear guardrails and a known repeatable workflow worth automating.",
+      "There are no tests in the repo.",
+      "Code is written entirely by hand only."
+    ],
+    "correctIndex": 1,
+    "explanation": "Toil-reducing automation lands when the workflow is repeatable and the guardrails are explicit. That is also how it stays trusted at scale.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m3-q22",
+    "question": "Which question is most useful to surface review-bottleneck pain in a Cursor discovery?",
+    "options": [
+      "‘How long does the average PR sit waiting for review, and what is the cost when it stalls?’",
+      "‘How many monitors does each engineer have?’",
+      "‘What font size do reviewers prefer?’",
+      "‘What time zone is your CFO in?’"
+    ],
+    "correctIndex": 0,
+    "explanation": "Tie review latency to a measurable cost. That converts a vague pain into a number worth fixing — and into a workflow Cursor can credibly accelerate.",
+    "sourceUrl": "https://cursor.com/docs"
+  },
+  {
+    "id": "m3-q23",
+    "question": "‘Directory integration’ usually refers to:",
+    "options": [
+      "Linking the assistant with the enterprise identity directory (e.g. Okta, Azure AD) so accounts and groups stay in sync.",
+      "Indexing all files in a single git directory.",
+      "Choosing which IDE folder shows on the left.",
+      "Automatically renaming all directories in the repo."
+    ],
+    "correctIndex": 0,
+    "explanation": "Identity directory integration is the lifecycle backbone. SSO authenticates; SCIM provisions; the directory is the source of truth.",
+    "sourceUrl": "https://cursor.com/security"
+  },
+  {
+    "id": "m3-q24",
+    "question": "Which behavior signals strategic-seller maturity on Cursor enterprise controls?",
+    "options": [
+      "Memorizing every page of the trust center verbatim.",
+      "Knowing the vocabulary, knowing where to confirm specifics, and knowing when to bring in a specialist.",
+      "Avoiding the security conversation until contract signature.",
+      "Forwarding every Security question to engineering without context."
+    ],
+    "correctIndex": 1,
+    "explanation": "You do not need to be a CISO. You need vocabulary, sourcing discipline, and the judgment to escalate when precision matters.",
+    "sourceUrl": "https://cursor.com/security"
+  },
+  {
+    "id": "m3-q25",
+    "question": "Which workflow attachment is the strongest opener for Cursor with a platform team?",
+    "options": [
+      "‘Want a free t-shirt?’",
+      "‘Where do migrations and refactors lose time today, and what would you measure if those got faster?’",
+      "‘Have you considered switching git providers?’",
+      "‘Do you need a new pricing model?’"
+    ],
+    "correctIndex": 1,
+    "explanation": "Platform teams own cross-cutting work like migrations and refactors. Anchor the conversation to that workflow and a measurable outcome — that is where Cursor shows up best.",
+    "sourceUrl": "https://cursor.com/enterprise"
   }
 ]

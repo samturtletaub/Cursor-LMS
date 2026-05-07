@@ -1,132 +1,327 @@
 [
   {
     "id": "m6-q1",
-    "question": "A strong ROI narrative should begin with:",
+    "question": "‘Land-and-expand’ in a strong dev-tool motion most reliably combines:",
     "options": [
-      "Best: Tie Enterprise sales motion to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "Organic usage that proves value, team adoption that consolidates norms and budget, and enterprise governance that makes Security/IT a partner.",
+      "A signed enterprise contract before any developer has used the product.",
+      "A press release before any pilot.",
+      "Free t-shirts at every quarterly business review."
     ],
     "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
-    "sourceUrl": "https://cursor.com/docs"
+    "explanation": "Strong land-and-expand stitches three layers: real usage, real team standardization, and real governance partnership — none of which is optional at enterprise scale.",
+    "sourceUrl": "https://cursor.com/enterprise"
   },
   {
     "id": "m6-q2",
-    "question": "In dev-tool ROI, which input is most often misunderstood or exaggerated?",
+    "question": "Which of the following is the most credible structure for a Cursor ROI story?",
     "options": [
-      "Best: Tie Enterprise sales motion to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "‘Pick a wild number and round up.’",
+      "Baseline cost of engineering time → measurable workflow lever → conservative improvement hypothesis → risk-adjusted implementation.",
+      "‘Trust me, it pays for itself.’",
+      "‘Ignore baseline; just compare to last quarter’s revenue.’"
     ],
-    "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
-    "sourceUrl": "https://cursor.com/docs"
+    "correctIndex": 1,
+    "explanation": "ROI travels when it is structured: baseline you can defend, lever the buyer believes in, range that respects uncertainty, and a credible plan to get there.",
+    "sourceUrl": "https://cursor.com/enterprise"
   },
   {
     "id": "m6-q3",
-    "question": "Which topic is commonly part of enterprise security review?",
+    "question": "‘Promotional stat’ should be treated as:",
     "options": [
-      "Best: Tie Enterprise sales motion to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "A contractual commitment.",
+      "A hypothesis to validate in the account’s context until it is proven there.",
+      "A guarantee against any future variance.",
+      "Equivalent to a peer-reviewed academic citation."
     ],
-    "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
-    "sourceUrl": "https://cursor.com/docs"
+    "correctIndex": 1,
+    "explanation": "Marketing stats start as hypotheses. Validate them in the buyer’s workflow before letting them carry the deal — and never treat them as contracts.",
+    "sourceUrl": "https://cursor.com/enterprise"
   },
   {
     "id": "m6-q4",
-    "question": "MEDDPICC 'Metrics' in a Cursor deal might include:",
+    "question": "‘Risk-adjusted implementation’ in an ROI narrative typically includes:",
     "options": [
-      "Best: Tie Enterprise sales motion to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "Training, guardrails, and an evaluation design that the buyer can defend internally.",
+      "A guarantee of zero behavior change required from any engineer.",
+      "A commitment to skip Security review entirely.",
+      "A promise that no policy will need to be updated."
     ],
     "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
-    "sourceUrl": "https://cursor.com/docs"
+    "explanation": "‘How will the org actually adopt this safely?’ — training, guardrails, and an explicit evaluation plan answer that question and protect the credibility of the savings number.",
+    "sourceUrl": "https://cursor.com/enterprise"
   },
   {
     "id": "m6-q5",
-    "question": "Land-and-expand becomes credible when:",
+    "question": "Which is the strongest opening question with a CISO or senior security stakeholder?",
     "options": [
-      "Best: Tie Enterprise sales motion to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "‘What controls do you require for any tool that touches code or production data, and what audit evidence do you expect to see at scale?’",
+      "‘Have you ever used a Mac?’",
+      "‘What’s your favorite snack?’",
+      "‘Do you use light or dark mode?’"
     ],
     "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
-    "sourceUrl": "https://cursor.com/docs"
+    "explanation": "Open with their job: required controls and audit evidence at scale. That posture earns you the right to discuss specifics afterward.",
+    "sourceUrl": "https://cursor.com/security"
   },
   {
     "id": "m6-q6",
-    "question": "Which stakeholder pairing most often needs shared language?",
+    "question": "MEDDPICC ‘Metrics’ for a Cursor deal are best chosen as:",
     "options": [
-      "Best: Tie Enterprise sales motion to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "Numbers the seller likes that may or may not match the buyer’s KPIs.",
+      "Outcomes the buyer already owns and measures — engineering throughput, incident rates, onboarding time, developer satisfaction signals.",
+      "Whatever marketing copy says is biggest.",
+      "A pre-printed list with no buyer input."
     ],
-    "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
-    "sourceUrl": "https://cursor.com/docs"
+    "correctIndex": 1,
+    "explanation": "Metrics travel only when they are the buyer’s — pick the ones they already own and measure, not the ones that look best in your pitch.",
+    "sourceUrl": "https://www.meddicc.com/meddicc"
   },
   {
     "id": "m6-q7",
-    "question": "Procurement traps in AI tooling often include:",
+    "question": "MEDDPICC ‘Economic Buyer’ in a Cursor enterprise motion is most often:",
     "options": [
-      "Best: Tie Enterprise sales motion to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "An end-user developer who really likes the IDE.",
+      "Engineering leadership, with the CTO entering earlier in strategic accounts.",
+      "The receptionist on the way to the meeting room.",
+      "The cleaning crew."
     ],
-    "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
-    "sourceUrl": "https://cursor.com/docs"
+    "correctIndex": 1,
+    "explanation": "Economic buyers tend to live in engineering leadership for dev tools, with the CTO showing up sooner when the deal is strategic platform-level.",
+    "sourceUrl": "https://www.meddicc.com/meddicc"
   },
   {
     "id": "m6-q8",
-    "question": "Which behavior demonstrates strategic maturity?",
+    "question": "MEDDPICC ‘Decision Criteria’ in a dev-tool deal usually includes:",
     "options": [
-      "Best: Tie Enterprise sales motion to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "Only price.",
+      "Security requirements and developer experience requirements — both matter, and both must be satisfied to standardize.",
+      "Whether the vendor sponsors a sports team.",
+      "The vendor’s social media follower count."
     ],
-    "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
-    "sourceUrl": "https://cursor.com/docs"
+    "correctIndex": 1,
+    "explanation": "Both gates must clear: governance and developer experience. Winning one and losing the other does not produce an enterprise standard.",
+    "sourceUrl": "https://www.meddicc.com/meddicc"
   },
   {
     "id": "m6-q9",
-    "question": "When you don't know a security fact, the best move is:",
+    "question": "MEDDPICC ‘Paper Process’ for an enterprise Cursor deal typically includes:",
     "options": [
-      "Best: Tie Enterprise sales motion to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "Procurement, legal, data processing terms, and vendor risk reviews.",
+      "Stationery selection.",
+      "Choosing a font for invoices.",
+      "Picking the office holiday card."
     ],
     "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
-    "sourceUrl": "https://cursor.com/docs"
+    "explanation": "Paper process is the unglamorous critical path: procurement mechanics, legal redlines, DPA terms, and vendor risk review. Map it early or lose the quarter.",
+    "sourceUrl": "https://www.meddicc.com/meddicc"
   },
   {
     "id": "m6-q10",
-    "question": "An enterprise standardization story should end with:",
+    "question": "Which is the most credible behavior in a security conversation?",
     "options": [
-      "Best: Tie Enterprise sales motion to workflow outcomes, governance, and proof—then validate in discovery.",
-      "Weak: Lead with generic AI hype and avoid specifics about review, security, and adoption.",
-      "Misconception: Assume a single persona owns the entire decision in enterprise accounts.",
-      "Irrelevant: Focus on discounts before you’ve anchored value and success metrics."
+      "Confirm claims against primary trust/security documentation, and never bluff in front of a CISO.",
+      "Promise any feature the CISO names, on the call, in writing.",
+      "Skip the Security conversation until the contract is signed.",
+      "Tell the CISO they don’t need to read the trust center."
     ],
     "correctIndex": 0,
-    "explanation": "Strong answers connect the idea to how engineering organizations buy, govern, and measure outcomes—not slogans.",
-    "sourceUrl": "https://cursor.com/docs"
+    "explanation": "Sourcing discipline beats improvisation every time. Bluffing once with a CISO usually ends the deal — and the relationship.",
+    "sourceUrl": "https://cursor.com/security"
+  },
+  {
+    "id": "m6-q11",
+    "question": "‘Make expansion feel inevitable’ best translates to:",
+    "options": [
+      "Hiding usage data so leadership has to guess.",
+      "Surfacing organic usage and value clearly so leadership’s natural next step is to govern and standardize, not debate whether to keep using.",
+      "Forcing a contract before any usage exists.",
+      "Asking Security to step out of the conversation."
+    ],
+    "correctIndex": 1,
+    "explanation": "When the org has already proven value, your job is to make standardization the obvious next move and to make Security a partner in how it happens — not an obstacle.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m6-q12",
+    "question": "‘Conservative improvement hypothesis’ in ROI usually beats a precise number because:",
+    "options": [
+      "Buyers do not understand precision.",
+      "Defensible ranges withstand scrutiny better than false precision and protect credibility through implementation.",
+      "Ranges are required by law.",
+      "Single numbers always look unprofessional."
+    ],
+    "correctIndex": 1,
+    "explanation": "Ranges acknowledge uncertainty while still pointing to value. False precision invites a fight you don’t need — and burns you when results land within the range.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m6-q13",
+    "question": "‘Engineering throughput’ as a Cursor metric is strongest when it is paired with:",
+    "options": [
+      "A vibe.",
+      "A second metric like incident rates, rework, or cycle time so improvement can be triangulated rather than gamed.",
+      "Marketing slogans.",
+      "Conference attendance counts."
+    ],
+    "correctIndex": 1,
+    "explanation": "Throughput alone can be gamed (more PRs, lower quality). Pair it with a quality or cycle-time signal so the story holds up under serious scrutiny.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m6-q14",
+    "question": "Which is the most credible Cursor onboarding-time hypothesis to introduce in discovery?",
+    "options": [
+      "‘New engineers will be productive in zero days.’",
+      "‘Teams using strong repo-aware AI assistance often see meaningful ramp-time compression for new engineers — would you like to design a small evaluation to see whether the same shape holds for your most complex service?’",
+      "‘Onboarding is irrelevant.’",
+      "‘Onboarding always takes the same time, regardless of tooling.’"
+    ],
+    "correctIndex": 1,
+    "explanation": "Frame as a hypothesis the buyer co-validates against their hardest service. That respects engineering culture and produces evidence that survives leadership scrutiny.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m6-q15",
+    "question": "MEDDPICC ‘Champion’ in a Cursor deal should ideally:",
+    "options": [
+      "Be willing to take introductions, restate your value internally, and tell you when something is not landing.",
+      "Be a recent acquaintance who hasn’t actually used the product.",
+      "Be anonymous to protect their identity.",
+      "Be the person with the smallest org influence available."
+    ],
+    "correctIndex": 0,
+    "explanation": "Real champions sell internally and give you honest signal. Without those two behaviors, you have a contact, not a champion — and the deal will lurch.",
+    "sourceUrl": "https://www.meddicc.com/meddicc"
+  },
+  {
+    "id": "m6-q16",
+    "question": "‘Identify Pain’ in MEDDPICC for a Cursor deal works best when expressed as:",
+    "options": [
+      "A vague reference to ‘productivity.’",
+      "A named workflow loss (review latency, onboarding ramp, multi-file refactor cost) tied to a measurable cost or risk the buyer already feels.",
+      "A complaint about a competing product.",
+      "A demand for a discount."
+    ],
+    "correctIndex": 1,
+    "explanation": "Pain that is specific to a workflow and tied to a number gets prioritized; abstract pain quietly slips off the roadmap.",
+    "sourceUrl": "https://www.meddicc.com/meddicc"
+  },
+  {
+    "id": "m6-q17",
+    "question": "‘Competition’ in MEDDPICC for an existing Copilot account most often means:",
+    "options": [
+      "A competing snack vendor.",
+      "An incumbent or alternative AI coding tool whose strengths and limits must be honestly mapped against the buyer’s real workflow.",
+      "An old version of the buyer’s git host.",
+      "An unrelated SaaS product."
+    ],
+    "correctIndex": 1,
+    "explanation": "Competition includes incumbents like Copilot. Treat it as honest mapping — strengths and limits against the buyer’s real workflow — not as a fight.",
+    "sourceUrl": "https://github.com/features/copilot"
+  },
+  {
+    "id": "m6-q18",
+    "question": "Which security topic is appropriate to escalate to a Cursor specialist?",
+    "options": [
+      "Detailed contractual data-handling terms a CISO is preparing to redline.",
+      "Whether the IDE has a dark mode.",
+      "Which keyboard shortcut opens chat.",
+      "Whether the website uses a serif font."
+    ],
+    "correctIndex": 0,
+    "explanation": "When the conversation reaches contractual data handling and CISO redlines, bring in the specialist. Strategic credibility is built on knowing when to escalate.",
+    "sourceUrl": "https://cursor.com/security"
+  },
+  {
+    "id": "m6-q19",
+    "question": "Which behavior is most likely to convert grassroots Cursor usage into a governed standard?",
+    "options": [
+      "Surfacing usage to leadership, partnering with Security on a control framework, and aligning Procurement on co-term and rollout.",
+      "Hiding usage from Security to preserve the champion.",
+      "Forcing standardization before usage exists.",
+      "Skipping Procurement until renewal."
+    ],
+    "correctIndex": 0,
+    "explanation": "Standardization needs sponsorship, security alignment, and procurement mechanics moving in parallel. Skipping any one causes stalls or surprises at the worst time.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m6-q20",
+    "question": "‘Decision Process’ in MEDDPICC for a Cursor deal most usefully maps:",
+    "options": [
+      "The path from current state to a signed enterprise standard, including who decides what, in what order, by when.",
+      "Which color the contract is printed on.",
+      "The vendor’s social media calendar.",
+      "Office party planning timelines."
+    ],
+    "correctIndex": 0,
+    "explanation": "A decision process map is your antidote to surprises. Without it, the quarter ends with ‘legal needs another two weeks’ — every time.",
+    "sourceUrl": "https://www.meddicc.com/meddicc"
+  },
+  {
+    "id": "m6-q21",
+    "question": "Which posture is most credible when a buyer asks about ‘incident recovery time’ as a Cursor lever?",
+    "options": [
+      "Promise a specific recovery-time reduction without any data.",
+      "Acknowledge it is a real lever, ask how the org currently measures MTTR, and propose a measurement plan that fits their incident process.",
+      "Refuse to discuss incident metrics.",
+      "Quote an unrelated industry benchmark as fact."
+    ],
+    "correctIndex": 1,
+    "explanation": "Incident metrics are an excellent ROI angle, but they are noisy and political. Anchor to how this org actually measures, then propose a defensible plan.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m6-q22",
+    "question": "‘Developer satisfaction’ as a metric becomes meaningful when:",
+    "options": [
+      "It is captured the way the org already runs developer surveys, with explicit baselines and comparison cohorts.",
+      "It is anchored to a single tweet from one engineer.",
+      "It is announced in a press release.",
+      "It is quoted from a competitor’s marketing page."
+    ],
+    "correctIndex": 0,
+    "explanation": "Developer satisfaction is real signal but only when measured in the org’s existing methodology with proper baselines — otherwise it is anecdote.",
+    "sourceUrl": "https://cursor.com/enterprise"
+  },
+  {
+    "id": "m6-q23",
+    "question": "‘Sequencing the deal’ in a multi-stakeholder Cursor enterprise motion typically means:",
+    "options": [
+      "Deciding which proof, in which order, lands with which stakeholder so the deal moves forward without contradicting itself.",
+      "Letting Procurement run discovery.",
+      "Sending the same email to every stakeholder.",
+      "Skipping engineering leadership."
+    ],
+    "correctIndex": 0,
+    "explanation": "Strategic sellers run a sequencing plan. Workflow proof for engineers, governance proof for Security, commercial proof for Procurement — all consistent, all timed.",
+    "sourceUrl": "https://www.meddicc.com/meddicc"
+  },
+  {
+    "id": "m6-q24",
+    "question": "‘Implication of pain’ in MEDDPICC for a Cursor deal is best stated as:",
+    "options": [
+      "‘Things are slow.’",
+      "‘If this workflow does not improve, here is the named cost — slower releases, higher rework, harder hiring — and what that translates to for this org over the next year.’",
+      "‘We will lose customers tomorrow.’",
+      "‘Your competitors are winning.’"
+    ],
+    "correctIndex": 1,
+    "explanation": "Implication is where pain becomes business case. Name the workflow cost and project it forward in the buyer’s language — not generic doom.",
+    "sourceUrl": "https://www.meddicc.com/meddicc"
+  },
+  {
+    "id": "m6-q25",
+    "question": "Which behavior most reliably builds long-term trust with a Cursor enterprise account?",
+    "options": [
+      "Over-promise on every Security and ROI question to keep momentum.",
+      "Be precise with sources, honest about uncertainty, structured about ROI, and consistent across stakeholders — even when it slows individual calls.",
+      "Avoid Security and Procurement until contract signature.",
+      "Treat every promotional stat as contractual."
+    ],
+    "correctIndex": 1,
+    "explanation": "Strategic trust is built call by call: precise sourcing, honest uncertainty, structured ROI, and consistent stories across stakeholders. That is what buys you the next renewal — and the next account.",
+    "sourceUrl": "https://cursor.com/enterprise"
   }
 ]

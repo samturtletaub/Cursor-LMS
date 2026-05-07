@@ -1,74 +1,74 @@
 [
   {
     "id": "m1-c1",
-    "front": "Define the headline goal of Module 1 in one sentence.",
-    "back": "Build sales-credible fluency on SDLC & developer personas without sounding like you memorized marketing copy.",
+    "front": "List the six phases of the SDLC loop in seller-friendly order (Plan → … → Monitor).",
+    "back": "Plan, Code, Review, Test, Deploy, Monitor—delivery as a loop (where time is lost, failures are expensive, governance applies).",
     "sourceUrl": "https://cursor.com/docs"
   },
   {
     "id": "m1-c2",
-    "front": "What is the buyer really optimizing for in this module?",
-    "back": "Time-to-value, risk reduction, governance, and measurable engineering outcomes—phrased in their KPI language.",
+    "front": "What do engineering buyers actually argue about regarding the SDLC—not the textbook theory?",
+    "back": "Where time is lost, where failures are expensive, and what must be governed (security, compliance, reliability).",
     "sourceUrl": "https://cursor.com/docs"
   },
   {
     "id": "m1-c3",
-    "front": "Name one discovery question you’d ask a VP Engineering after this module.",
-    "back": "Ask how multi-file changes are reviewed, measured, and governed as usage scales.",
+    "front": "What does an IC engineer optimize for—and what do they fear in a new tool?",
+    "back": "Speed, focus, fewer context switches; fears friction and tools that feel like “bossware.”",
     "sourceUrl": "https://cursor.com/docs"
   },
   {
     "id": "m1-c4",
-    "front": "What is a common mistake sellers make here?",
-    "back": "Feature dumping instead of mapping to workflow, proof, and procurement reality.",
+    "front": "What does a tech lead or staff engineer optimize for—and what do they fear about automation?",
+    "back": "Architecture risk, maintainability, review burden; fears low-quality or unsafe automation.",
     "sourceUrl": "https://cursor.com/docs"
   },
   {
     "id": "m1-c5",
-    "front": "What proof should you prepare before a second meeting?",
-    "back": "Security artifacts directionally, evaluation design, and success metrics tied to their stack.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "What does an engineering manager optimize for? A director or VP of engineering?",
+    "back": "EM: team throughput, hiring/retention, predictability, less thrash. Director/VP: delivery commitments, org scale, engineering brand, outages, inefficiency.",
+    "sourceUrl": "https://cursor.com/enterprise"
   },
   {
     "id": "m1-c6",
-    "front": "What should you verify externally before quoting compliance claims?",
-    "back": "Primary trust/security documentation and the customer’s own requirements—not rumors.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "In many enterprise deals, who is the economic buyer at the CTO/VP level—and what does Security/IT optimize for?",
+    "back": "CTO/VP Eng often owns platform bets, security posture, vendor sprawl, leverage. Security/IT: data handling, access control, audit evidence, procurement alignment.",
+    "sourceUrl": "https://cursor.com/enterprise"
   },
   {
     "id": "m1-c7",
-    "front": "What is the ‘next step’ after learning this module?",
-    "back": "Flashcards until fast recall, then quiz until you can explain wrong answers cleanly.",
+    "front": "Name four surfaces in the typical developer “collaboration stack.”",
+    "back": "IDE; Git + PRs; CI/CD; chat/tickets (e.g. Slack/Teams + Jira/Linear)—coordination across where work happens.",
     "sourceUrl": "https://cursor.com/docs"
   },
   {
     "id": "m1-c8",
-    "front": "How does this module connect to MEDDPICC?",
-    "back": "It helps you identify metrics, stakeholders, criteria, and paper process risks specific to dev tools.",
+    "front": "In one sentence: what are you really selling when you sell Cursor—not “a chat window”?",
+    "back": "Less context switching across those surfaces when work spans multiple files and deep repo context.",
     "sourceUrl": "https://cursor.com/docs"
   },
   {
     "id": "m1-c9",
-    "front": "What is a strong ‘translation’ skill for this topic?",
-    "back": "Turn engineering jargon into business risk and business questions into engineering workflows.",
+    "front": "Name three recurring frictions AI coding assistants are built to reduce (from the module).",
+    "back": "Context loading cost, review latency, boilerplate/repetitive edits across services, knowledge silos (onboarding, legacy, undocumented domains)—examples, not an exhaustive list.",
     "sourceUrl": "https://cursor.com/docs"
   },
   {
     "id": "m1-c10",
-    "front": "What is one sign you truly understand the material?",
-    "back": "You can teach it briefly using examples from a realistic enterprise account.",
+    "front": "Give one strong discovery question from the module that reveals workflow—not trivia.",
+    "back": "For example: “Walk me through the last change that touched more than three files—where did the team lose time?” (Also: who owns review standards for AI-generated changes; where engineers look first when prod breaks.)",
     "sourceUrl": "https://cursor.com/docs"
   },
   {
     "id": "m1-c11",
-    "front": "What is the capstone behavior this LMS is training?",
-    "back": "Run credible discovery and multi-threading without losing technical precision.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "In strategic accounts, multiple personas co-own the decision. What is your job regarding proof?",
+    "back": "Sequence proof so each stakeholder hears what maps to their KPIs—without sounding like a different script in every room.",
+    "sourceUrl": "https://cursor.com/enterprise"
   },
   {
     "id": "m1-c12",
-    "front": "What should you do if information goes stale?",
-    "back": "Update sources and re-check primary docs—especially fast-moving product facts.",
+    "front": "Why does coming from cyber-resilience sales not automatically fill the gap for dev-tool selling?",
+    "back": "Risk/economic framing helps, but you still need how engineering work flows and how technical buyers evaluate tools that touch the SDLC.",
     "sourceUrl": "https://cursor.com/docs"
   }
 ]

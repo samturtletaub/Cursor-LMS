@@ -1,3 +1,15 @@
+/**
+ * Seeds quiz JSON and flashcard JSON from template stems. BOTH outputs here
+ * are LEGACY generic placeholders intended only for fresh dev scaffolding.
+ *
+ * IMPORTANT: Production quizzes (content/quizzes/module-*.json) and production
+ * flashcards (content/flashcards/module-*.json) are hand-authored and aligned
+ * with content/modules/*.mdx. Each production quiz contains 25 substantive
+ * questions with distinct, plausible options and varied correct indices.
+ * Running this script WILL OVERWRITE those files with thin, repetitive
+ * placeholders. Only run when intentionally resetting a dev copy, then restore
+ * from git or re-author. Do not treat this script's output as source of truth.
+ */
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -131,6 +143,7 @@ function makeQuiz(module) {
   });
 }
 
+/** @deprecated Curated decks replace this template — see repo banner comment. */
 function makeFlashcards(module) {
   const cards = [
     {

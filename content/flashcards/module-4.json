@@ -1,74 +1,74 @@
 [
   {
     "id": "m4-c1",
-    "front": "Define the headline goal of Module 4 in one sentence.",
-    "back": "Build sales-credible fluency on Personas & buying centers without sounding like you memorized marketing copy.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "List five stakeholder buckets commonly on an enterprise dev-tool buying committee (from the module).",
+    "back": "End users/champions (developers), engineering leadership (VP/Director), CTO/senior tech leadership, Security/IT, Procurement/finance.",
+    "sourceUrl": "https://www.meddicc.com/meddicc"
   },
   {
     "id": "m4-c2",
-    "front": "What is the buyer really optimizing for in this module?",
-    "back": "Time-to-value, risk reduction, governance, and measurable engineering outcomes—phrased in their KPI language.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "What is the typical land-and-expand shape for developer tools—and what is your role?",
+    "back": "Often starts bottoms-up and expands tops-down; help turn grassroots usage into a governed standard without killing the organic story.",
+    "sourceUrl": "https://www.meddicc.com/meddicc"
   },
   {
     "id": "m4-c3",
-    "front": "Name one discovery question you’d ask a VP Engineering after this module.",
-    "back": "Ask how multi-file changes are reviewed, measured, and governed as usage scales.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "What language does a developer champion use—what should you listen for?",
+    "back": "Daily friction, keyboard flow, PR cycle time.",
+    "sourceUrl": "https://www.meddicc.com/meddicc"
   },
   {
     "id": "m4-c4",
-    "front": "What is a common mistake sellers make here?",
-    "back": "Feature dumping instead of mapping to workflow, proof, and procurement reality.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "What does an EM optimize for in discovery language?",
+    "back": "Sprint predictability, team norms, onboarding.",
+    "sourceUrl": "https://www.meddicc.com/meddicc"
   },
   {
     "id": "m4-c5",
-    "front": "What proof should you prepare before a second meeting?",
-    "back": "Security artifacts directionally, evaluation design, and success metrics tied to their stack.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "What does a VP Engineering emphasize—and what does a CTO emphasize?",
+    "back": "VP Eng: platform decisions, vendor consolidation, engineering efficiency at scale. CTO: architecture direction, risk posture, long-term bets.",
+    "sourceUrl": "https://www.meddicc.com/meddicc"
   },
   {
     "id": "m4-c6",
-    "front": "What should you verify externally before quoting compliance claims?",
-    "back": "Primary trust/security documentation and the customer’s own requirements—not rumors.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "What topics does Security surface—and Procurement?",
+    "back": "Security: data flows, SSO/SCIM, logging, DLP-adjacent concerns, vendor review. Procurement: price-to-value, bundling, contract flex, rollout timing.",
+    "sourceUrl": "https://www.meddicc.com/meddicc"
   },
   {
     "id": "m4-c7",
-    "front": "What is the ‘next step’ after learning this module?",
-    "back": "Flashcards until fast recall, then quiz until you can explain wrong answers cleanly.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "Why can deals stall if Security and Engineering mean different things by “data residency”?",
+    "back": "Discovery failed to create shared language between personas—the hallway conversation breaks down.",
+    "sourceUrl": "https://www.meddicc.com/meddicc"
   },
   {
     "id": "m4-c8",
-    "front": "How does this module connect to MEDDPICC?",
-    "back": "It helps you identify metrics, stakeholders, criteria, and paper process risks specific to dev tools.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "Name the three stages of land-and-expand listed in the module (individual → enterprise).",
+    "back": "Individual adoption within teams; team standardization (norms, budgets); enterprise standardization (security, procurement, global rollout).",
+    "sourceUrl": "https://www.meddicc.com/meddicc"
   },
   {
     "id": "m4-c9",
-    "front": "What is a strong ‘translation’ skill for this topic?",
-    "back": "Turn engineering jargon into business risk and business questions into engineering workflows.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "What evidence should you know moves the deal between those stages?",
+    "back": "Know what proof advances each transition—not just that expansion exists.",
+    "sourceUrl": "https://www.meddicc.com/meddicc"
   },
   {
     "id": "m4-c10",
-    "front": "What is one sign you truly understand the material?",
-    "back": "You can teach it briefly using examples from a realistic enterprise account.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "Match: “vendor consolidation” as a talking point—likely which persona?",
+    "back": "VP Engineering (also relevant to CTO/platform bets); Procurement cares differently (commercial alternatives).",
+    "sourceUrl": "https://www.meddicc.com/meddicc"
   },
   {
     "id": "m4-c11",
-    "front": "What is the capstone behavior this LMS is training?",
-    "back": "Run credible discovery and multi-threading without losing technical precision.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "What does persona-specific discovery avoid sounding like?",
+    "back": "Scripted—use their KPI language naturally from listening.",
+    "sourceUrl": "https://www.meddicc.com/meddicc"
   },
   {
     "id": "m4-c12",
-    "front": "What should you do if information goes stale?",
-    "back": "Update sources and re-check primary docs—especially fast-moving product facts.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "When matching objections to stakeholders: an objection about audit evidence and SSO—who owns it first?",
+    "back": "Security/IT (risk, access, compliance evidence)—often paired with Engineering on feasibility.",
+    "sourceUrl": "https://www.meddicc.com/meddicc"
   }
 ]

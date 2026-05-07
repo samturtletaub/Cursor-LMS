@@ -1,74 +1,74 @@
 [
   {
     "id": "m3-c1",
-    "front": "Define the headline goal of Module 3 in one sentence.",
-    "back": "Build sales-credible fluency on Cursor product without sounding like you memorized marketing copy.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "What workflow story matches inline completion in Cursor?",
+    "back": "Accelerates local edits in the IDE—fast feedback on the line you’re editing.",
+    "sourceUrl": "https://cursor.com/security"
   },
   {
     "id": "m3-c2",
-    "front": "What is the buyer really optimizing for in this module?",
-    "back": "Time-to-value, risk reduction, governance, and measurable engineering outcomes—phrased in their KPI language.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "What is chat best for when orienting a buyer?",
+    "back": "Exploration, clarification, and guided changes—not just Q&A in isolation.",
+    "sourceUrl": "https://cursor.com/security"
   },
   {
     "id": "m3-c3",
-    "front": "Name one discovery question you’d ask a VP Engineering after this module.",
-    "back": "Ask how multi-file changes are reviewed, measured, and governed as usage scales.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "Where do Composer / agent-style flows matter most—and why?",
+    "back": "Multi-step changes across the codebase—where governance (policy, review, controls) matters most.",
+    "sourceUrl": "https://cursor.com/security"
   },
   {
     "id": "m3-c4",
-    "front": "What is a common mistake sellers make here?",
-    "back": "Feature dumping instead of mapping to workflow, proof, and procurement reality.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "Background agents / automation-adjacent workflows: when do they help vs when are they risky?",
+    "back": "They can reduce toil when teams have clear guardrails; without guardrails, autonomy amplifies risk.",
+    "sourceUrl": "https://trust.cursor.com/"
   },
   {
     "id": "m3-c5",
-    "front": "What proof should you prepare before a second meeting?",
-    "back": "Security artifacts directionally, evaluation design, and success metrics tied to their stack.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "What makes credibility jump when describing Cursor—according to the module?",
+    "back": "Connect each surface to a repeatable engineering workflow (onboarding, refactors, test fixes, migrations)—not a list of adjectives.",
+    "sourceUrl": "https://cursor.com/security"
   },
   {
     "id": "m3-c6",
-    "front": "What should you verify externally before quoting compliance claims?",
-    "back": "Primary trust/security documentation and the customer’s own requirements—not rumors.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "What do SSO/SAML and SCIM prove to Security/IT in enterprise language?",
+    "back": "Directory integration (who can access) and lifecycle management (joiners/movers/leavers)—central IT control.",
+    "sourceUrl": "https://trust.cursor.com/"
   },
   {
     "id": "m3-c7",
-    "front": "What is the ‘next step’ after learning this module?",
-    "back": "Flashcards until fast recall, then quiz until you can explain wrong answers cleanly.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "Name two policy gates enterprises ask about besides identity.",
+    "back": "Model access controls (what models/providers users can use) and MCP controls (which integrations are allowed).",
+    "sourceUrl": "https://cursor.com/security"
   },
   {
     "id": "m3-c8",
-    "front": "How does this module connect to MEDDPICC?",
-    "back": "It helps you identify metrics, stakeholders, criteria, and paper process risks specific to dev tools.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "Before quoting Zero Data Retention or privacy packaging as a contractual fact, what must you do?",
+    "back": "Confirm current packaging and claims on Cursor’s trust/security materials—avoid hand-waving and avoid overstating.",
+    "sourceUrl": "https://trust.cursor.com/"
   },
   {
     "id": "m3-c9",
-    "front": "What is a strong ‘translation’ skill for this topic?",
-    "back": "Turn engineering jargon into business risk and business questions into engineering workflows.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "If you’re unsure about a security detail on a live call, what’s the credible response?",
+    "back": "Say so—and point to primary sources (trust docs, security pages); offer follow-up with a specialist if needed.",
+    "sourceUrl": "https://cursor.com/security"
   },
   {
     "id": "m3-c10",
-    "front": "What is one sign you truly understand the material?",
-    "back": "You can teach it briefly using examples from a realistic enterprise account.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "How should you use public marketing stats when selling strategically?",
+    "back": "As hypotheses to validate in-account—not as proof by themselves.",
+    "sourceUrl": "https://cursor.com/security"
   },
   {
     "id": "m3-c11",
-    "front": "What is the capstone behavior this LMS is training?",
-    "back": "Run credible discovery and multi-threading without losing technical precision.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "Give three discovery prompts tied to “proof points” from the module.",
+    "back": "Where is the team trying to increase merge frequency? Where is review a bottleneck? What would developer preference mean in this org’s evaluation?",
+    "sourceUrl": "https://cursor.com/security"
   },
   {
     "id": "m3-c12",
-    "front": "What should you do if information goes stale?",
-    "back": "Update sources and re-check primary docs—especially fast-moving product facts.",
-    "sourceUrl": "https://cursor.com/docs"
+    "front": "Privacy Mode / data-handling posture: what mistake does the module warn against?",
+    "back": "Hand-waving—describe accurately from primary docs; avoid improvised compliance claims.",
+    "sourceUrl": "https://trust.cursor.com/"
   }
 ]

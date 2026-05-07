@@ -30,7 +30,7 @@ export default async function ModuleQuizPage({
           Quiz: {summary.title}
         </h1>
         <p className="text-sm text-muted-foreground">
-          Ten questions. Pass threshold is 80%. Option order randomizes each attempt.
+          Twenty-five questions. Pass threshold is 80%. Question and option order randomize each attempt.
         </p>
         <Link
           className={buttonVariants({ variant: "outline", size: "sm" })}
